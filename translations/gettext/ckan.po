@@ -10,14 +10,16 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2016-12-26 16:02+0200\n"
-"PO-Revision-Date: 2016-12-26 15:23+0200\n"
+"PO-Revision-Date: 2016-12-26 16:37+0200\n"
 "Last-Translator: Märt Põder <mart.poder@infoaed.ee>\n"
 "Language-Team: Estonian <>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.6\n"
+"Language: et\n"
+"X-Generator: Lokalize 2.0\n"
 
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/ga_popular_datasets.html:8
 msgid "More popular datasets »"
@@ -95,7 +97,8 @@ msgstr "Märkused"
 
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/ga_util.html:65
 msgid "\"Views\" is the number of times a page was loaded in users' browsers."
-msgstr "\"Vaatamisi\" on arv, mitu korda on lehte laetud kasutajate brauserisse."
+msgstr ""
+"\"Vaatamisi\" on arv, mitu korda on lehte laetud kasutajate brauserisse."
 
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/ga_util.html:66
 msgid ""
@@ -897,22 +900,18 @@ msgid "Harvest of GUID"
 msgstr "GUID korje"
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:117
-#, fuzzy
 msgid "Last Harvest Added:"
 msgstr "Viimasel korjel lisatud andmehulki: "
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:119
-#, fuzzy
 msgid "Last Harvest Updated:"
 msgstr "Viimasel korjel muudetud andmehulki: "
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:120
-#, fuzzy
 msgid "Last Harvest:"
 msgstr "Viimase korje ajahetk: "
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:121
-#, fuzzy
 msgid "Next Harvest:"
 msgstr "Järgmine korje: "
 
@@ -1006,15 +1005,15 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/feedback.py:110
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/feedback.py:114
 msgid "Thank you for your feedback."
-msgstr ""
+msgstr "Täname tagasiside eest!"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/feedback.py:120
 msgid "Your post has been identified as spam and has not been posted."
-msgstr ""
+msgstr "Teie postitusel leiti rämpsposti tunnuseid ja see jäeti avaldamata."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/feedback.py:142
 msgid "Thank you for your feedback, the item has been queued for moderation"
-msgstr ""
+msgstr "Täname tagasiside eest!"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/inventory.py:59
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:67
@@ -1028,10 +1027,9 @@ msgid "User %r not authorized to edit %s"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:52
-#, fuzzy
 #| msgid "Withdraw"
 msgid "withdrawn"
-msgstr "Võta tagasi"
+msgstr "tühistatud"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:53
 msgid " record"
@@ -1054,20 +1052,18 @@ msgid "Unauthorized to delete package: %s"
 msgstr "Operatsioon pole lubatud: %s"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:63
-#, fuzzy
 #| msgid "Harvest source not found"
 msgid "Package not found"
-msgstr "Andmekorje allikat ei leitud"
+msgstr "Andmehulka ei leitud"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:69
 msgid "Unable to delete package."
 msgstr "Andmehulga kustutamine ebaõnnastus"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:78
-#, fuzzy
 #| msgid "Not authorized to see this page"
 msgid "Unauthorized to delete package."
-msgstr "Operatsioon pole lubatud"
+msgstr "Andmehulga kustutamine pole lubatud."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/publisher.py:72
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/publisher.py:172
@@ -1331,9 +1327,8 @@ msgstr "Potentsiaalsed lingid teistele andmehulkadele"
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:52
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:98
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/add_form.html:88
-#, fuzzy
 msgid "Other Benefits"
-msgstr "Muud olulised andmed"
+msgstr "Muud kasulikud mõjud"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:200
 msgid "more"
@@ -1843,7 +1838,8 @@ msgid "Notes:"
 msgstr "Märkused:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/scores/organisation.html:54
-msgid "Missing from this list are datasets with no resources, which will score 0."
+msgid ""
+"Missing from this list are datasets with no resources, which will score 0."
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/scores/organisation.html:55
@@ -1950,7 +1946,6 @@ msgid "Reports - Data publication commitments -"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/read.html:27
-#, fuzzy
 msgid "Administrator tools"
 msgstr "Administraatori tööriistad"
 
@@ -2072,9 +2067,8 @@ msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/openspending_publisher_report.html:19
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/openspending_report.html:20
-#, fuzzy
 msgid "Created by:"
-msgstr "Lisanud"
+msgstr "Lisanud:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/openspending_publisher_report.html:21
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/openspending_report.html:22
@@ -2651,7 +2645,8 @@ msgid ""
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit.html:47
-msgid "You may wish to store local copies of this download for your own record."
+msgid ""
+"You may wish to store local copies of this download for your own record."
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit.html:52
@@ -2838,7 +2833,8 @@ msgstr "Tähtis:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:157
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:583
-msgid "By submitting content, you agree to release your contributions under the"
+msgid ""
+"By submitting content, you agree to release your contributions under the"
 msgstr "Salvestades lubate avaldada oma andmehulga vastavalt antud portaali"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:157
@@ -2957,7 +2953,8 @@ msgid "short-name"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/read.html:69
-msgid "Existing inventory items will be updated should any field other than the"
+msgid ""
+"Existing inventory items will be updated should any field other than the"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/read.html:69
@@ -3213,10 +3210,10 @@ msgid "Where the file is already hosted"
 msgstr "Link veebiaadressile, kust andmehulk on alla tõmmatav"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:142
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:234
 #, fuzzy
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:234
 msgid "URL:"
-msgstr "Teabevaldaja URL portaalis"
+msgstr "Teabevaldaja URL portaalis:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:143
 msgid ""
@@ -3321,7 +3318,7 @@ msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:290
 msgid "MB"
-msgstr ""
+msgstr "MB"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:290
 msgid ""
@@ -3347,7 +3344,7 @@ msgstr "Kirjeldus:"
 #, fuzzy
 #| msgid "File format:"
 msgid "File format"
-msgstr "Faili formaat:"
+msgstr "Faili formaat"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:298
 msgid "File format:"
@@ -3915,7 +3912,7 @@ msgstr "URL ei tundu tagastavat struktureeritud andmeid!"
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_qa.html:27
 #, fuzzy
 msgid "OK."
-msgstr "korras."
+msgstr "korras"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_qa.html:27
 msgid "URL works."
@@ -4079,7 +4076,9 @@ msgstr ""
 msgid ""
 "Querying\n"
 "              »"
-msgstr "Pärimine              »"
+msgstr ""
+"Pärimine "
+"              »"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:208
 msgid "Query example (first 5 results)"
@@ -4090,9 +4089,8 @@ msgid "Query example (results with 'jones' in"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:213
-#, fuzzy
 msgid "title"
-msgstr "pealkiri"
+msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:213
 msgid "field)"
@@ -4644,9 +4642,8 @@ msgid "Last resource URL"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/feedback.html:9
-#, fuzzy
 msgid "unpublished"
-msgstr "(Avalikustamata)"
+msgstr "(avalikustamata)"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/feedback.html:9
 msgid "datasets /"
@@ -4657,7 +4654,6 @@ msgid "with feedback"
 msgstr "tagasisidega"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/feedback.html:19
-#, fuzzy
 msgid "Social growth"
 msgstr "Sotsiaalne kasv"
 
@@ -4729,14 +4725,12 @@ msgid "Published data"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/publisher_activity.html:36
-#, fuzzy
 msgid "None"
 msgstr "(pole)"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/publisher_resources.html:7
-#, fuzzy
 msgid "Datasets:"
-msgstr "Andmehulgad"
+msgstr "Andmehulgad:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/publisher_resources.html:8
 msgid "Resources:"
@@ -4984,9 +4978,8 @@ msgid "CKAN login"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/login.html:7
-#, fuzzy
 msgid "Log In"
-msgstr "logida sisse"
+msgstr "Logi sisse"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/login.html:16
 msgid "Login Error"
@@ -5085,7 +5078,8 @@ msgid "Location/INSPIRE data as a single GEMINI 2.1 XML file"
 msgstr "Asukoha/INSPIRE andmed üksiku GEMINI 2.1 XML failina"
 
 #: i18n-ext/ckanext-spatial/ckanext/spatial/harvesters.py:1118
-msgid "Location/INSPIRE data in a Web Accessible Folder (WAF) of GEMINI 2.1 files"
+msgid ""
+"Location/INSPIRE data in a Web Accessible Folder (WAF) of GEMINI 2.1 files"
 msgstr ""
 "Asukoha/INSPIRE andmed kusagil GEMINI 2.1 Web Accessible Folder (WAF) "
 "kataloogis"
