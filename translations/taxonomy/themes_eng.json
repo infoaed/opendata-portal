@@ -1,0 +1,85 @@
+[   {"title": "Agriculture, fisheries, forestry",
+     "stored_as": "Põllumajandus",
+     "description": "Agriculture, fisheries and forestry.",
+     "topics": ["põllumajandus", "kalandus", "metsandus"],
+     "css-id": "Pollumajandus"
+    },
+    {"title": "Culture",
+     "stored_as": "Kultuur",
+     "description": "Culture.",
+     "topics": ["kultuur"],
+     "css-id": "Kultuur"
+    },
+    {"title": "Economy and industry",
+     "stored_as": "Majandus",
+     "description": "Economy",
+     "topics": ["majandus", "tööstus"],
+     "css-id": "Majandus"
+    },
+    {"title": "Employment",
+     "stored_as": "Tööhõive",
+     "description": "Employment.",
+     "topics": ["tööhõive", "töötus"],
+     "css-id": "Toohoive"
+    },
+    {"title": "Education and research",
+     "stored_as": "Haridus",
+     "description": "Education and research.",
+     "topics": ["haridus", "teadus"],
+     "css-id": "Haridus"
+    },
+    {"title": "Environment",
+     "stored_as": "Keskkond",
+     "description": "Environment, environment protection.",
+     "topics": ["keskkond", "keskkonnakaitse"],
+     "css-id": "Haridus"
+    },
+    {"title": "Finances and budgeting",
+     "stored_as": "Rahandus",
+     "description": "Finances and budgeting.",
+     "topics": ["rahandus", "eelarvestamine"],
+     "css-id": "Rahandus"
+    },
+    {"title": "Geography",
+     "stored_as": "Geograafia",
+     "description": "Geography.",
+     "topics": ["Geograafia"],
+     "css-id": "Geograafia"
+    },
+    {"title": "Health",
+     "stored_as": "Tervis",
+     "description": "Health, healthcare.",
+     "topics": ["tervis", "tervishoid"],
+     "css-id": "Tervis"
+    },
+    {"title": "Government services",
+     "stored_as": "Riigiteenused",
+     "description": "Government services.",
+     "topics": ["riigiteenused"],
+     "css-id": "Riigiteenused"
+    },
+    {"title": "Open governance",
+     "stored_as": "Valitsemine",
+     "description": "Open governance.",
+     "topics": ["avatud", "avatus", "valitsemine"],
+     "css-id": "Valitsemine"
+    },
+    {"title": "Population and vital statistics",
+     "stored_as": "Rahvastik",
+     "description": "Population and vital statistics.",
+     "topics": ["rahvastik"],
+     "css-id": "Rahvastik"
+    },
+    {"title": "Transport",
+     "stored_as": "Transport",
+     "description": "Transport.",
+     "topics": ["transport"],
+     "css-id": "Transport"
+    },
+    {"title": "Social sphere",
+     "stored_as": "Sotsiaal",
+     "description": "Social sphere.",
+     "topics": ["sotsiaalvaldkond", "sotsiaal", "sotsiaalia"],
+     "css-id": "Sotsiaal"
+    }
+]
