@@ -1,0 +1,115 @@
+# Estonian translations for Open Data Portal http://opendata.riik.ee/.
+# Copyright (C) 2017 Ministry of Economic Affairs and Communications.
+# This file is distributed under the same license as the Datagov project.
+#
+# Märt Põder <tramm@infoaed.ee>, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: ckan 2.2b0\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-01-02 00:42+0200\n"
+"PO-Revision-Date: 2017-01-02 07:24+0200\n"
+"Last-Translator: Märt Põder <tramm@infoaed.ee>\n"
+"Language-Team: Estonian <>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 0.9.6\n"
+"Language: et\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/public/scripts/ckanext_ga_reports.js:17
+msgid "Your browser does not support vector graphics."
+msgstr "Teie brauser ei toeta vektorgraafikat. Graafikut ei saa kuvada."
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/public/scripts/ckanext_ga_reports.js:17
+msgid "(No graphs can be rendered)"
+msgstr "(Graafikut ei saa kuvada)"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/public/scripts/ckanext_ga_reports.js:21
+msgid "There is not enough data to render a graph."
+msgstr "Graafiku kuvamiseks pole piisavalt andmeid."
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/public/scripts/ckanext_ga_reports.js:21
+msgid "(Graph not available)"
+msgstr "(Graafik pole saadaval)"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/public/scripts/ckanext_ga_reports.js:58
+msgid "Click on a series below to isolate its graph:"
+msgstr "Kliki graafiku nimel, et seda eraldi vaadata:"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu.js:661
+msgid "URL is too short."
+msgstr "URL on liiga lühike."
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu.js:664
+msgid "This is the current URL."
+msgstr "See on praegune URL."
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu.js:667
+msgid "Checking..."
+msgstr "Kontrollin..."
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu.js:696
+msgid "This URL is available!"
+msgstr "See URL on saadaval!"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu.js:698
+msgid "This URL is not available."
+msgstr "See URL pole saadaval."
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu-publisher-index.js:33
+msgid "Start typing a name..."
+msgstr "Alusta nime kirjutamist..."
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu-publisher-index.js:40
+msgid "Publishers"
+msgstr "Teabevaldajat"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/dgu-publisher-index.js:49
+msgid "Results"
+msgstr "Tulemust"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:39
+msgid "Loading ..."
+msgstr "Laadimine..."
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:45
+msgid "Grid"
+msgstr "Ruudustik"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:52
+msgid "Graph"
+msgstr "Graafik"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:59
+msgid "Map"
+msgstr "Kaart"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:210
+msgid "Preview not available for data type:"
+msgstr "Eelvaade pole saadaval andmetüübile:"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:230
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:251
+msgid "Request Error"
+msgstr "Päringuviga"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:231
+msgid "Dataproxy server did not respond after"
+msgstr "Andmeproksi ei vastanud pärast"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:231
+msgid "seconds"
+msgstr "sekundit"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/src/scripts/recline_pack/dgu-recline-integration.js:252
+msgid "There was an error processing the request"
+msgstr "Päringu töötlemise viga"
+
+#: src/js/dgu-drupal.js:68
+msgid "Log in using a password (for administrators)"
+msgstr "Logi sisse salasõnaga (portaali haldajatele)"
+
+

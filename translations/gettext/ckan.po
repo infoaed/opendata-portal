@@ -4,14 +4,14 @@
 #
 # Jaanus Heinlaid <jaanus.heinlaid@gmail.com>, 2015.
 # Ain Rada <kuraaka@gmail.com>, 2016.
-# Märt Põder <mart.poder@infoaed.ee>, 2016.
+# Märt Põder <tramm@infoaed.ee>, 2016, 2017.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2016-12-26 16:02+0200\n"
-"PO-Revision-Date: 2016-12-26 16:37+0200\n"
-"Last-Translator: Märt Põder <mart.poder@infoaed.ee>\n"
+"POT-Creation-Date: 2017-01-02 06:30+0200\n"
+"PO-Revision-Date: 2017-01-02 07:24+0200\n"
+"Last-Translator: Märt Põder <tramm@infoaed.ee>\n"
 "Language-Team: Estonian <>\n"
 "Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
@@ -20,6 +20,96 @@ msgstr ""
 "Generated-By: Babel 0.9.6\n"
 "Language: et\n"
 "X-Generator: Lokalize 2.0\n"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:27
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:58
+msgid "Totals"
+msgstr "Kokku"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:28
+msgid "Total page views"
+msgstr "Kokku lehtede vaatamisi"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:29
+msgid "Pages per visit"
+msgstr "Kokku külastusi"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:30
+msgid "Average time on site"
+msgstr "Saidil keskmiselt veedetud aeg"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:31
+msgid "New visits"
+msgstr "Uusi külastajaid"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:32
+msgid "Total visits"
+msgstr "Külastajaid kokku"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:33
+msgid "Bounce rate (home page)"
+msgstr "Avalehe põrkemäär"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:34
+msgid "Languages"
+msgstr "Keeled"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:35
+msgid "Country"
+msgstr "Riik"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:36
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/publisher/read.html:84
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/downloads.html:8
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/downloads.html:14
+msgid "Downloads"
+msgstr "Allalaadimisi"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:37
+msgid "Social sources"
+msgstr "Sotsiaalmeedia"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:38
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:67
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:69
+msgid "Operating Systems"
+msgstr "Operatsioonisüsteemid"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:39
+msgid "Operating Systems versions"
+msgstr "Operatsioonisüsteemide versioonid"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:40
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:60
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:62
+msgid "Browsers"
+msgstr "Brauserid"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:41
+msgid "Browser versions"
+msgstr "Brauserite versioonid"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:42
+msgid "Mobile brands"
+msgstr "Mobiiliseadmete tootjad"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:43
+msgid "Mobile devices"
+msgstr "Mobiiliseadmed"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:44
+msgid "not set"
+msgstr "(määramata)"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/download_analytics.py:126
+#, python-format
+msgid "(up to %i)"
+msgstr "(k.a %i)"
+
+#: i18n-ext/ckanext-ga-report/ckanext/ga_report/helpers.py:159
+#, python-format
+msgid "(up to %s)"
+msgstr "(k.a %s)"
 
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/ga_popular_datasets.html:8
 msgid "More popular datasets »"
@@ -36,9 +126,7 @@ msgstr "Esiletõstetud andmehulk"
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/ga_popular_single.html:15
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/publisher/index.html:60
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:69
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1162
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1163
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:219
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:220
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/broken_resource_links/index.html:55
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/broken_resource_links/organisation.html:56
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/scores/index.html:52
@@ -67,7 +155,6 @@ msgstr "Kõik kuud"
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/ga_util.html:19
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/ga_util.html:49
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:82
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1166
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:49
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:66
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/edit_form.html:129
@@ -133,7 +220,7 @@ msgstr "Portaali analüütika"
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/publisher/index.html:24
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/publisher/index.html:44
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/publisher/read.html:23
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:186
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:204
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/broken_resource_links/index.html:18
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/broken_resource_links/organisation.html:15
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/system_dashboard.html:73
@@ -240,7 +327,7 @@ msgstr "Selles perioodis vaatamisi polnud."
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/read.html:56
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/read.html:97
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/read.html:140
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:212
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:213
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/datasets_without_resources.html:19
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/feedback.html:15
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/nii.html:26
@@ -254,12 +341,6 @@ msgstr "Andmehulk"
 msgid "Views"
 msgstr "Vaatamisi"
 
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/publisher/read.html:84
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/downloads.html:8
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/downloads.html:14
-msgid "Downloads"
-msgstr "Allalaadimisi"
-
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/downloads.html:32
 msgid "No data"
 msgstr "Andmed puuduvad"
@@ -269,7 +350,7 @@ msgid "There is no download data available for this month"
 msgstr "Sellel kuu kohta allalaadimiste andmed puuduvad."
 
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:5
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:188
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:206
 msgid "Site usage"
 msgstr "Portaali kasutus"
 
@@ -290,24 +371,10 @@ msgstr "Teabevaldajate põhiselt"
 msgid "Dataset Usage Statistics"
 msgstr "Andmehulkade põhiselt"
 
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:58
-msgid "Totals"
-msgstr "Kokku"
-
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:60
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:62
-msgid "Browsers"
-msgstr "Brauserid"
-
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:63
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:70
 msgid "Versions"
 msgstr "Versioonid"
-
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:67
-#: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:69
-msgid "Operating Systems"
-msgstr "Operatsioonisüsteemid"
 
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:77
 #: i18n-ext/ckanext-ga-report/ckanext/ga_report/templates/ga_report/site/index.html:104
@@ -543,7 +610,7 @@ msgstr "Andmekorje allikad"
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:13
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:135
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:84
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:185
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:203
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/not_authorized.html:11
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/index.html:17
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/dataset/broken_resource_links/index.html:15
@@ -585,17 +652,14 @@ msgstr "Andmekorje allikad"
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/index.html:25
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:35
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1168
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/broken_resource_links/organisation.html:58
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/scores/organisation.html:64
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/publisher_resources.html:18
-#, fuzzy
 msgid "URL"
-msgstr "Teabevaldaja URL portaalis"
+msgstr "Teabevaldaja URL"
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/index.html:26
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:39
-#, fuzzy
 msgid "Type"
 msgstr "Korje tüüp"
 
@@ -738,7 +802,7 @@ msgstr "http://opendatatest.riik.ee/"
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/new_source_form.html:19
 msgid "part of the URL up to \"/api/...\" section."
-msgstr "osani.\t"
+msgstr "osani."
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/new_source_form.html:23
 msgid "Source Type *"
@@ -751,6 +815,7 @@ msgstr "Mis tüüpi allikat ülaltoodud URL endast kujutab?"
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/new_source_form.html:41
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:47
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/status.html:68
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:58
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/report_publishers_and_users.html:21
 msgid "Title"
 msgstr "Pealkiri"
@@ -761,7 +826,6 @@ msgstr "Andmekorje allika nimetus."
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/new_source_form.html:48
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/read.html:52
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1169
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:84
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/inventory_util.html:23
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/status.html:69
@@ -811,7 +875,7 @@ msgid "CKAN Harvester extension"
 msgstr "CKAN andmekorje mooduli kodulehelt"
 
 #: i18n-ext/ckanext-harvest/ckanext/harvest/templates/source/new_source_form.html:82
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:806
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:832
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:57
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:555
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/edit_form.html:105
@@ -1027,7 +1091,6 @@ msgid "User %r not authorized to edit %s"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:52
-#| msgid "Withdraw"
 msgid "withdrawn"
 msgstr "tühistatud"
 
@@ -1047,12 +1110,10 @@ msgstr "%s õnnestunult %s."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:61
 #, fuzzy, python-format
-#| msgid "Not authorized to see this page"
 msgid "Unauthorized to delete package: %s"
 msgstr "Operatsioon pole lubatud: %s"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:63
-#| msgid "Harvest source not found"
 msgid "Package not found"
 msgstr "Andmehulka ei leitud"
 
@@ -1061,7 +1122,6 @@ msgid "Unable to delete package."
 msgstr "Andmehulga kustutamine ebaõnnastus"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/controllers/package.py:78
-#| msgid "Not authorized to see this page"
 msgid "Unauthorized to delete package."
 msgstr "Andmehulga kustutamine pole lubatud."
 
@@ -1099,8 +1159,36 @@ msgstr ""
 msgid "Other"
 msgstr "Muu"
 
+#: i18n-ext/ckanext-dgu/ckanext/dgu/forms/dataset_form.py:54
+msgid "never"
+msgstr "mitte kunagi"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/forms/dataset_form.py:55
+msgid "discontinued"
+msgstr "katkestatud"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/forms/dataset_form.py:56
+msgid "annual"
+msgstr "kord aastas"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/forms/dataset_form.py:57
+msgid "quarterly"
+msgstr "kord kvartalis"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/forms/dataset_form.py:58
+msgid "monthly"
+msgstr "kord kuus"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/forms/dataset_form.py:59
+#| msgid "Other"
+msgid "other"
+msgstr "muu"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/forms/dataset_form.py:60
+msgid "other - please specify"
+msgstr "muu sagedus"
+
 #: i18n-ext/ckanext-dgu/ckanext/dgu/forms/validators.py:26
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1179
 msgid "Missing value"
 msgstr "Puudu"
 
@@ -1109,163 +1197,141 @@ msgstr "Puudu"
 msgid "Invalid resource type: %s"
 msgstr ""
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:725
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:737
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:755
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:767
 msgid "Metadata not available"
 msgstr "Metadata not available"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:804
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:805
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:830
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:831
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:454
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/tag/index.html:38
 msgid "Keywords"
 msgstr "Võtmesõnad "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:807
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:833
 msgid "Harvest URL"
 msgstr "Andmekorje URL "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:808
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:834
 msgid "Harvest Date"
 msgstr "Andmekorje kuupäev "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:809
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:835
 msgid "Harvest GUID"
 msgstr "Andmekorje GUID "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:810
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:836
 msgid "Extent"
 msgstr "Laiuskraad: %s&deg; to %s&deg;  Pikkuskraad"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:811
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:837
 msgid "ONS Category"
 msgstr "ONS kategooria "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:812
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:838
 msgid "Date data last updated"
 msgstr "Andmed viimati muudetud "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:813
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:839
 msgid "Date data last released"
 msgstr "Andmed viimati väljastatud "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:814
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:840
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:56
 msgid "Temporal coverage"
 msgstr "Ajaline ulatus"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:815
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:841
 msgid "Geographic coverage"
 msgstr "Geograafiline ulatus"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:816
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:842
 msgid "Gemini2 resource type"
 msgstr "Gemini2 ressursi tüüp "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:817
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:843
 msgid "Gemini2 service type"
 msgstr "Gemini2 teenuse tüüp "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:818
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:844
 msgid "Access constraints"
 msgstr "Ligipääsu piirangud "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:819
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:845
 msgid "Taxonomy URL"
 msgstr "Taksonoomia URL "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:820
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:228
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:846
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:229
 msgid "Theme"
 msgstr "Teema "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:821
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:847
 msgid "Secondary Theme(s)"
 msgstr "Lisateema(d) "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:822
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:848
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:118
 msgid "Update frequency"
 msgstr "Uuendussagedus"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:822
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:849
 msgid "Metadata language"
 msgstr "Metaandmete keel"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:823
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:850
 msgid "Metadata date"
 msgstr "Metaandmete kuupäev "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:824
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:851
 msgid "Dataset reference date"
 msgstr "Andmehulga viitekuupäev "
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1164
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1165
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:50
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:97
-msgid "Data Files"
-msgstr "Andmefailid"
-
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1167
-msgid "Unique identifier"
-msgstr "Unikaalne nimi"
-
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1170
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:99
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:440
-msgid "Primary Theme"
-msgstr "Peamine teema"
-
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1171
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:52
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:331
-msgid "Licence"
-msgstr "Litsents"
-
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1179
-msgid "That group name or ID does not exist."
-msgstr ""
-
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1375
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1376
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1402
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1403
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:58
 #, python-format
 msgid "%d/%m/%Y"
 msgstr "%d.%m.%Y"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1496
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1512
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1534
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1550
 msgid "Include sub-publishers"
 msgstr "Kaasa arvatud alam-teabevaldajad"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1518
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1556
 msgid "Show NII datasets"
 msgstr "Näita NII andmehulki"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1519
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1557
 msgid "Hide NII datasets"
 msgstr "Näita NII andmehulki"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1522
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1560
 msgid "Unpublished datasets"
 msgstr "Avalikustamata andmehulki"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1523
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1561
 msgid "Published datasets"
 msgstr "Avalikustatud andmehulki"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1526
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1564
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:95
 msgid "Open Government Licence"
 msgstr "Avatud riigipoolne litsents"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1528
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1566
 msgid "Unpublished dataset"
 msgstr "Avalikustamata andmehulk"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1529
+#: i18n-ext/ckanext-dgu/ckanext/dgu/lib/helpers.py:1567
 msgid "Non-Open Government Licence"
 msgstr "Piirangutega riigipoolne litsents"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:47
+msgid "Search for datasets..."
+msgstr "Otsi andmehulki..."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:87
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:71
@@ -1277,109 +1343,109 @@ msgstr "Otsinguviga"
 msgid "Preview on Map"
 msgstr "Kaardi eelvaade"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:114
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:115
 msgid "(avalikustamata)"
 msgstr "(Unpublished)"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:138
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:139
 msgid "Add to Preview List"
 msgstr "Lisa eelvaate loetellu"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:141
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:142
 msgid "Remove from List"
 msgstr "Eemalda loetelust"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:148
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:149
 msgid "View Data"
 msgstr "Vaata andmeid"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:159
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:160
 msgid "Feedback:"
 msgstr "Tagasiside:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:160
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:161
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:36
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:86
 msgid "Economic Growth"
 msgstr "Majanduskasv"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:161
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:162
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:40
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:90
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/add_form.html:62
 msgid "Social Growth"
 msgstr "Sotsiaalne kasv"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:162
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:163
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:44
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:94
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/add_form.html:75
 msgid "Effective Public Services"
 msgstr "Efektiivsed avalikud teenused"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:163
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:164
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:48
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:102
 msgid "Potential links to other datasets"
 msgstr "Potentsiaalsed lingid teistele andmehulkadele"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:164
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:165
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:52
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/_feedback_util.html:98
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/add_form.html:88
 msgid "Other Benefits"
 msgstr "Muud kasulikud mõjud"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:200
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:201
 msgid "more"
 msgstr "rohkem"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:203
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:204
 msgid "less"
 msgstr "vähem"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:219
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:220
 msgid "No more publisher filters."
 msgstr "Rohkem teabevaldaja filtreid pole."
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:228
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:229
 msgid "No further theme filters to apply."
 msgstr "Rohkem teema filtreid pole."
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:237
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:238
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/publisher_resources.html:20
 msgid "Format"
 msgstr "Formaat"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:237
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:238
 msgid "No further format filters to apply."
 msgstr "Rohkem formaadi filtreid pole."
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:250
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:251
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:418
 msgid "E-mail:"
 msgstr "E-mail:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:252
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:253
 msgid "Web contact form:"
 msgstr "Kontaktivorm:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:254
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:255
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:395
 msgid "Email:"
 msgstr "E-mail:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:257
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:258
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:396
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:422
 msgid "Phone:"
 msgstr "Telefon:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:259
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:260
 msgid "Web:"
 msgstr "Veeb:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:262
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/_dgu_util.html:263
 msgid "No details supplied"
 msgstr "Detailinfo puudub"
 
@@ -1387,67 +1453,67 @@ msgstr "Detailinfo puudub"
 msgid "| Estonian Open Data Portal"
 msgstr "| Avaandmete portaal"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:104
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:144
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:122
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:162
 msgid "Home"
 msgstr "Avaleht"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:120
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:138
 msgid "Log in"
 msgstr "Logi sisse"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:126
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:144
 msgid "User account"
 msgstr "Kasutajakonto"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:126
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:144
 msgid "User:"
-msgstr "Kasutaja:c"
+msgstr "Kasutaja:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:129
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:147
 msgid "Log out"
 msgstr "Logi välja"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:145
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:163
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/users_form.html:53
 msgid "Data"
 msgstr "Andmed"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:146
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:164
 msgid "Apps"
 msgstr "Rakendused"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:147
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:165
 msgid "More info"
 msgstr "Lisainfo"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:151
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:169
 msgid "Search for data..."
 msgstr "Otsi andmehulki..."
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:168
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:186
 msgid "Tools"
 msgstr "Tööriistad"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:169
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:187
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/new.html:6
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/new.html:10
 msgid "Add a Dataset"
 msgstr "Lisa andmehulk"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:170
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:188
 msgid "Add a Publisher"
 msgstr "Lisa teabevaldaja"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:172
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:190
 msgid "My publishers"
 msgstr "Minu teabevaldajad"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:193
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:210
 msgid "Sys Admin:"
 msgstr "Admin:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:194
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:211
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/admin/index.html:11
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/system_dashboard.html:6
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/system_dashboard.html:9
@@ -1460,51 +1526,51 @@ msgstr "Admin:"
 msgid "System Dashboard"
 msgstr "Süsteemi töölaud"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:195
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:212
 msgid "Harvest Sources"
 msgstr "Andmekorje allikad"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:196
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:213
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/system_dashboard.html:38
 msgid "Feedback moderation"
 msgstr "Tagasiside modereerimine"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:201
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:218
 msgid "Forums"
 msgstr "Foorumid"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:202
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:219
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/not_authorized.html:21
 msgid "Guidelines"
 msgstr "Juhendid"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:203
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:220
 msgid "FAQ"
 msgstr "KKK"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:204
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:221
 msgid "Green Paper on Open Data"
 msgstr "Avaandmete roheline raamat"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:250
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:267
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:41
 msgid "About"
 msgstr "Mis on avaandmete portaal?"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:251
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:268
 msgid "Terms of use"
 msgstr "Kasutustingimused"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:252
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:269
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit.html:78
 msgid "Contact"
 msgstr "Kontaktid"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:253
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:270
 msgid "Help"
 msgstr "Abi"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:255
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:272
 msgid ""
 "The Open Data Portal is created as part of the EU structural funds' "
 "programme 'Raising Awareness of"
@@ -1512,17 +1578,17 @@ msgstr ""
 "Avaandmete portaal valmib EL struktuurifondide programmist "
 "\"Infoühiskonna teadlikkuse tõstmine\""
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:255
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:272
 msgid ""
 "Information Society' which is financed through the EU Regional "
 "Development Fund."
 msgstr "Euroopa Regionaalarengu Fondi rahastusel."
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:259
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:276
 msgid "Powered by:"
 msgstr "Mootoriks on:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:262
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/layout_base.html:279
 msgid "Powered By CKAN"
 msgstr "Mootoriks on CKAN"
 
@@ -1576,7 +1642,7 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/admin/index.html:6
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/admin/index.html:7
 msgid "Administration Dashboard"
-msgstr ""
+msgstr "Administraatori töölaud"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/admin/index.html:12
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/data/system_dashboard.html:92
@@ -1703,8 +1769,9 @@ msgid "and its subpublishers"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/broken_resource_links/organisation.html:38
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:68
 msgid "results"
-msgstr ""
+msgstr "tulemust"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/broken_resource_links/organisation.html:57
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/ckanext/qa/organisation/scores/organisation.html:63
@@ -1939,7 +2006,7 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/index.html:40
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/report/feedback.html:23
 msgid "Total"
-msgstr ""
+msgstr "Kokku"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/read.html:8
 msgid "Reports - Data publication commitments -"
@@ -1982,7 +2049,7 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/util.html:13
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:75
 msgid "Dataset name"
-msgstr ""
+msgstr "Andmehulga nimi"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/commitment/util.html:15
 msgid "Actual text"
@@ -2532,7 +2599,7 @@ msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/moderate.html:38
 msgid "Nothing to moderate yet."
-msgstr ""
+msgstr "Praegu pole midagi modereerida."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/feedback/view.html:9
 msgid "- View Feedback"
@@ -2767,6 +2834,11 @@ msgstr ""
 "kasutamisega seotud piirangud. Ka ebatäielikud andmehulgad võivad huvi "
 "pakkuda.)"
 
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:99
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:440
+msgid "Primary Theme"
+msgstr "Peamine teema"
+
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:100
 msgid ""
 "1. Please choose a primary theme which this data falls under from the "
@@ -2784,7 +2856,7 @@ msgstr "2. Valige muud teemad, mida antud andmehulk katab:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:118
 msgid "Publishing Information"
-msgstr ""
+msgstr "Avaldamise andmed"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/edit_form.html:121
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/inventory_util.html:26
@@ -2885,7 +2957,7 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/read.html:18
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/status.html:34
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/inventory/upload.html:19
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:145
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:146
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/read.html:109
 msgid "State:"
 msgstr "Olek:"
@@ -3074,6 +3146,16 @@ msgstr "- Muutmine"
 msgid "Dataset Editor"
 msgstr "Andmehulga muutmine"
 
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:50
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:97
+msgid "Data Files"
+msgstr "Andmefailid"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:52
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:331
+msgid "Licence"
+msgstr "Litsents"
+
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:54
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/tag/index.html:6
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/tag/index.html:8
@@ -3109,10 +3191,6 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:83
 msgid "Create a URL:"
 msgstr "Loo andmehulga URL:"
-
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:88
-msgid "/dataset/"
-msgstr "/andmehulk/"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:98
 msgid ""
@@ -3210,10 +3288,9 @@ msgid "Where the file is already hosted"
 msgstr "Link veebiaadressile, kust andmehulk on alla tõmmatav"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:142
-#, fuzzy
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:234
 msgid "URL:"
-msgstr "Teabevaldaja URL portaalis:"
+msgstr "Teabevaldaja URL:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:143
 msgid ""
@@ -3232,6 +3309,7 @@ msgid "Format:"
 msgstr "Formaat:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:189
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:266
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:518
 msgid "Check"
 msgstr "Kontrolli"
@@ -3288,10 +3366,6 @@ msgstr ""
 "Andmehulga faili formaat. Soovitatavad väärtused: CSV | RDF | XML | XBRL "
 "| SDMX | HTML+RDFa | Muu vastavalt sobivusele."
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:266
-msgid "Kontrolli"
-msgstr "Check"
-
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:288
 msgid "Datasets can also be uploaded as files"
 msgstr "Andmehulka saab üles laadida ka faili(de)na"
@@ -3341,8 +3415,6 @@ msgid "Description:"
 msgstr "Kirjeldus:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:298
-#, fuzzy
-#| msgid "File format:"
 msgid "File format"
 msgstr "Faili formaat"
 
@@ -3497,14 +3569,15 @@ msgid ""
 msgstr ""
 "Loetlege võtmesõnad, mis lisaks ülaltoodud teemadele iseloomustavad teie "
 "andmehulkahulgad (näited: e-valitsus, teabelevi, teabepoliitika jne). "
-"Eraldage võtmesõnad või sõnapaarid komadega.Soovitame kasutada"
+"Eraldage võtmesõnad või sõnapaarid komadega. Soovitame kasutada"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:455
 msgid "EuroVoc dictionary"
 msgstr "EuroVoc sõnastikku"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:455
-msgid "for help."
+#| msgid "Dataset reference date"
+msgid "as a reference standard."
 msgstr "."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:464
@@ -3554,7 +3627,7 @@ msgid "NB: Dangerous operation! (Available to sysadmins only)"
 msgstr "NB: Ohtlik operatsioon! (Ainult süsteemiadministraatoritele)"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:558
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:215
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:216
 msgid "This dataset is"
 msgstr "See andmehulk on"
 
@@ -3571,7 +3644,6 @@ msgid "Save and Finish"
 msgstr "Salvesta ja lõpeta"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/edit_form.html:583
-#, fuzzy
 msgid "of the site."
 msgstr " "
 
@@ -3844,60 +3916,60 @@ msgstr "Kasutuslitsents:"
 msgid "[Open Government Licence]"
 msgstr "Avatud riigipoolne litsents"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:136
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:137
 msgid "Provider:"
 msgstr "Avaldaja:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:139
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:140
 msgid "Responsible Party:"
 msgstr "Vastutaja:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:142
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:143
 msgid "Publish date:"
 msgstr "Avaldamise kuupäev:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:150
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:151
 msgid "(Uncategorised)"
 msgstr "(Teema määramata)"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:170
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:171
 msgid "Release Notes:"
 msgstr "Väljastamise märkused:"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:173
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:174
 msgid "Read More"
 msgstr "Loe edasi"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:179
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:180
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/read.html:128
 msgid "Administrator Tools"
 msgstr "Administraatori tööriistad"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:184
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:185
 msgid "Edit dataset properties »"
 msgstr "Andmehulga metaandmete muutmine »"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:189
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:190
 msgid "Withdraw this dataset"
 msgstr "Tühista andmehulk"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:189
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:190
 msgid "Delete this dataset"
 msgstr "Kustuta andmehulk"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:195
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:196
 msgid "Convert to published dataset"
 msgstr "Teisenda avalikustatud andmehulgaks"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:206
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:207
 msgid "Unpublished Dataset"
 msgstr "Avalikustamata andmehulk"
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:207
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:208
 msgid "This is a record for data which is not published."
 msgstr "See on kirje andmehulga kohta, mis on veel avalikustamata."
 
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:215
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/read_common.html:216
 msgid ". Only system and publisher administrators can view it in this state."
 msgstr ". Vaid süsteemi ja teabevaldaja administraatorid saavad seda näha."
 
@@ -3910,7 +3982,6 @@ msgid "URL does not appear to be open data."
 msgstr "URL ei tundu tagastavat struktureeritud andmeid!"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_qa.html:27
-#, fuzzy
 msgid "OK."
 msgstr "korras"
 
@@ -3961,6 +4032,11 @@ msgstr "API link"
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:50
 msgid "Link"
 msgstr "Link"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:58
+#| msgid "Last checked:"
+msgid "Latest cache:"
+msgstr "Viimati kontrollitud: "
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:58
 msgid "unknown"
@@ -4065,7 +4141,7 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:190
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:219
 msgid "Schema (Mapping)"
-msgstr "Struktuur"
+msgstr "Skeem (kujutamine)"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:192
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:221
@@ -4077,8 +4153,8 @@ msgid ""
 "Querying\n"
 "              »"
 msgstr ""
-"Pärimine "
-"              »"
+"Pärimine\n"
+"               »"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:208
 msgid "Query example (first 5 results)"
@@ -4086,15 +4162,15 @@ msgstr "Päringu näide (esimesed 5 tulemust)"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:213
 msgid "Query example (results with 'jones' in"
-msgstr ""
+msgstr "Päringu näide (tulemused kus 'jones' on pealkirja väljal)"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:213
 msgid "title"
-msgstr ""
+msgstr "pealkirja"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:213
 msgid "field)"
-msgstr ""
+msgstr "väljal)"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/resource_read.html:216
 msgid "/_search?q=title:jones&size=5&pretty=true"
@@ -4195,20 +4271,24 @@ msgid "Please try again."
 msgstr "Palun proovige uuesti."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:47
-msgid "Lisa andmehulk"
-msgstr "Add a Dataset"
+msgid "Add dataset"
+msgstr "Lisa andmehulk"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:54
 msgid "Sort by:"
 msgstr "Sorteeri:"
 
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:57
+msgid "Popularity"
+msgstr "Menukus"
+
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:59
+msgid "Last Updated"
+msgstr "Viimati muudetud"
+
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:61
 msgid "Newsfeed in Atom format"
 msgstr "Uudisvoog Atom formaadis"
-
-#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/package/search.html:68
-msgid "tulemust"
-msgstr "results"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/apply.html:5
 msgid "Apply"
@@ -4242,7 +4322,6 @@ msgid "Send request"
 msgstr ""
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/edit.html:6
-#, fuzzy
 msgid "- Edit - Publisher"
 msgstr "- Muuda - Teabevaldaja"
 
@@ -4296,11 +4375,11 @@ msgstr "Ülem-teabevaldajat pole"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/edit_form.html:99
 msgid "Please contact the system administrator to change the parent publisher"
-msgstr "Please contact the system administrator to change the parent publisher"
+msgstr "Ülemteabevaldaja muutmiseks kontakteeruge portaali haldajaga."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/edit_form.html:105
 msgid "Please contact the system administrator to delete this publisher"
-msgstr "Staatus"
+msgstr "Teabevaldaja kustutamiseks kontakteeruge portaali haldajaga."
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/edit_form.html:110
 msgid "Deleted"
@@ -4376,12 +4455,12 @@ msgstr "Kõik"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/new.html:6
 msgid "New - Publisher"
-msgstr ""
+msgstr "Uus - Teabevaldaja"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/new.html:10
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/new.html:14
 msgid "New Publisher"
-msgstr ""
+msgstr "Uus teabevaldaja"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/publisher_util.html:27
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/report_groups_without_admins.html:6
@@ -4467,6 +4546,10 @@ msgstr "Halda kasutajaõigusi »"
 msgid "Include datasets from sub-publishers"
 msgstr "Kaasa arvatud alam-teabevaldajate andmehulgad"
 
+#: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/read.html:152
+msgid "Search publisher"
+msgstr "Otsi teabevaldaja alt..."
+
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/read.html:159
 msgid "Popular Datasets"
 msgstr "Menukad andmehulgad"
@@ -4534,11 +4617,11 @@ msgstr ""
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/report_users_not_assigned_to_groups.html:20
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:27
 msgid "Full Name"
-msgstr ""
+msgstr "Täisnimi"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/report_users_not_assigned_to_groups.html:21
 msgid "Username"
-msgstr ""
+msgstr "Kasutajanimi"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/publisher/users.html:5
 msgid "Users in"
@@ -5039,31 +5122,31 @@ msgstr "- Kasutajad"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:7
 msgid "User Profile"
-msgstr ""
+msgstr "Kasutaja andmed"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:34
 msgid "No email"
-msgstr ""
+msgstr "E-mail puudub"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:46
 msgid "API Key"
-msgstr ""
+msgstr "API võti:"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:50
 msgid "– Note: your API key is visible only to you!"
-msgstr ""
+msgstr "– Märkus: sinu API võti on nähtav ainult sulle!"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:58
 msgid "Add a publisher to your account"
-msgstr ""
+msgstr "Seo oma kontoga teabevaldaja"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:80
 msgid "Edits"
-msgstr ""
+msgstr "Muudatused"
 
 #: i18n-ext/ckanext-dgu/ckanext/dgu/theme/templates/user/read.html:88
 msgid "Public Activity"
-msgstr ""
+msgstr "Avalik tegevus"
 
 #: i18n-ext/ckanext-spatial/ckanext/spatial/harvesters.py:928
 msgid ""
@@ -5129,24 +5212,9 @@ msgstr "Andmehulga üksikasjad"
 msgid "WMS preview"
 msgstr ""
 
-#~ msgid "Andmehulga kustutamine pole lubatud: %s"
-#~ msgstr ""
+#~ msgid "Kontrolli"
+#~ msgstr "Check"
 
-#~ msgid "Andmehulka ei leitud"
-#~ msgstr ""
-
-#~ msgid "Viga andmhulga kustutamisel."
-#~ msgstr ""
-
-#~ msgid "Andmehulga kustutamine pole lubatud."
-#~ msgstr ""
-
-#~ msgid "Puudu"
-#~ msgstr ""
-
-#~ msgid "Staatus"
-#~ msgstr ""
-
-#~ msgid "Faili formaat"
-#~ msgstr ""
+#~ msgid "for help."
+#~ msgstr "."
 
