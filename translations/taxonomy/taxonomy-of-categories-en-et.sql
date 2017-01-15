@@ -1,0 +1,14 @@
+update taxonomy_term_data set name="Open governance" where name="Avatud valitsemine" and vid=1;
+update taxonomy_term_data set name="Geography" where name="Geograafia" and vid=1;
+update taxonomy_term_data set name="Education and research" where name="Haridus ja teadus" and vid=1;
+update taxonomy_term_data set name="Environment" where name="Keskkond" and vid=1;
+update taxonomy_term_data set name="Transport" where name="Transport" and vid=1;
+update taxonomy_term_data set name="Employment" where name="Tööhõive" and vid=1;
+update taxonomy_term_data set name="Health" where name="Tervis" and vid=1;
+update taxonomy_term_data set name="Social sphere" where name="Sotsiaalvaldkond" and vid=1;
+update taxonomy_term_data set name="Government services" where name="Riigiteenused" and vid=1;
+update taxonomy_term_data set name="Culture" where name="Kultuur" and vid=1;
+update taxonomy_term_data set name="Population and vital statistics" where name="Rahvastiku andmed" and vid=1;
+update taxonomy_term_data set name="Agriculture" where name="Põllumajandus, kalandus, metsandus" and vid=1;
+update taxonomy_term_data set name="Economy and industry" where name="Majandus ja tööstus" and vid=1;
+update taxonomy_term_data set name="Finances and budgeting" where name="Rahandus ja eelarvestamine" and vid=1;
