@@ -51,35 +51,27 @@ msgstr "Veateade"
 msgid "Warning message"
 msgstr "Hoiatus"
 
-#: ; misc/drupal.js
 msgid "An AJAX HTTP error occurred."
 msgstr "Esines AJAX HTTP viga."
 
-#: ; misc/drupal.js
 msgid "HTTP Result Code: !status"
 msgstr "HTTP kood: !status"
 
-#: ; misc/drupal.js
 msgid "An AJAX HTTP request terminated abnormally."
 msgstr "AJAX HTTP päring lõppes tavatult."
 
-#: ; misc/drupal.js
 msgid "Debugging information follows."
 msgstr "Järgneb silumise teave."
 
-#: ; misc/drupal.js
 msgid "Path: !uri"
 msgstr "Teekond: !uri"
 
-#: ; misc/drupal.js
 msgid "StatusText: !statusText"
 msgstr "Staatus: !statusText"
 
-#: ; misc/drupal.js
 msgid "ResponseText: !responseText"
 msgstr "VastusTekst: !responseText"
 
-#: ; misc/drupal.js
 msgid "ReadyState: !readyState"
 msgstr "ValmisOlek: !readyState"
 
@@ -95,7 +87,6 @@ msgstr "Pealkiri"
 msgid "Body"
 msgstr "Sisu"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Next"
 msgstr "Järgmine"
 
@@ -225,11 +216,9 @@ msgstr "Sisutüübi selgitus või kaastöö lisamise juhised"
 msgid "Article"
 msgstr "Artikkel"
 
-#: ; modules/filter/filter.admin.js
 msgid "Disabled"
 msgstr "Keelatud"
 
-#: ; modules/filter/filter.admin.js
 msgid "Enabled"
 msgstr "Lubatud"
 
@@ -362,7 +351,6 @@ msgstr "Täpsemad valikud"
 msgid "Release notes"
 msgstr "Väljalasketeated"
 
-#: ; misc/machine-name.js; sites/all/modules/features/features.js
 msgid "Edit"
 msgstr "Muuda"
 
@@ -537,31 +525,24 @@ msgstr "Avatud"
 msgid "Top"
 msgstr "Ülesse"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Sunday"
 msgstr "Pühapäev"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Monday"
 msgstr "Esmaspäev"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Tuesday"
 msgstr "Teisipäev"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Wednesday"
 msgstr "Kolmapäev"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Thursday"
 msgstr "Neljapäev"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Friday"
 msgstr "Reede"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Saturday"
 msgstr "Laupäev"
 
@@ -571,7 +552,6 @@ msgstr "Tuum"
 msgid "Time"
 msgstr "Aeg"
 
-#: ; sites/all/modules/views/js/views-admin.js
 msgid "Add"
 msgstr "Lisa"
 
@@ -755,7 +735,6 @@ msgstr "toiming"
 msgid "Continue"
 msgstr "Jätka"
 
-#: ; modules/contextual/contextual.js
 msgid "Configure"
 msgstr "Seadistus"
 
@@ -840,7 +819,6 @@ msgstr "Kõik"
 msgid "Active"
 msgstr "Aktiivne"
 
-#: ; modules/dashboard/dashboard.js; modules/locale/locale.datepicker.js
 msgid "Done"
 msgstr "Valmis"
 
@@ -1295,7 +1273,6 @@ msgstr "Vidin"
 msgid "Last reply"
 msgstr "Viimane vastus"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Prev"
 msgstr "Eelmine"
 
@@ -1407,79 +1384,60 @@ msgstr "Päev"
 msgid "Table"
 msgstr "Tabel"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Mon"
 msgstr "E"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Tue"
 msgstr "T"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Wed"
 msgstr "K"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Thu"
 msgstr "N"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Fri"
 msgstr "R"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Sat"
 msgstr "L"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Sun"
 msgstr "P"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "January"
 msgstr "Jaanuar"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "February"
 msgstr "Veebruar"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "March"
 msgstr "Märts"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "April"
 msgstr "Aprill"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "May"
 msgstr "Mai"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "June"
 msgstr "Juuni"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "July"
 msgstr "Juuli"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "August"
 msgstr "August"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "September"
 msgstr "September"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "October"
 msgstr "Oktoober"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "November"
 msgstr "November"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "December"
 msgstr "Detsember"
 
@@ -2310,7 +2268,6 @@ msgstr "Jäta tühjaks, et oleks  %anonymous ."
 msgid "Hidden"
 msgstr "Peidetud"
 
-#: ; misc/collapse.js
 msgid "Show"
 msgstr "Näita"
 
@@ -2484,11 +2441,9 @@ msgstr "Ühtki kasutajat pole valitud."
 msgid "Detected malicious attempt to alter protected user fields."
 msgstr "Märgati kahtlast katset muuta kasutaja kaitstud välju."
 
-#: ; misc/tableselect.js
 msgid "Select all rows in this table"
 msgstr "Vali kõik read selles tabelis"
 
-#: ; misc/tableselect.js
 msgid "Deselect all rows in this table"
 msgstr "Eemalda kõikide ridade märgistus selles tabelis"
 
@@ -2522,7 +2477,6 @@ msgstr "Teema"
 msgid "Allowed values list"
 msgstr "Lubatud väärtuste nimekiri"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Today"
 msgstr "Täna"
 
@@ -2553,47 +2507,36 @@ msgstr "Seadista plokki"
 msgid "How many content items to display in \"day\" list."
 msgstr "Kui mitu objekti kuvada \"päeva\" nimekirjas."
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Jan"
 msgstr "Jaan"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Feb"
 msgstr "Veebr"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Mar"
 msgstr "Märts"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Apr"
 msgstr "Aprill"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Jun"
 msgstr "Juuni"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Jul"
 msgstr "Juuli"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Aug"
 msgstr "Aug"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Sep"
 msgstr "Sept"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Oct"
 msgstr "Okt"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Nov"
 msgstr "Nov"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Dec"
 msgstr "Dets"
 
@@ -2669,31 +2612,24 @@ msgstr "tähemärgid"
 msgid "profile"
 msgstr "profiil"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Su"
 msgstr "P"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Mo"
 msgstr "E"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Tu"
 msgstr "T"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "We"
 msgstr "K"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Th"
 msgstr "N"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Fr"
 msgstr "R"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "Sa"
 msgstr "L"
 
@@ -2959,7 +2895,6 @@ msgstr "Jersey"
 msgid "%type settings"
 msgstr "%type sätted"
 
-#: ; modules/node/node.js; modules/node/content_types.js
 msgid "Not published"
 msgstr "Pole avaldatud"
 
@@ -3126,7 +3061,6 @@ msgstr "Nimi, mis märgib anonüümseid kasutajaid."
 msgid "Alternate text"
 msgstr "Alternatiivne tekst"
 
-#: ; misc/ajax.js
 msgid "Please wait..."
 msgstr "Palun oota..."
 
@@ -3432,7 +3366,6 @@ msgstr "!title !required"
 msgid "My blog"
 msgstr "Minu ajaveeb"
 
-#: ; misc/collapse.js
 msgid "Hide"
 msgstr "Peida"
 
@@ -3658,7 +3591,6 @@ msgstr "viimane »"
 msgid "Resize"
 msgstr "Muuda suurust"
 
-#: ; modules/overlay/overlay-child.js
 msgid "Loading"
 msgstr "Laadimine"
 
@@ -4553,7 +4485,6 @@ msgstr "Mõned nõutud moodulid peavad olema sisse lülitatud"
 msgid "New posts"
 msgstr "Uued postitused"
 
-#: ; modules/locale/locale.datepicker.js
 msgid "mm/dd/yy"
 msgstr "dd/mm/yy"
 
@@ -5410,23 +5341,18 @@ msgstr "Pole raamatus"
 msgid "New book"
 msgstr "Uus raamat"
 
-#: ; modules/node/node.js
 msgid "By @name on @date"
 msgstr "Autor: @name (@date)"
 
-#: ; modules/node/node.js
 msgid "By @name"
 msgstr "Autor: @name"
 
-#: ; modules/menu/menu.js
 msgid "Not in menu"
 msgstr "Pole menüüs"
 
-#: ; modules/path/path.js; sites/all/modules/pathauto/pathauto.js
 msgid "Alias: @alias"
 msgstr "Alias: @alias"
 
-#: ; modules/path/path.js; sites/all/modules/pathauto/pathauto.js
 msgid "No alias"
 msgstr "Alias puudub"
 
@@ -5466,7 +5392,6 @@ msgstr "Logisõnumite filtreerimine"
 msgid "You must select something to filter by."
 msgstr "Palun vali, mille järgi filtreerida"
 
-#: ; modules/node/node.js
 msgid "New revision"
 msgstr "Uus redaktsioon"
 
@@ -5594,11 +5519,9 @@ msgstr "Katalaani"
 msgid "Contact form"
 msgstr "Kontaktvorm"
 
-#: ; misc/tabledrag.js
 msgid "Drag to re-order"
 msgstr "Lohista järjestuse muutmiseks"
 
-#: ; misc/tabledrag.js
 msgid ""
 "Changes made in this table will not be saved until the form is submitted."
 msgstr ""
@@ -6641,7 +6564,6 @@ msgid ""
 msgstr ""
 "%info plokk liigutati mittetoimivasse regiooni %region ja on välja lülitatud."
 
-#: ; modules/block/block.js
 msgid ""
 "The changes to these blocks will not be saved until the <em>Save blocks</em> "
 "button is clicked."
@@ -8789,7 +8711,6 @@ msgstr "Lehe alaosa"
 msgid "Hello <strong>@username</strong>"
 msgstr "Tere <strong>@username</strong>"
 
-#: ; modules/toolbar/toolbar.js
 msgid "Show shortcuts"
 msgstr "Näita kiirviiteid"
 
@@ -8940,7 +8861,6 @@ msgstr "Kontrollitakse ka väljalülitatud moodulite ning kujunduste uuendusi"
 msgid "Fetcher"
 msgstr "Sisutõmbaja (fetcher)"
 
-#: ; modules/user/user.permissions.js
 msgid "This permission is inherited from the authenticated user role."
 msgstr "See õigus tuleneb sisseloginud kasutaja rollist."
 
@@ -8968,22 +8888,18 @@ msgstr "Kõrvalmenüü"
 msgid "Administrator role"
 msgstr "Administraatori roll"
 
-#: ; modules/node/node.js
 msgid "No revision"
 msgstr "Redaktsioonid puuduvad"
 
-#: ; modules/comment/comment-node-form.js
 msgid "@number comments per page"
 msgstr "@number kommentaari iga lehe kohta"
 
-#: ; modules/node/content_types.js
 msgid "Requires a title"
 msgstr "Vajab pealkirja"
 
 msgid "Private files"
 msgstr "Privaatsed failid"
 
-#: ; modules/block/block.js
 msgid "Not restricted"
 msgstr "Piiranguteta"
 
@@ -9473,7 +9389,6 @@ msgstr ""
 msgid "Class %class does not implement interface %interface"
 msgstr "Klass %class ei sisalda liidest %interface"
 
-#: ; modules/overlay/overlay-child.js; misc/vertical-tabs.js
 msgid "(active tab)"
 msgstr "(aktiivne sakk)"
 
@@ -9685,7 +9600,6 @@ msgstr ""
 msgid "Customizable per user"
 msgstr "Kasutajapõhiselt seadistatav"
 
-#: ; modules/block/block.js
 msgid "Not customizable"
 msgstr "Pole seadistatav"
 
@@ -9755,11 +9669,9 @@ msgstr ""
 "Juhib blokke, millest lehekülg koostatakse. Blokid on sisukastid, mis "
 "kuvatakse veebilehe mingi ala ehk regiooni sees."
 
-#: ; modules/block/block.js
 msgid "Restricted to certain pages"
 msgstr "Piiratud teatud lehtedega."
 
-#: ; modules/block/block.js
 msgid "The block cannot be placed in this region."
 msgstr "Plokki ei ole võimalik sellesse regiooni paigutada."
 
@@ -10155,7 +10067,6 @@ msgstr ""
 msgid "DRAG HERE"
 msgstr "LOHISTA SIIA"
 
-#: ; modules/dashboard/dashboard.js
 msgid "Customize dashboard"
 msgstr "Kohanda töölauda"
 
@@ -10297,11 +10208,9 @@ msgstr "Tekstiala koos kokkuvõttega"
 msgid "Leave blank to use trimmed value of full text as the summary."
 msgstr "Jäta tühjaks, et kokkuvõttena kasutada täispika teksti algust."
 
-#: ; modules/field/modules/text/text.js
 msgid "Hide summary"
 msgstr "Peida kokkuvõte"
 
-#: ; modules/field/modules/text/text.js
 msgid "Edit summary"
 msgstr "Muuda kokkuvõtet"
 
@@ -11288,7 +11197,6 @@ msgstr ""
 msgid "Edit content type"
 msgstr "Muuda sisutüüpi"
 
-#: ; modules/node/content_types.js
 msgid "Don't display post information"
 msgstr "Ära kuva infot sissekande kohta"
 
@@ -11324,7 +11232,6 @@ msgstr ""
 msgid "Displays the Drupal administration interface in an overlay."
 msgstr "Kuvab Drupali haldusliidese ülekattena."
 
-#: ; modules/overlay/overlay-parent.js
 msgid "@title dialog"
 msgstr "@title dialoog"
 
@@ -14162,16 +14069,13 @@ msgstr ""
 msgid "Māori"
 msgstr "Maoori"
 
-#: ; misc/tabledrag.js
 msgid "Re-order rows by numerical weight instead of dragging."
 msgstr ""
 "Reasta read lohistamise asemel ümber kaalude numbriliste väärtuste järgi."
 
-#: ; misc/tabledrag.js
 msgid "Show row weights"
 msgstr "Näita ridade kaalusid"
 
-#: ; misc/tabledrag.js
 msgid "Hide row weights"
 msgstr "Peida ridade kaalud"
 
@@ -15130,11 +15034,9 @@ msgstr ""
 msgid "The directory you specified is not writable by the web server."
 msgstr "Sinu määratud kataloog ei ole veebiserveri poolt kirjutatav."
 
-#: ; misc/autocomplete.js
 msgid "Autocomplete popup"
 msgstr "Automaatlõpetuse hüpikaken"
 
-#: ; misc/autocomplete.js
 msgid "Searching for matches..."
 msgstr "Vastavuste otsimine..."
 
@@ -15198,7 +15100,6 @@ msgstr ""
 "\">otseteede moodul</a>. Sahtel võib olla nähtaval/varjatud, kasutades riba "
 "lõpus olevat linki näita/peida otseteed."
 
-#: ; modules/toolbar/toolbar.js
 msgid "Hide shortcuts"
 msgstr "Peida kiirviited"
 
@@ -15420,27 +15321,21 @@ msgstr ""
 msgid "User name and password"
 msgstr "Kasutajanimi ja parool"
 
-#: /admin/structure/block/manage/follow/site/configure?render=overlay
 msgid "Follow us on"
 msgstr "Hoia end kursis!"
 
-#: /
 msgid "!time ago."
 msgstr "!time tagasi"
 
-#: /admin/structure/views/add-template
 msgid "@label -  start date"
 msgstr "@label: start date"
 
-#: /piraattimiitti-turku
 msgid "!start-date to !end-date"
 msgstr "!start-date–!end-date"
 
-#: sites/all/modules/tableofcontents/js/tableofcontents.js
 msgid "show"
 msgstr "näita"
 
-#: sites/all/modules/tableofcontents/js/tableofcontents.js
 msgid "hide"
 msgstr "peida"
 
