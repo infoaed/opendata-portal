@@ -21,19 +21,15 @@ msgstr ""
 "Generated-By: Babel 2.3.4\n"
 "X-Generator: Lokalize 2.0\n"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_base.inc:30
 msgid "Free"
 msgstr "Tasuta"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_base.inc:31
 msgid "Partially Free"
 msgstr "Osaliselt tasuta"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_base.inc:32
 msgid "Paid for"
 msgstr "Tasuline"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:18
 msgid ""
 "Please provide a helpful summary of your apps for when your app is "
 "displayed on open data portal."
@@ -41,51 +37,33 @@ msgstr ""
 "Palun lisage informatiivne kokkuvõte oma rakendusest, mida antud "
 "portaalis kuvatakse."
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:62
-#: dgu_d7/modules/features/dgu_blog/dgu_blog.features.field_instance.inc:63
-#: dgu_d7/modules/features/dgu_data_set_request/dgu_data_set_request.features.field_instance.inc:1200
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:62
-#: dgu_d7/modules/features/dgu_library/dgu_library.features.field_instance.inc:46
-#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.features.field_instance.inc:700
 msgid "Read more"
 msgstr "Loe lisaks"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:97
 msgid "Description"
 msgstr "Kirjeldus"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:170
 msgid "App charge"
 msgstr "Rakenduse kasutustasu"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:189
 msgid "Enter the URL of this app."
 msgstr "Sisesta selle rakenduse URL."
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:238
 msgid "App Link"
 msgstr "Link rakendusele"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:301
 msgid "App thumbnail"
 msgstr "Rakenduse pisipilt"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:375
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:169
 msgid "Category"
 msgstr "Kategooria"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:432
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:226
-#: dgu_d7/modules/features/dgu_services/dgu_services.module:109
 msgid "Comments"
 msgstr "Kommentaarid"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:514
 msgid "Developed by"
 msgstr "Autor"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:628
 msgid ""
 "Please supply additional images of your application so that users can see"
 " what it does by clicking on thumbnails."
@@ -93,11 +71,9 @@ msgstr ""
 "Lisage täiendavaid pilte, mis illustreerivad rakenduse võimalusi. Neid "
 "kuvatakse antud portaalis rakenduse lehel, ja on klikatavad suuremaks."
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:681
 msgid "Screen shots"
 msgstr "Ekraanitõmmised"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:711
 msgid ""
 "Please specify if the application you are submitting has been commission "
 "by public sector department, private sector or 3rd sector (voluntary/non-"
@@ -106,20 +82,15 @@ msgstr ""
 "Palun määrake, kas antud rakenduse tellijaks on avalik sektor, erasektor "
 "või on ta loodud vabatahtlikult / kasumit taotlemata."
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:740
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:278
 msgid "Sector"
 msgstr "Sektor"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:788
 msgid "Submitter e-mail"
 msgstr "Registreerija e-mail"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:838
 msgid "Submitter Name"
 msgstr "Registreerija nimi"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:860
 msgid ""
 "A comma-separated list of terms describing this content. Example: funny, "
 "bungee jumping, \"Company, Inc.\"."
@@ -127,15 +98,12 @@ msgstr ""
 "Koma-eraldatud loetelu sõnadest, mis kirjeldavad antud rakendust. Näited:"
 " meelelahutus, haridus, \"kino ja teater\"."
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:899
 msgid "Keywords"
 msgstr "Võtmesõnad"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:983
 msgid "Uses dataset"
 msgstr "Kasutab andmehulka"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.features.inc:72
 msgid ""
 "Please submit examples of Internet-based applications that make use of "
 "publicly-available government data sources."
@@ -143,86 +111,57 @@ msgstr ""
 "Sisestage näiteid Interneti-põhistest rakendustest, mis kasutavad avaliku"
 " sektori poolt avalikustatud andmehulki."
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:18
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:19
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:26
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:32
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:49
-#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:50
 msgid "Apps"
 msgstr "Rakendused"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:21
 msgid "Latest apps"
 msgstr "Uusimad rakendused"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:28
 msgid "Top rated apps"
 msgstr "Enim hinnatud rakendused"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:47
 msgid "Submit an app"
 msgstr "Lisa rakendus"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:80
 msgid "Submitted "
 msgstr "Lisatud "
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.module:82
 msgid "Updated "
 msgstr "Uuendatud "
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:269
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:567
 msgid "Add your app (for authenticated users)"
 msgstr "Lisa oma rakendus (autenditud kasutajatele)"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:271
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:569
 msgid "Add your app"
 msgstr "Lisa oma rakendus"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:310
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:607
 msgid "Add your app (for anonymous users)"
 msgstr "Lisa oma rakendus (anonüümsetele kasutajatele)"
 
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:312
-#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:609
 msgid "Login to add your app"
 msgstr "Logi sisse rakenduse lisamiseks"
 
-#: dgu_d7/modules/features/dgu_blog/dgu_blog.features.menu_links.inc:18
-#: dgu_d7/modules/features/dgu_blog/dgu_blog.module:22
 msgid "Latest Blogs"
 msgstr "Uusimad blogid"
 
-#: dgu_d7/modules/features/dgu_blog/dgu_blog.features.menu_links.inc:36
 msgid "Most popular Blogs"
 msgstr "Populaarseimad blogid"
 
-#: dgu_d7/modules/features/dgu_data_set_request/dgu_data_set_request.module:645
 msgid "Add comment"
 msgstr "Lisa kommentaar"
 
-#: dgu_d7/modules/features/dgu_data_set_request/dgu_data_set_request.module:646
 msgid "Submit comment"
 msgstr "Saada kommentaar"
 
-#: dgu_d7/modules/features/dgu_flags/dgu_flags.features.inc:29
 msgid "Flag as offensive"
 msgstr "Märgi sobimatuks"
 
-#: dgu_d7/modules/features/dgu_flags/dgu_flags.features.inc:32
 msgid "Unflag this item"
 msgstr "Märgi sobivaks"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:27
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:84
 msgid "Terms of use"
 msgstr "Kasutustingimused"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:86
 msgid ""
 "By definition, open data must published under a licence which permits its"
 " free and unlimited use, processing and distribution. Under the licence, "
@@ -237,7 +176,6 @@ msgstr ""
 " avaandmete juures kasutatakse, pärinevad mittetulundusühingu Creative "
 "Commons litsentside loetelust"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:88
 msgid ""
 "The datasets published on this portal can be, as a rule, re-used under "
 "the licence that is named in the records of a particular dataset. Where "
@@ -252,11 +190,9 @@ msgstr ""
 "versioon 4.0. Sama litsentsi alla käib ka kõigi antud portaalis "
 "registreeritud andmehulkade info"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:90
 msgid "Principles of data publication"
 msgstr "Avaldamise põhiprintsiibid"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:92
 msgid ""
 "This portal works on the premise that all datasets and dataset records "
 "published here can be used freely, redistributed and re-used, serving the"
@@ -274,138 +210,81 @@ msgstr ""
 " ning Rakenduste all loetletud rakendused on avaldaja omad, ega kuulu "
 "mingi kasutuslitsentsi alla, välja arvatud kui on märgitud teisiti"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:133
 msgid "Contact"
 msgstr "Kontaktid"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:227
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:271
 msgid "Help"
 msgstr "Abi"
 
-#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:284
 msgid "Help information"
 msgstr "Abiinfo portaali kasutamise kohta"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:97
 msgid "Body"
 msgstr "Sisu"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:348
 msgid "Related datasets"
 msgstr "Seotud andmehulgad"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:410
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:23
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:34
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:38
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:54
 msgid "Forums"
 msgstr "Foorumid"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.menu_links.inc:18
 msgid "Latest forum topics"
 msgstr "Uusimad foorumi teemad"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.menu_links.inc:36
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:181
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:190
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.views_default.inc:18
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.views_default.inc:25
 msgid "Forum categories"
 msgstr "Foorumite kategooriad"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.menu_links.inc:54
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:45
 msgid "Most popular topics"
 msgstr "Most popular topics"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:24
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:42
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:55
 msgid "Categories"
 msgstr "Kategooriad"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:39
 msgid "Newest forum topics"
 msgstr "Uusimad foorumi teemad"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:133
 msgid "Create forum topic"
 msgstr "Loo uus foorumiteema"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:346
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:545
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:859
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:1077
 msgid "Login to take part in forums"
 msgstr "Foorumites osalemiseks logi sisse"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:383
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:503
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:816
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:1034
 msgid "Create new forum topic (for authenticated users)"
 msgstr "Loo uus foorumi teema (autenditud kasutajatele)"
 
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:505
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:818
-#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:1036
 msgid "Create new forum topic"
 msgstr "Loo uus foorumi teema"
 
-#: dgu_d7/modules/features/dgu_glossary/dgu_glossary.features.filter.inc:16
 msgid "Plain text"
 msgstr "Vabatekst"
 
-#: dgu_d7/modules/features/dgu_moderation/dgu_moderation.module:239
-#: dgu_d7/modules/features/dgu_moderation/dgu_moderation.module:269
 msgid "Submit"
 msgstr "Salvesta"
 
-#: dgu_d7/modules/features/dgu_moderation/dgu_moderation.module:270
 msgid "published"
 msgstr "published"
 
-#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:39
-#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:125
-#: dgu_d7/modules/features/dgu_reply/dgu_reply.module:49
-#: dgu_d7/modules/features/dgu_reply/dgu_reply.module:100
 msgid "Comment"
 msgstr "Kommentaar"
 
-#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:82
-#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:168
-#: dgu_d7/modules/features/dgu_user/dgu_user.views_default.inc:710
-#: dgu_d7/modules/features/dgu_user/dgu_user.views_default.inc:831
-#: dgu_d7/modules/features/dgu_user/dgu_user.views_default.inc:1069
 msgid "Subject"
 msgstr "Pealkiri"
 
-#: dgu_d7/modules/features/dgu_search/dgu_search.module:137
-#: dgu_d7/modules/features/dgu_search/dgu_search.module:168
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:144
 msgid "Search"
 msgstr "Otsi"
 
-#: dgu_d7/modules/features/dgu_search/templates/dgu_search_form.tpl.php:28
 msgid "Click search icon to see all content in this category"
 msgstr "Kogu sisu nägemiseks selles kategoorias vajuta otsinguikoonil"
 
-#: dgu_d7/modules/features/dgu_search/templates/dgu_search_form.tpl.php:37
-#: dgu_d7/modules/features/dgu_search/templates/dgu_search_info.tpl.php:9
 msgid "results"
 msgstr "tulemust"
 
-#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.features.filter.inc:16
 msgid "Filtered HTML"
 msgstr "Filtreeritud HTML"
 
-#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.features.filter.inc:58
 msgid "Full HTML"
 msgstr "Täielik HTML"
 
-#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.module:13
 msgid ""
 "The entire content of the portal and all datasets are available for "
 "download by all users, including anonymous ones."
@@ -413,130 +292,87 @@ msgstr ""
 "Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile "
 "kasutajatele, sealhulgas ka anonüümsetele."
 
-#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.pages_default.inc:150
 msgid "What is open data portal?"
 msgstr "Mis on avaandmete portaal?"
 
-#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.pages_default.inc:615
-#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.pages_default.inc:627
 msgid "Log in"
 msgstr "Logi sisse"
 
-#: dgu_d7/modules/features/dgu_user/dgu_user.module:284
 msgid "User account"
 msgstr "Kasutajakonto"
 
-#: dgu_d7/themes/custom/dguk/template.php:54
 msgid "Sumbitted "
 msgstr "Lisatud "
 
-#: dgu_d7/themes/custom/dguk/template.php:58
 msgid "Updated"
 msgstr "Uuendatud"
 
-#: dgu_d7/themes/custom/dguk/template.php:261
 msgid "Datasets"
 msgstr "Andmehulgad"
 
-#: dgu_d7/themes/custom/dguk/template.php:265
 msgid "Publishers"
 msgstr "Teabevaldajad"
 
-#: dgu_d7/themes/custom/dguk/template.php:269
 msgid "Site Analytics"
 msgstr "Portaali kasutus"
 
-#: dgu_d7/themes/custom/dguk/template.php:278
 msgid "Sys Admin:"
 msgstr "Admin:"
 
-#: dgu_d7/themes/custom/dguk/template.php:282
 msgid "System Dashboard"
 msgstr "Süsteemi töölaud"
 
-#: dgu_d7/themes/custom/dguk/template.php:286
 msgid "Harvest Sources"
 msgstr "Andmekorje allikad"
 
-#: dgu_d7/themes/custom/dguk/template.php:290
 msgid "Feedback moderation"
 msgstr "Tagasiside modereerimine"
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:47
-#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:48
 msgid "Home"
 msgstr "Avaleht"
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:48
-#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:49
 msgid "Data"
 msgstr "Andmed"
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:50
-#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:51
 msgid "More info"
 msgstr "Lisainfo"
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:54
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:142
 msgid "Search for data..."
 msgstr "Otsi andmehulki..."
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:68
 msgid "Tools"
 msgstr "Tööriistad"
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:69
 msgid "Add a Dataset"
 msgstr "Lisa andmehulk"
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:70
 msgid "My publishers"
 msgstr "Minu teabevaldajad"
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:157
 msgid "Register and publish datasets by your organization."
 msgstr "Registreeri või lisa oma avalikustatud andmehulk."
 
-#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:160
 msgid "Create a dataset"
 msgstr "Lisa andmehulk"
 
-#: dgu_d7/themes/custom/dguk/templates/reply.tpl.php:10
 msgid "Posted by"
 msgstr "Postitanud"
 
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
-#: forum-categories--block.tpl.php:38
 msgid "topics"
 msgstr "teemat"
 
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
-#: forum-categories--block.tpl.php:40
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
-#: forum-categories--block.tpl.php:46
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
-#: panel-pane.tpl.php:69
 msgid "new"
 msgstr "uut"
 
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
-#: forum-categories--block.tpl.php:43
 msgid "replies"
 msgstr "vastust"
 
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
-#: panel-pane.tpl.php:50
 msgid "Created by"
 msgstr "Lisanud"
 
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
-#: panel-pane.tpl.php:54
 msgid "Posted in"
 msgstr "Kategoorias"
 
-#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
-#: panel-pane.tpl.php:58
 msgid "New"
 msgstr "Uus"
 
@@ -552,35 +388,27 @@ msgstr "Rakenduse link"
 msgid "Comments"
 msgstr "Kommentaarid"
 
-#: ; misc/tabledrag.js
 msgid "Show row weights"
 msgstr "Näita ridade kaalusid"
 
-#: ; profiles/dgu/modules/contrib/quickedit/js/views/AppView.js;
-#: profiles/dgu/modules/contrib/quickedit/js/views/EntityToolbarView.js
 msgid "Save"
 msgstr "Salvesta"
 
-#: ; modules/field/modules/text/text.js
 msgid "Hide summary"
 msgstr "Peida kokkuvõte"
 
-#: ; modules/field/modules/text/text.js
 msgid "Edit summary"
 msgstr "Muuda kokkuvõtet"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Help"
 msgstr "Abi"
 
-#: /admin/config/regional/language?render=overlay
 msgid "App"
 msgstr "Rakendus"
 
 msgid "Name"
 msgstr "Nimi"
 
-#: /admin/config/regional/language?render=overlay
 msgid ""
 "Please submit examples of Internet-based applications that make use of "
 "publicly-available government data sources."
@@ -591,25 +419,21 @@ msgstr ""
 msgid "Title"
 msgstr "Pealkiri"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Forum topic"
 msgstr "Foorumi teema"
 
 msgid "Subject"
 msgstr "Teema"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Dataset"
 msgstr "Andmehulk"
 
 msgid "Comments"
 msgstr "Kommentaarid"
 
-#: /admin/config/regional/language
 msgid "Reply"
 msgstr "Vasta"
 
-#: /admin/config/regional/language?render=overlay
 msgid "User account"
 msgstr "Kasutajakonto"
 
@@ -619,46 +443,36 @@ msgstr "Kommentaar"
 msgid "Plain text"
 msgstr "Vabatekst"
 
-#: /admin/config/regional/language
 msgid "Apps"
 msgstr "Rakendused"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Overview"
 msgstr "Ülevaade"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Translate"
 msgstr "Tõlgi"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Datasets"
 msgstr "Andmehulgad"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Publishers"
 msgstr "Teabevaldajad"
 
-#: ; misc/machine-name.js; profiles/dgu/modules/contrib/features/features.js
 msgid "Edit"
 msgstr "Muuda"
 
 msgid "Delete"
 msgstr "Kustuta"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Are you sure you want to delete %title?"
 msgstr "Kas olete kindel, et soovite kustutada %title? "
 
-#: /admin/config/regional/language?render=overlay
 msgid "%title has been updated."
 msgstr "%title uuendatud."
 
-#: /admin/config/regional/language?render=overlay
 msgid "%title could not be updated."
 msgstr "%title ei olnud võimalik uuendada."
 
-#: /admin/config/regional/language?render=overlay
 msgid "View"
 msgstr "Vaata"
 
@@ -668,54 +482,42 @@ msgstr "Kokkuvõte"
 msgid "Text format"
 msgstr "Tekstiformaat"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Content type"
 msgstr "Sisutüüp"
 
 msgid "Language"
 msgstr "Keel"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Author"
 msgstr "Autor"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Login page"
 msgstr "Logi sisse"
 
-#: /admin/config/regional/language
 msgid "Access"
 msgstr "Ligipääs"
 
-#: /admin/config/regional/language
 msgid "Search"
 msgstr "Otsi"
 
-#: /admin/config/regional/language
 msgid "Name (raw)"
 msgstr "Nimi"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Data"
 msgstr "Andmed"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Publisher"
 msgstr "Teabevaldaja"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Home"
 msgstr "Avaleht"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Log out"
 msgstr "Logi välja"
 
-#: /admin/config/regional/language
 msgid "Add content"
 msgstr "Lisa sisu"
 
-#: /admin/config/regional/language?render=overlay
 msgid "Hello <strong>@username</strong>"
 msgstr "Kasutaja: <strong>@username</strong> "
 
@@ -728,70 +530,54 @@ msgstr "Inglise"
 msgid "Estonian"
 msgstr "Eesti"
 
-#: /index.php
 msgid "Sort by"
 msgstr "Sorteeri"
 
-#: /index.php
 msgid "Last updated"
 msgstr "Viimane uuendus"
 
-#: /index.php
 msgid "Latest apps"
 msgstr "Uusimad rakendused"
 
 msgid "Forum"
 msgstr "Foorum"
 
-#: /index.php
 msgid "Average"
 msgstr "Keskmine"
 
-#: /index.php
 msgid "Submitted by"
 msgstr "Lisanud"
 
-#: /index.php; profiles/dgu/modules/custom/autologout/autologout.js
 msgid "Yes"
 msgstr "Jah"
 
-#: /index.php; profiles/dgu/modules/custom/autologout/autologout.js
 msgid "No"
 msgstr "Ei"
 
-#: /index.php
 msgid "Forum categories"
 msgstr "Foorumite kategooriad"
 
-#: /index.php
 msgid "Category"
 msgstr "Kategooria"
 
-#: /index.php
 msgid "Sector"
 msgstr "Sektor"
 
-#: /index.php
 msgid "Tags"
 msgstr "Võtmesõnad"
 
-#: /index.php
 msgid "Disable rich-text"
 msgstr "Ära võimalda rich-text"
 
-#: /index.php
 msgid "Enable rich-text"
 msgstr "Võimalda rich-text"
 
-#: /index.php
 msgid "App charge"
 msgstr "Kasutustasu"
 
-#: /index.php
 msgid "Developed by"
 msgstr "Arendaja"
 
-#: /index.php
 msgid ""
 "Please provide a helpful summary of your apps for when your app is published "
 "data.gov.uk."
@@ -799,7 +585,6 @@ msgstr ""
 "Palun lisage informatiivne kokkuvõte oma rakendusest, mida antud portaalis "
 "kuvatakse."
 
-#: /index.php
 msgid ""
 "Please supply additional images of your application so that users can see "
 "what it does.\n"
@@ -812,80 +597,61 @@ msgstr ""
 msgid "Forums"
 msgstr "Foorumid"
 
-#: /index.php
 msgid "updated @entity"
 msgstr "uuendatud @entity"
 
-#: /index.php
 msgid "updated content"
 msgstr "uuendatud sisu"
 
-#: /
 msgid "KKK"
 msgstr "FAQ"
 
-#: /admin/structure/menu/manage/menu-interact/add?render=overlay
 msgid "Upload"
 msgstr "Lae üles"
 
-#: /user
 msgid "Request new password"
 msgstr "Telli uus salasõna"
 
-#: /admin/structure/menu/manage/menu-interact/add?render=overlay
 msgid "This field is required."
 msgstr "See väli on kohustuslik."
 
-#: /admin/structure/pages/add?render=overlay;
-#: profiles/dgu/modules/contrib/media/js/media.format_form.js
 msgid "Cancel"
 msgstr "Loobu"
 
-#: /admin/structure/pages/add/page-avaleht/content?render=overlay
 msgid "Last"
 msgstr "Uusim"
 
-#: /admin/structure/pages/add/page-avaleht/content?render=overlay
 msgid "Thursday"
 msgstr "Neljapäev"
 
-#: /admin/structure/pages/add/page-avaleht/content?render=overlay
 msgid "@count years"
 msgstr "@count years"
 
-#: /admin/structure/pages/add/page-avaleht/content?render=overlay
 msgid "@count months"
 msgstr "@count kuud"
 
 msgid "More information about text formats"
 msgstr "Rohkem infot tekstiformaatide kohta"
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
 msgid ""
 "Empty paragraph killer - multiple returns will not break the site's style."
 msgstr "Mitu reavahetust järjest on lubatud ja ei tee portaali stiile katki."
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
 msgid "Web page addresses and e-mail addresses turn into links automatically."
 msgstr "Veebi ja e-posti aadressid muutuvad automaatselt linkideks."
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
 msgid "Allowed HTML tags: @tags"
 msgstr "Lubatud HTML elemendid: @tags "
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
 msgid "Lines and paragraphs break automatically."
 msgstr "Reavahetused ja paragrahvid luuakse nii nagu need kirjutate."
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
 msgid "No HTML tags allowed."
 msgstr "HTML elemendid pole lubatud."
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
 msgid "Additionally, these HTML elements will not be scanned: %blocked."
 msgstr " "
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
 msgid ""
 "The Lexicon module will automatically mark terms that have been defined in "
 "the lexicon vocabulary with links to their descriptions. If there are "
@@ -893,26 +659,21 @@ msgid ""
 "marking and linking, use the special markup, [no-lexicon] ... [/no-lexicon]."
 msgstr " "
 
-#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom/form
 msgid "Remove"
 msgstr "Eemalda"
 
-#: /forum
 msgid "Relevance"
 msgstr "Asjakohasus"
 
 msgid "Add another item"
 msgstr "Lisa veel üks rida"
 
-#: /forum; profiles/dgu/modules/contrib/media/js/media.format_form.js
 msgid "Submit"
 msgstr "Saada"
 
-#: /apps
 msgid "Please enter some keywords."
 msgstr "Palun sisestage otsingusõnu."
 
-#: /search/everything/?f[0]=bundle%3Aapp
 msgid ""
 "<ul>\n"
 "<li>Check if your spelling is correct, or try removing filters.</li>\n"
@@ -978,15 +739,12 @@ msgstr "- Vali väärtus - "
 msgid "Choose a file"
 msgstr "Vali fail"
 
-#: /user
 msgid "Log in"
 msgstr "Logi sisse"
 
-#: /user
 msgid "Username or e-mail address"
 msgstr "Kasutajanimi või e-maili aadress"
 
-#: /user
 msgid ""
 "You may login with either your assigned username or your e-mail address."
 msgstr ""
@@ -994,11 +752,9 @@ msgstr ""
 "\r\n"
 "Te võite sisse logida kas oma kasutajanime või e-maili aadressiga."
 
-#: /user
 msgid "The password field is case sensitive."
 msgstr "Suur -ja väiketähtedel tehakse vahet."
 
-#: /user
 msgid ""
 "Spaces are allowed; punctuation is not allowed except for periods, hyphens, "
 "apostrophes, and underscores."
@@ -1006,7 +762,6 @@ msgstr ""
 "Tühikud on lubatud; kirjavahemärkidest lubatud ainult punkt, sidekriips ja "
 "alakriips."
 
-#: /user
 msgid ""
 "A valid e-mail address. All e-mails from the system will be sent to this "
 "address. The e-mail address is not made public and will only be used if you "
@@ -1017,217 +772,167 @@ msgstr ""
 "sellele aadressile. Seda aadressi ei publitseerita kusagil ning sinna "
 "saadetakse soovi korral ka Teie uus salasõna."
 
-#: /user
 msgid "Provide a password for the new account in both fields."
 msgstr "Sisestage salasõna mõlemasse kasti."
 
-#: /user
 msgid "Create new account"
 msgstr "Loo uus konto"
 
-#: /user
 msgid "Password must be at least %length characters."
 msgstr "Salasõna peab olema vähemalt %length tähemärki pikk."
 
-#: /user
 msgid "Password strength:"
 msgstr "Salasõna tugevus:"
 
-#: /user
 msgid "To make your password stronger:"
 msgstr "Salasõna tugevdamiseks"
 
-#: /user
 msgid "Make it at least 6 characters"
 msgstr "Pikkus vähemalt 6 tähemärki"
 
-#: /user
 msgid "Add lowercase letters"
 msgstr "Lisa väiketähti"
 
-#: /user
 msgid "Add uppercase letters"
 msgstr "Lisa suurtähti"
 
-#: /user
 msgid "Add numbers"
 msgstr "Lisa numbreid"
 
-#: /user
 msgid "Add punctuation"
 msgstr "Lisa kirjavahemärke"
 
-#: /user
 msgid "yes"
 msgstr "jah"
 
-#: /user
 msgid "no"
 msgstr "ei"
 
-#: /user
 msgid "Weak"
 msgstr "Nõrk"
 
-#: /user
 msgid "Fair"
 msgstr "Rahuldav"
 
-#: /user
 msgid "Good"
 msgstr "Hea"
 
-#: /user
 msgid "Strong"
 msgstr "Tugev"
 
-#: /user
 msgid "Passwords match:"
 msgstr "Salasõnad klapivad:"
 
-#: /user
 msgid "Click on the image and drag to mark how the image will be cropped"
 msgstr "Kliki pildil ja märgista milline osa pildist võetakse"
 
-#: /user
 msgid "I have an account"
 msgstr "Mul juba on kasutajakonto"
 
-#: /user
 msgid "I want to create an account"
 msgstr "Tahan luua kasutajakonto"
 
-#: /search/everything/?f[0]=bundle%3Aapp
 msgid "Rakendused"
 msgstr "Rakendused"
 
-#: /node/add/app
 msgid "Inherit"
 msgstr "Päritud"
 
-#: /node/add/app
 msgid "Disabled (Hidden)"
 msgstr "Maha keeratud (varjatud)"
 
-#: /node/add/app
 msgid "Read only (Closed)"
 msgstr "Ainult loetavad (Suletud)"
 
-#: /node/add/app
 msgid "Read and write (Open)"
 msgstr "Loetavad ja muudetavad (Avatud)"
 
-#: /node/add/app
 msgid "On the same page"
 msgstr "Samal lehel"
 
-#: /node/add/app
 msgid "On custom page"
 msgstr "Eraldi lehel"
 
-#: /node/add/app
 msgid "Allow replying on replies"
 msgstr "Luba vastustele vastata"
 
-#: /node/add/app
 msgid "Allow"
 msgstr "Luba"
 
-#: /node/add/app
 msgid "Deny"
 msgstr "Keela"
 
-#: /node/add/app
 msgid "The link title is limited to @maxlength characters maximum."
 msgstr "Lingi pealkirja maksimalane pikkus on @maxlength tähemärki."
 
-#: /node/add/app
 msgid "Leave blank to use trimmed value of full text as the summary."
 msgstr ""
 "Jätke tühjaks kui soovite, et teksti kokkuvõtteks oleks kogu tekst täies "
 "mahus."
 
-#: /node/add/app
 msgid "Created by !user."
 msgstr "Postitas !user. "
 
-#: /manuals
 msgid "Friday"
 msgstr "Reede"
 
-#: /admin/config.php
 msgid "Access denied"
 msgstr "Ligipääs keelatud"
 
-#: /admin/config.php
 msgid "Access Denied / User log in"
 msgstr "Ligipääs puudub / Kasutaja login"
 
-#: /admin/config.php
 msgid ""
 "Access denied. You may need to login below or register to access this page."
 msgstr ""
 "Ligipääs keelatud. Peate sisse logima või registreeruma selle lehe "
 "kasutamiseks."
 
-#: /admin/structure/taxonomy/category/add?render=overlay&render=overlay
 msgid "Sunday"
 msgstr "Pühapäev"
 
-#: /file/ajax/field_app_thumbnail/und/0/form-v-kRebeZyCAvJ2RBbOTQk5NXuSQ0ZsRvEs2w5EUb68s
 msgid "!name field is required."
 msgstr "!name väli on kohustuslik."
 
 msgid "Add new comment"
 msgstr "Lisa uus kommentaar"
 
-#: /apps/digital-agenda-scoreboard
 msgid "Average: <span !microdata>!stars</span>"
 msgstr "Keskmine: <span !microdata>!stars</span>"
 
-#: /apps/digital-agenda-scoreboard
 msgid "<span>@count</span> votes"
 msgstr "<span>@count</span> häält"
 
-#: /apps/digital-agenda-scoreboard
 msgid "No votes yet"
 msgstr "Pole veel hääli antud"
 
-#: /
 msgid "Login to make a comment"
 msgstr "Kommenteerimiseks logi sisse"
 
-#: /node/4
 msgid "1 topic"
 msgstr "1 teema"
 
-#: /forum
 msgid "@count sec"
 msgstr "@count sek"
 
-#: /users/admin
 msgid "%time ago"
 msgstr "%time tagasi"
 
-#: /node/add/page
 msgid "Read more<span class=\"element-invisible\"> about @title</span>"
 msgstr "Loe lisaks<span class=\"element-invisible\"> @title</span> "
 
-#: /reply/add/4/82/0
 msgid "%bundle was successfully created."
 msgstr "%bundle edukalt loodud."
 
 msgid "1 min"
 msgstr "1 minut"
 
-#: /forum
 msgid " reply"
 msgstr " vastus"
 
 msgid "@count min"
 msgstr "@count min"
 
-#: /users/lellsaar
 msgid "@count weeks"
 msgstr "@count nädalat"
 
@@ -1237,15 +942,12 @@ msgstr "@count päeva"
 msgid "@count hours"
 msgstr "@count tundi"
 
-#: /admin/content?render=overlay
 msgid "Updated"
 msgstr "Uuendatud"
 
-#: /reply/1/delete?destination=users%2Fadmin%23overlay%3Dadmin%2Fcontent%2Freply
 msgid "This action cannot be undone."
 msgstr "Seda aktsiooni ei ole võimalik hiljem tagasi võtta."
 
-#: /reply/2/edit?destination=admin/content/reply
 msgid "%bundle was successfully updated."
 msgstr "%bundle edukalt uuendatud."
 
@@ -1255,23 +957,18 @@ msgstr "1 tund"
 msgid "@time ago"
 msgstr "@time tagasi"
 
-#: /admin/people/create?render=overlay&render=overlay
 msgid "Monday"
 msgstr "Esmaspäev"
 
-#: /admin/structure/features/dgu_forum/status
 msgid "[nid] topics"
 msgstr "[nid] teemat"
 
-#: /forum/categories
 msgid "[id] replies"
 msgstr "[id] vastust"
 
-#: /id_card_login
 msgid "ID-Card login"
 msgstr "ID-kaardi login"
 
-#: /id_card_login
 msgid "ID-Card login page"
 msgstr "ID-kaardi login leht"
 
@@ -1281,11 +978,9 @@ msgstr "kolmapäev"
 msgid "Wednesday"
 msgstr "Kolmapäev"
 
-#: /id_card_login
 msgid "Logged in with @id_code."
 msgstr "Logitud sisse isikukoodiga @id_code. "
 
-#: /user
 msgid ""
 "Sorry, unrecognized username or password. <a href=\"@password\">Have you "
 "forgotten your password?</a>"
@@ -1294,69 +989,53 @@ msgstr ""
 "unustanud, pöördu aadressile <a href=\"mailto:opendatasupport@mkm.ee"
 "\">opendatasupport@mkm.ee</a> ."
 
-#: /user
 msgid "Log in with ID-Card"
 msgstr "Logi sisse ID-kaardiga"
 
-#: /users/admin
 msgid "1 week"
 msgstr "1 nädal"
 
-#: /user
 msgid "Log in using Mobiil-ID"
 msgstr "Logi sisse Mobiili-ID abil"
 
-#: /user
 msgid "Insert your phone number to log in"
 msgstr "Sisestage oma mobiiltelefoni number:"
 
-#: /user
 msgid "What is Mobiil-ID?"
 msgstr "Mis on Mobiil-ID?"
 
-#: /user
 msgid "Cancel Mobiil-ID login"
 msgstr "Loobu Mobiil-IDga sisse logimisest"
 
-#: /system/ajax
 msgid "The inserted phone number doesn't have a valid Mobiil-ID contract."
 msgstr ""
 "Sisestatud telefoninumber on sertifikaadi kehtivuskinnituse teenusele "
 "tundmatu."
 
-#: /system/ajax
 msgid "Authentication cancelled!"
 msgstr "Autentimine tühistati!"
 
-#: /system/ajax
 msgid "Signature is not valid!"
 msgstr "Digi-allkiri ei ole valiidne!"
 
-#: /system/ajax
 msgid "Authentication has expired!"
 msgstr "Autentimine aegus!"
 
-#: /system/ajax
 msgid "Mobiil-ID service is unavailable at the moment!"
 msgstr "Mobiil-ID teenus ei ole hetkel kättesaadav!"
 
-#: /system/ajax
 msgid "Phone is not reachable!"
 msgstr "Telefon ei ole kättesaadav!"
 
-#: /system/ajax
 msgid "Could not send the authentication message to the phone!"
 msgstr "Autentimise sõnumi saatmine telefonile ebaõnnestus!"
 
-#: /system/ajax
 msgid "SIM card error!"
 msgstr "SIM kaardi viga!"
 
-#: /system/ajax
 msgid "Technical error of Mobiil-ID service!"
 msgstr "Tehniline viga Mobiil-ID teenuses!"
 
-#: /system/ajax
 msgid ""
 "Follow the instructions on your phone. Before entering your PIN code make "
 "sure the verification code given here matches the one on your phone screen. "
@@ -1367,35 +1046,27 @@ msgstr ""
 "telefoni ekraanil. Pärast edukat sisse logimist suunatakse Teid automaatselt "
 "järgmisele lehele."
 
-#: /id_card_login
 msgid "Access Denied"
 msgstr "Ligipääs puudub"
 
-#: /id_card_login
 msgid "You are not authorized to access this page."
 msgstr "Ligipääs puudub."
 
-#: /users/admin
 msgid "1 month"
 msgstr "1 kuu"
 
-#: /services/xmlrpc
 msgid "Access denied for user @user"
 msgstr "Ligipääs keelatud kasutajale @user"
 
-#: /node/5
 msgid "@count topics"
 msgstr "@count teemat"
 
-#: /user/27/edit?destination=admin%2Fpeople&render=overlay
 msgid "Saturday"
 msgstr "Laupäev"
 
-#: /id_card_login
 msgid "Tuesday"
 msgstr "Teisipäev"
 
-#: /forum
 msgid " replies"
 msgstr " vastust"
 
@@ -1411,67 +1082,51 @@ msgstr "!author poolt @time tagasi"
 msgid "Subject textfield"
 msgstr "Subjekti tekstiväli"
 
-#: /forum/andmete-kasutamine/traktor
 msgid "<i class=\"icon-exclamation-sign\"></i> &nbsp;Flag as offensive"
 msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
 
-#: /forum/andmete-kasutamine/jaanus-foorum-2
 msgid " <i class=\"icon-exclamation-sign\"></i> &nbsp;Flag as offensive"
 msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
 
-#: /forum/andmete-kasutamine/traktor
 msgid "Flag as offensive"
 msgstr "Märgi sobimatuks"
 
-#: /node/18/edit
 msgid "@type %title has been updated."
 msgstr "@type %title uuendatud."
 
-#: /
 msgid "Abi"
 msgstr "Help"
 
-#: /user
 msgid "Sign in with Mobiil-ID"
 msgstr "Logi sisse Mobiil-IDga"
 
-#: /apps/digital-agenda-scoreboard-0
 msgid "not verified"
 msgstr "tuvastamata"
 
-#: /forum
 msgid "1 year"
 msgstr "1 aasta"
 
-#: /et
 msgid "What is open data portal?"
 msgstr "Mis on avaandmete portaal?"
 
-#: /
 msgid "Additional info"
 msgstr "Lisainfo"
 
-#: /
 msgid "Search for data..."
 msgstr "Otsi andmehulki..."
 
-#: /et/juhendid
 msgid "Site usage"
 msgstr "Portaali kasutus"
 
-#: /et
 msgid "Estonian Open Data Portal"
 msgstr "Avaandmete portaal"
 
-#: /et
 msgid "Sys Admin:"
 msgstr "Admin:"
 
-#: /et
 msgid "Terms of use"
 msgstr "Kasutustingimused"
 
-#: /et/kasutustingimused
 msgid ""
 "<p><strong>Terms of use</strong></p>\n"
 "<p> By definition, open data must published under a licence which permits "
@@ -1522,7 +1177,6 @@ msgstr ""
 "avaldaja omad, ega kuulu mingi kasutuslitsentsi alla, välja arvatud kui on "
 "märgitud teisiti.</p>\r\n"
 
-#: /
 msgid ""
 "<p><strong>Contact</strong></p>\n"
 "<p>Questions concerning registration or uploading of open data should be "
@@ -1538,7 +1192,6 @@ msgstr ""
 "avaandmete kasutamisega seotud küsimuste korral palume pöörduda aadressile "
 "<a href=\"mailto:opendatahelp@mkm.ee\">opendatahelp@mkm.ee</a>.</p>\r\n"
 
-#: /
 msgid ""
 "<p><strong>Help information</strong></p>\n"
 "<p>Further information on publishing data on the portal and on the topic of "
@@ -1563,7 +1216,6 @@ msgstr ""
 "kasutamisega seotud küsimuste korral palume pöörduda aadressile <a href="
 "\"mailto:opendatahelp@mkm.ee\">opendatahelp@mkm.ee</a>.</p>"
 
-#: /et/about
 msgid ""
 "<p><strong>What is the open data portal?</strong></p>\n"
 "<p><a href=\"http://opendata.riik.ee\" rel=\"nofollow\">The open data "
@@ -1704,7 +1356,6 @@ msgstr ""
 "kontakteeruge konkreetsete küsimuste korral <a href=\"/kontaktid\" rel="
 "\"nofollow\">kontaktide</a> lehel toodud aadressidel.</p>\r\n"
 
-#: /
 msgid ""
 "<p>The entire content of the portal and all datasets are available for "
 "download by all users, including anonymous ones.</p>\n"
@@ -1738,7 +1389,6 @@ msgstr ""
 " <p>&nbsp;</p><li id=\"id-card-login-link\"><a href=\"/id_card_login\">Log "
 "in with an ID card</a></li></ul> "
 
-#: /et/user
 msgid ""
 "<div id=\"login_hints\"><p>The entire content of the portal and all datasets "
 "are available for download by all users, including anonymous ones.</p>\n"
@@ -1763,11 +1413,9 @@ msgstr ""
 "a> alt.</p>\r\n"
 "<p>Sisse logimiseks kasutage alltoodud võimalusi:</p>"
 
-#: /et/admin/structure/pages/edit/page-faq
 msgid "Frequently asked questions"
 msgstr "Korduma kippuvad küsimused"
 
-#: /et/admin/structure/pages/edit/page-faq
 msgid ""
 "<p><strong>1. What is the government open data portal?</strong></p>\n"
 "\n"
@@ -2127,11 +1775,9 @@ msgstr ""
 "<p>Kasvab! Projekti edenedes lisandub portaali uusi avaandmeid ja portaal "
 "seotakse ka teiste riikide avaandmete portaalidega.</p>"
 
-#: /et/roheline-raamat
 msgid "Guidelines"
 msgstr "Juhendid"
 
-#: /et/roheline-raamat
 msgid ""
 "<p>Here you can find guidelines pertaining to the use of the portal, "
 "publication of datasets and their use.</p>\n"
@@ -2182,15 +1828,12 @@ msgstr ""
 "avaldamise juhend</a></li>\r\n"
 "</ul>"
 
-#: /et/roheline-raamat
 msgid "Green paper on open data"
 msgstr "Avaandmete roheline raamat"
 
-#: /et/apps
 msgid "More info"
 msgstr "Lisainfo"
 
-#: /et/roheline-raamat
 msgid ""
 "<p><strong>1. What is the government open data portal?</strong></p>\n"
 "\n"
@@ -2549,11 +2192,9 @@ msgstr ""
 "<p>Kasvab! Projekti edenedes lisandub portaali uusi avaandmeid ja portaal "
 "seotakse ka teiste riikide avaandmete portaalidega.</p>"
 
-#: /et/roheline-raamat
 msgid "Green Paper on Open Data"
 msgstr "Avaandmete roheline raamat"
 
-#: /et/roheline-raamat
 msgid ""
 "<p>The Green Paper on Open Data is the first systematic government report on "
 "the open data policy in Estonia, setting out its guiding principles, "
@@ -2604,7 +2245,6 @@ msgstr ""
 "avalikustamise-roheline-raamat-20141125_0.odt\" rel=\"nofollow\">avaliku-"
 "teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt</a></p>"
 
-#: /et/roheline-raamat
 msgid ""
 "<p><strong>1. What is the government open data portal?</strong></p>\n"
 "\n"
@@ -2964,127 +2604,96 @@ msgstr ""
 "<p>Kasvab! Projekti edenedes lisandub portaali uusi avaandmeid ja portaal "
 "seotakse ka teiste riikide avaandmete portaalidega.</p>"
 
-#: /
 msgid "Add your app"
 msgstr "Lisa oma rakendus"
 
-#: /
 msgid "Login to add your app"
 msgstr "Rakenduse lisamiseks logi sisse"
 
-#: /
 msgid "Login to take part in forums"
 msgstr "Foorumites osalemiseks logi sisse"
 
-#: /
 msgid "Create new forum topic (for authenticated users)"
 msgstr "Ava uus foorumi teema (autenditud kasutajale)"
 
-#: /
 msgid "Create new forum topic"
 msgstr "Ava uus foorumi teema"
 
-#: /et/apps
 msgid "Search ..."
 msgstr "Otsi ..."
 
-#: /et/apps
 msgid "Click search icon to see all content in this category"
 msgstr "Kogu sisu nägemiseks selles kategoorias vajuta otsinguikoonil"
 
-#: /et/apps
 msgid "results"
 msgstr "tulemust"
 
-#: /et/forum
 msgid "Newest forum topics"
 msgstr "Uusimad foorumi teemad"
 
-#: /
 msgid "Free"
 msgstr "Tasuta"
 
-#: /
 msgid "Partially Free"
 msgstr "Osaliselt tasuta"
 
-#: /
 msgid "Paid for"
 msgstr "Tasuline"
 
-#: /et/forum/%C3%BCldine-diskussioon/linkandmed
 msgid "Posted by "
 msgstr "Postitas"
 
-#: /et/forum/%C3%BCldine-diskussioon/linkandmed
 msgid "Categories"
 msgstr "Kategooriad"
 
-#: /node/add/forum
 msgid "Create forum topic"
 msgstr "Uue teema lisamine"
 
-#: /et/apps
 msgid "Site Usage"
 msgstr "Portaali kasutus"
 
-#: /apps/haridussilm
 msgid "Updated "
 msgstr "Uuendatud"
 
-#: /
 msgid " new"
 msgstr " uut"
 
-#: /et/admin/config/search/apachesolr/search-pages/block/mlt-001/delete?render=overlay
 msgid "In the same category"
 msgstr "Samast kategooriast"
 
-#: /et/forum
 msgid "No replies so far"
 msgstr "Seni vastuseid pole"
 
-#: /et/admin/structure/views/view/forum_categories/preview/forum_categories_block/ajax
 msgid "<span class=\"counter\">@count</span> topics"
 msgstr "<span class=\"counter\">@count</span> teemat "
 
-#: /et/admin/structure/views/view/forum_categories/preview/forum_categories_block/ajax
 msgid "<span class=\"counter\">1</span> topic"
 msgstr "<span class=\"counter\">1</span> teema"
 
-#: /et/admin/structure/views/view/forum_categories/preview/forum_categories_block/ajax
 msgid "<span class=\"counter\">@count</span> replies"
 msgstr "<span class=\"counter\">@count</span> vastust"
 
-#: /et/forum/categories
 msgid "1</span> new"
 msgstr "1</span> uus"
 
-#: /et/forum/categories
 msgid "1 new"
 msgstr "1 uus"
 
-#: /et/forum/categories
 msgid "<span class=\"counter\">1</span> reply"
 msgstr "<span class=\"counter\">1</span> vastus "
 
-#: /et/node/39/edit?destination=node/39
 msgid "Partially free"
 msgstr "Osaliselt tasuta"
 
-#: /et/search/everything/andmed
 msgid "Sort by:"
 msgstr "Sorteeri:"
 
-#: /search/everything/rakendus?solrsort=score
 msgid "@count <span class=\"result-count-type\">results"
 msgstr "@count <span class=\"result-count-type\">tulemust "
 
-#: /search/everything/riigiraha?solrsort=score
 msgid "1 <span class=\"result-count-type\">result"
 msgstr "1 <span class=\"result-count-type\">tulemus"
 
-#: blocks:block:1:body
 msgid ""
 "<h2>The Open Data Portal provides a single point of access for general "
 "public to unrestricted public sector data with the permission to "
@@ -3096,7 +2705,6 @@ msgstr ""
 "edasijagamise õigusega ärilistel ja mitteärilistel "
 "eesmärkidel.</h2>"
 
-#: blocks:block:3:body
 msgid ""
 "<ul>\r\n"
 "\t<li>to stimulate economy</li>\r\n"
@@ -3124,11 +2732,9 @@ msgstr ""
 "internet</em></li>\r\n"
 "</ul>\r\n"
 
-#: blocks:block:3:title
 msgid "Goals of opening up data:"
 msgstr "Andmete avamise olulisemad eesmärgid:"
 
-#: blocks:block:5:body
 msgid ""
 "<div style=\"float:right;text-align:right;font-size:0.8em\"><p>The "
 "Open Data Portal is created as part of the EU structural funds' "
