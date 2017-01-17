@@ -1,0 +1,3142 @@
+# Estonian translations for Open Data Portal http://opendata.riik.ee/.
+# Copyright (C) 2015-2017 Ministry of Economic Affairs and Communications.
+# This file is distributed under the same license as the Datagov project.
+#
+# Jaanus Heinlaid <jaanus.heinlaid@gmail.com>, 2015.
+# Ain Rada <kuraaka@gmail.com>, 2016.
+# Märt Põder <tramm@infoaed.ee>, 2016, 2017.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-01-17 18:25+0200\n"
+"PO-Revision-Date: 2017-01-17 18:38+0200\n"
+"Last-Translator: Märt Põder <tramm@infoaed.ee>\n"
+"Language: et\n"
+"Language-Team: Estonian <>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_base.inc:30
+msgid "Free"
+msgstr "Tasuta"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_base.inc:31
+msgid "Partially Free"
+msgstr "Osaliselt tasuta"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_base.inc:32
+msgid "Paid for"
+msgstr "Tasuline"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:18
+msgid ""
+"Please provide a helpful summary of your apps for when your app is "
+"displayed on open data portal."
+msgstr ""
+"Palun lisage informatiivne kokkuvõte oma rakendusest, mida antud "
+"portaalis kuvatakse."
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:62
+#: dgu_d7/modules/features/dgu_blog/dgu_blog.features.field_instance.inc:63
+#: dgu_d7/modules/features/dgu_data_set_request/dgu_data_set_request.features.field_instance.inc:1200
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:62
+#: dgu_d7/modules/features/dgu_library/dgu_library.features.field_instance.inc:46
+#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.features.field_instance.inc:700
+msgid "Read more"
+msgstr "Loe lisaks"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:97
+msgid "Description"
+msgstr "Kirjeldus"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:170
+msgid "App charge"
+msgstr "Rakenduse kasutustasu"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:189
+msgid "Enter the URL of this app."
+msgstr "Sisesta selle rakenduse URL."
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:238
+msgid "App Link"
+msgstr "Link rakendusele"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:301
+msgid "App thumbnail"
+msgstr "Rakenduse pisipilt"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:375
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:169
+msgid "Category"
+msgstr "Kategooria"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:432
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:226
+#: dgu_d7/modules/features/dgu_services/dgu_services.module:109
+msgid "Comments"
+msgstr "Kommentaarid"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:514
+msgid "Developed by"
+msgstr "Autor"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:628
+msgid ""
+"Please supply additional images of your application so that users can see"
+" what it does by clicking on thumbnails."
+msgstr ""
+"Lisage täiendavaid pilte, mis illustreerivad rakenduse võimalusi. Neid "
+"kuvatakse antud portaalis rakenduse lehel, ja on klikatavad suuremaks."
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:681
+msgid "Screen shots"
+msgstr "Ekraanitõmmised"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:711
+msgid ""
+"Please specify if the application you are submitting has been commission "
+"by public sector department, private sector or 3rd sector (voluntary/non-"
+"profit)."
+msgstr ""
+"Palun määrake, kas antud rakenduse tellijaks on avalik sektor, erasektor "
+"või on ta loodud vabatahtlikult / kasumit taotlemata."
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:740
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:278
+msgid "Sector"
+msgstr "Sektor"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:788
+msgid "Submitter e-mail"
+msgstr "Registreerija e-mail"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:838
+msgid "Submitter Name"
+msgstr "Registreerija nimi"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:860
+msgid ""
+"A comma-separated list of terms describing this content. Example: funny, "
+"bungee jumping, \"Company, Inc.\"."
+msgstr ""
+"Koma-eraldatud loetelu sõnadest, mis kirjeldavad antud rakendust. Näited:"
+" meelelahutus, haridus, \"kino ja teater\"."
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:899
+msgid "Keywords"
+msgstr "Võtmesõnad"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.field_instance.inc:983
+msgid "Uses dataset"
+msgstr "Kasutab andmehulka"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.features.inc:72
+msgid ""
+"Please submit examples of Internet-based applications that make use of "
+"publicly-available government data sources."
+msgstr ""
+"Sisestage näiteid Interneti-põhistest rakendustest, mis kasutavad avaliku"
+" sektori poolt avalikustatud andmehulki."
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:18
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:19
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:26
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:32
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:49
+#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:50
+msgid "Apps"
+msgstr "Rakendused"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:21
+msgid "Latest apps"
+msgstr "Uusimad rakendused"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:28
+msgid "Top rated apps"
+msgstr "Enim hinnatud rakendused"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:47
+msgid "Submit an app"
+msgstr "Lisa rakendus"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:80
+msgid "Submitted "
+msgstr "Lisatud "
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.module:82
+msgid "Updated "
+msgstr "Uuendatud "
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:269
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:567
+msgid "Add your app (for authenticated users)"
+msgstr "Lisa oma rakendus (autenditud kasutajatele)"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:271
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:569
+msgid "Add your app"
+msgstr "Lisa oma rakendus"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:310
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:607
+msgid "Add your app (for anonymous users)"
+msgstr "Lisa oma rakendus (anonüümsetele kasutajatele)"
+
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:312
+#: dgu_d7/modules/features/dgu_app/dgu_app.pages_default.inc:609
+msgid "Login to add your app"
+msgstr "Logi sisse rakenduse lisamiseks"
+
+#: dgu_d7/modules/features/dgu_blog/dgu_blog.features.menu_links.inc:18
+#: dgu_d7/modules/features/dgu_blog/dgu_blog.module:22
+msgid "Latest Blogs"
+msgstr "Uusimad blogid"
+
+#: dgu_d7/modules/features/dgu_blog/dgu_blog.features.menu_links.inc:36
+msgid "Most popular Blogs"
+msgstr "Populaarseimad blogid"
+
+#: dgu_d7/modules/features/dgu_data_set_request/dgu_data_set_request.module:645
+msgid "Add comment"
+msgstr "Lisa kommentaar"
+
+#: dgu_d7/modules/features/dgu_data_set_request/dgu_data_set_request.module:646
+msgid "Submit comment"
+msgstr "Saada kommentaar"
+
+#: dgu_d7/modules/features/dgu_flags/dgu_flags.features.inc:29
+msgid "Flag as offensive"
+msgstr "Märgi sobimatuks"
+
+#: dgu_d7/modules/features/dgu_flags/dgu_flags.features.inc:32
+msgid "Unflag this item"
+msgstr "Märgi sobivaks"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:27
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:84
+msgid "Terms of use"
+msgstr "Kasutustingimused"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:86
+msgid ""
+"By definition, open data must published under a licence which permits its"
+" free and unlimited use, processing and distribution. Under the licence, "
+"it must be possible to distribute the data at the discretion of the user "
+"either without charge or for a fee. For example, Creative Commons "
+"licences are regularly used by open data publishers"
+msgstr ""
+"Avaandmete põhimõtted näevad ette, et mistahes avaandmete hulgal peab "
+"olema litsents, mis võimaldab tema vaba, piiranguteta kasutamist, "
+"töötlemist ja levitamist, sealjuures võimaldama levitamist kasutaja "
+"valikul nii tasuta kui tasu eest. Näiteks levinud kasutuslitsentsid, mida"
+" avaandmete juures kasutatakse, pärinevad mittetulundusühingu Creative "
+"Commons litsentside loetelust"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:88
+msgid ""
+"The datasets published on this portal can be, as a rule, re-used under "
+"the licence that is named in the records of a particular dataset. Where "
+"no particular licence is indicated, the portal\\'s default licence is "
+"Creative Commons BY 4.0. The records (meta-data) of all datasets "
+"registered on the portal are published under the same license"
+msgstr ""
+"Antud portaalis avaldatud andmehulgad on üldjuhul kasutatavad litsentsi "
+"alusel, mis on andmehulga infos konkreetselt välja toodud. Kui andmehulga"
+" kasutuslitsents on mingil põhjusel märkimata, siis antud portaal loeb "
+"selleks vaikimisi Creative Commons&#39;i &quot;BY&quot; litsentsi "
+"versioon 4.0. Sama litsentsi alla käib ka kõigi antud portaalis "
+"registreeritud andmehulkade info"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:90
+msgid "Principles of data publication"
+msgstr "Avaldamise põhiprintsiibid"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:92
+msgid ""
+"This portal works on the premise that all datasets and dataset records "
+"published here can be used freely, redistributed and re-used, serving the"
+" goals of opening up data, which are listed on the home page. This, by "
+"default, is also required by the Creative Commons BY licence named above."
+" The ideas and questions posted on the forum, and the applications "
+"accessed on the Apps page belong to their publishers and are not subject "
+"to any licencing, unless indicated otherwise"
+msgstr ""
+"Antud portaal eeldab, et kõik siin avaldatud andmehulgad ja nende kohta "
+"lisatud info on portaali poolt vabalt kasutatav, edasi jagatav ja "
+"taaskasutatv, ning teenib andmete avaldamise olulisi eesmärke, mis "
+"avalehel on loetletud. Selle eelduse tingib ka vaikimis Creative Commons "
+"BY litsent, mis plalpool märgitud. Foorumis avaldatud ideed ja küsimused,"
+" ning Rakenduste all loetletud rakendused on avaldaja omad, ega kuulu "
+"mingi kasutuslitsentsi alla, välja arvatud kui on märgitud teisiti"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:133
+msgid "Contact"
+msgstr "Kontaktid"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:227
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:271
+msgid "Help"
+msgstr "Abi"
+
+#: dgu_d7/modules/features/dgu_footer/dgu_footer.pages_default.inc:284
+msgid "Help information"
+msgstr "Abiinfo portaali kasutamise kohta"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:97
+msgid "Body"
+msgstr "Sisu"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:348
+msgid "Related datasets"
+msgstr "Seotud andmehulgad"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.field_instance.inc:410
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:23
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:34
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:38
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:54
+msgid "Forums"
+msgstr "Foorumid"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.menu_links.inc:18
+msgid "Latest forum topics"
+msgstr "Uusimad foorumi teemad"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.menu_links.inc:36
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:181
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:190
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.views_default.inc:18
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.views_default.inc:25
+msgid "Forum categories"
+msgstr "Foorumite kategooriad"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.features.menu_links.inc:54
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:45
+msgid "Most popular topics"
+msgstr "Most popular topics"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:24
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:42
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:55
+msgid "Categories"
+msgstr "Kategooriad"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:39
+msgid "Newest forum topics"
+msgstr "Uusimad foorumi teemad"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.module:133
+msgid "Create forum topic"
+msgstr "Loo uus foorumiteema"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:346
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:545
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:859
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:1077
+msgid "Login to take part in forums"
+msgstr "Foorumites osalemiseks logi sisse"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:383
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:503
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:816
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:1034
+msgid "Create new forum topic (for authenticated users)"
+msgstr "Loo uus foorumi teema (autenditud kasutajatele)"
+
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:505
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:818
+#: dgu_d7/modules/features/dgu_forum/dgu_forum.pages_default.inc:1036
+msgid "Create new forum topic"
+msgstr "Loo uus foorumi teema"
+
+#: dgu_d7/modules/features/dgu_glossary/dgu_glossary.features.filter.inc:16
+msgid "Plain text"
+msgstr "Vabatekst"
+
+#: dgu_d7/modules/features/dgu_moderation/dgu_moderation.module:239
+#: dgu_d7/modules/features/dgu_moderation/dgu_moderation.module:269
+msgid "Submit"
+msgstr "Salvesta"
+
+#: dgu_d7/modules/features/dgu_moderation/dgu_moderation.module:270
+msgid "published"
+msgstr "published"
+
+#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:39
+#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:125
+#: dgu_d7/modules/features/dgu_reply/dgu_reply.module:49
+#: dgu_d7/modules/features/dgu_reply/dgu_reply.module:100
+msgid "Comment"
+msgstr "Kommentaar"
+
+#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:82
+#: dgu_d7/modules/features/dgu_reply/dgu_reply.features.field_instance.inc:168
+#: dgu_d7/modules/features/dgu_user/dgu_user.views_default.inc:710
+#: dgu_d7/modules/features/dgu_user/dgu_user.views_default.inc:831
+#: dgu_d7/modules/features/dgu_user/dgu_user.views_default.inc:1069
+msgid "Subject"
+msgstr "Pealkiri"
+
+#: dgu_d7/modules/features/dgu_search/dgu_search.module:137
+#: dgu_d7/modules/features/dgu_search/dgu_search.module:168
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:144
+msgid "Search"
+msgstr "Otsi"
+
+#: dgu_d7/modules/features/dgu_search/templates/dgu_search_form.tpl.php:28
+msgid "Click search icon to see all content in this category"
+msgstr "Kogu sisu nägemiseks selles kategoorias vajuta otsinguikoonil"
+
+#: dgu_d7/modules/features/dgu_search/templates/dgu_search_form.tpl.php:37
+#: dgu_d7/modules/features/dgu_search/templates/dgu_search_info.tpl.php:9
+msgid "results"
+msgstr "tulemust"
+
+#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.features.filter.inc:16
+msgid "Filtered HTML"
+msgstr "Filtreeritud HTML"
+
+#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.features.filter.inc:58
+msgid "Full HTML"
+msgstr "Täielik HTML"
+
+#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.module:13
+msgid ""
+"The entire content of the portal and all datasets are available for "
+"download by all users, including anonymous ones."
+msgstr ""
+"Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile "
+"kasutajatele, sealhulgas ka anonüümsetele."
+
+#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.pages_default.inc:150
+msgid "What is open data portal?"
+msgstr "Mis on avaandmete portaal?"
+
+#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.pages_default.inc:615
+#: dgu_d7/modules/features/dgu_site_feature/dgu_site_feature.pages_default.inc:627
+msgid "Log in"
+msgstr "Logi sisse"
+
+#: dgu_d7/modules/features/dgu_user/dgu_user.module:284
+msgid "User account"
+msgstr "Kasutajakonto"
+
+#: dgu_d7/themes/custom/dguk/template.php:54
+msgid "Sumbitted "
+msgstr "Lisatud "
+
+#: dgu_d7/themes/custom/dguk/template.php:58
+msgid "Updated"
+msgstr "Uuendatud"
+
+#: dgu_d7/themes/custom/dguk/template.php:261
+msgid "Datasets"
+msgstr "Andmehulgad"
+
+#: dgu_d7/themes/custom/dguk/template.php:265
+msgid "Publishers"
+msgstr "Teabevaldajad"
+
+#: dgu_d7/themes/custom/dguk/template.php:269
+msgid "Site Analytics"
+msgstr "Portaali kasutus"
+
+#: dgu_d7/themes/custom/dguk/template.php:278
+msgid "Sys Admin:"
+msgstr "Admin:"
+
+#: dgu_d7/themes/custom/dguk/template.php:282
+msgid "System Dashboard"
+msgstr "Süsteemi töölaud"
+
+#: dgu_d7/themes/custom/dguk/template.php:286
+msgid "Harvest Sources"
+msgstr "Andmekorje allikad"
+
+#: dgu_d7/themes/custom/dguk/template.php:290
+msgid "Feedback moderation"
+msgstr "Tagasiside modereerimine"
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:47
+#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:48
+msgid "Home"
+msgstr "Avaleht"
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:48
+#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:49
+msgid "Data"
+msgstr "Andmed"
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:50
+#: dgu_d7/themes/custom/dguk/templates/page.tpl.php:51
+msgid "More info"
+msgstr "Lisainfo"
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:54
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:142
+msgid "Search for data..."
+msgstr "Otsi andmehulki..."
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:68
+msgid "Tools"
+msgstr "Tööriistad"
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:69
+msgid "Add a Dataset"
+msgstr "Lisa andmehulk"
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:70
+msgid "My publishers"
+msgstr "Minu teabevaldajad"
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:157
+msgid "Register and publish datasets by your organization."
+msgstr "Registreeri või lisa oma avalikustatud andmehulk."
+
+#: dgu_d7/themes/custom/dguk/templates/page--front.tpl.php:160
+msgid "Create a dataset"
+msgstr "Lisa andmehulk"
+
+#: dgu_d7/themes/custom/dguk/templates/reply.tpl.php:10
+msgid "Posted by"
+msgstr "Postitanud"
+
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
+#: forum-categories--block.tpl.php:38
+msgid "topics"
+msgstr "teemat"
+
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
+#: forum-categories--block.tpl.php:40
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
+#: forum-categories--block.tpl.php:46
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
+#: panel-pane.tpl.php:69
+msgid "new"
+msgstr "uut"
+
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--
+#: forum-categories--block.tpl.php:43
+msgid "replies"
+msgstr "vastust"
+
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
+#: panel-pane.tpl.php:50
+msgid "Created by"
+msgstr "Lisanud"
+
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
+#: panel-pane.tpl.php:54
+msgid "Posted in"
+msgstr "Kategoorias"
+
+#: dgu_d7/themes/custom/dguk/templates/views/views-view-fields--forum-topics--
+#: panel-pane.tpl.php:58
+msgid "New"
+msgstr "Uus"
+
+msgid "Topic"
+msgstr "Teema"
+
+msgid "Free"
+msgstr "Tasuta"
+
+msgid "App URL"
+msgstr "Rakenduse link"
+
+msgid "Comments"
+msgstr "Kommentaarid"
+
+#: ; misc/tabledrag.js
+msgid "Show row weights"
+msgstr "Näita ridade kaalusid"
+
+#: ; profiles/dgu/modules/contrib/quickedit/js/views/AppView.js;
+#: profiles/dgu/modules/contrib/quickedit/js/views/EntityToolbarView.js
+msgid "Save"
+msgstr "Salvesta"
+
+#: ; modules/field/modules/text/text.js
+msgid "Hide summary"
+msgstr "Peida kokkuvõte"
+
+#: ; modules/field/modules/text/text.js
+msgid "Edit summary"
+msgstr "Muuda kokkuvõtet"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Help"
+msgstr "Abi"
+
+#: /admin/config/regional/language?render=overlay
+msgid "App"
+msgstr "Rakendus"
+
+msgid "Name"
+msgstr "Nimi"
+
+#: /admin/config/regional/language?render=overlay
+msgid ""
+"Please submit examples of Internet-based applications that make use of "
+"publicly-available government data sources."
+msgstr ""
+"Sisestage näiteid Interneti-põhistest rakendustest, mis kasutavad avaliku "
+"sektori poolt avalikustatud andmehulki."
+
+msgid "Title"
+msgstr "Pealkiri"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Forum topic"
+msgstr "Foorumi teema"
+
+msgid "Subject"
+msgstr "Teema"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Dataset"
+msgstr "Andmehulk"
+
+msgid "Comments"
+msgstr "Kommentaarid"
+
+#: /admin/config/regional/language
+msgid "Reply"
+msgstr "Vasta"
+
+#: /admin/config/regional/language?render=overlay
+msgid "User account"
+msgstr "Kasutajakonto"
+
+msgid "Comment"
+msgstr "Kommentaar"
+
+msgid "Plain text"
+msgstr "Vabatekst"
+
+#: /admin/config/regional/language
+msgid "Apps"
+msgstr "Rakendused"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Overview"
+msgstr "Ülevaade"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Translate"
+msgstr "Tõlgi"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Datasets"
+msgstr "Andmehulgad"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Publishers"
+msgstr "Teabevaldajad"
+
+#: ; misc/machine-name.js; profiles/dgu/modules/contrib/features/features.js
+msgid "Edit"
+msgstr "Muuda"
+
+msgid "Delete"
+msgstr "Kustuta"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Are you sure you want to delete %title?"
+msgstr "Kas olete kindel, et soovite kustutada %title? "
+
+#: /admin/config/regional/language?render=overlay
+msgid "%title has been updated."
+msgstr "%title uuendatud."
+
+#: /admin/config/regional/language?render=overlay
+msgid "%title could not be updated."
+msgstr "%title ei olnud võimalik uuendada."
+
+#: /admin/config/regional/language?render=overlay
+msgid "View"
+msgstr "Vaata"
+
+msgid "Summary"
+msgstr "Kokkuvõte"
+
+msgid "Text format"
+msgstr "Tekstiformaat"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Content type"
+msgstr "Sisutüüp"
+
+msgid "Language"
+msgstr "Keel"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Author"
+msgstr "Autor"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Login page"
+msgstr "Logi sisse"
+
+#: /admin/config/regional/language
+msgid "Access"
+msgstr "Ligipääs"
+
+#: /admin/config/regional/language
+msgid "Search"
+msgstr "Otsi"
+
+#: /admin/config/regional/language
+msgid "Name (raw)"
+msgstr "Nimi"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Data"
+msgstr "Andmed"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Publisher"
+msgstr "Teabevaldaja"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Home"
+msgstr "Avaleht"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Log out"
+msgstr "Logi välja"
+
+#: /admin/config/regional/language
+msgid "Add content"
+msgstr "Lisa sisu"
+
+#: /admin/config/regional/language?render=overlay
+msgid "Hello <strong>@username</strong>"
+msgstr "Kasutaja: <strong>@username</strong> "
+
+msgid "Submitted by !username on !datetime"
+msgstr "Lisanud !username !datetime"
+
+msgid "English"
+msgstr "Inglise"
+
+msgid "Estonian"
+msgstr "Eesti"
+
+#: /index.php
+msgid "Sort by"
+msgstr "Sorteeri"
+
+#: /index.php
+msgid "Last updated"
+msgstr "Viimane uuendus"
+
+#: /index.php
+msgid "Latest apps"
+msgstr "Uusimad rakendused"
+
+msgid "Forum"
+msgstr "Foorum"
+
+#: /index.php
+msgid "Average"
+msgstr "Keskmine"
+
+#: /index.php
+msgid "Submitted by"
+msgstr "Lisanud"
+
+#: /index.php; profiles/dgu/modules/custom/autologout/autologout.js
+msgid "Yes"
+msgstr "Jah"
+
+#: /index.php; profiles/dgu/modules/custom/autologout/autologout.js
+msgid "No"
+msgstr "Ei"
+
+#: /index.php
+msgid "Forum categories"
+msgstr "Foorumite kategooriad"
+
+#: /index.php
+msgid "Category"
+msgstr "Kategooria"
+
+#: /index.php
+msgid "Sector"
+msgstr "Sektor"
+
+#: /index.php
+msgid "Tags"
+msgstr "Võtmesõnad"
+
+#: /index.php
+msgid "Disable rich-text"
+msgstr "Ära võimalda rich-text"
+
+#: /index.php
+msgid "Enable rich-text"
+msgstr "Võimalda rich-text"
+
+#: /index.php
+msgid "App charge"
+msgstr "Kasutustasu"
+
+#: /index.php
+msgid "Developed by"
+msgstr "Arendaja"
+
+#: /index.php
+msgid ""
+"Please provide a helpful summary of your apps for when your app is published "
+"data.gov.uk."
+msgstr ""
+"Palun lisage informatiivne kokkuvõte oma rakendusest, mida antud portaalis "
+"kuvatakse."
+
+#: /index.php
+msgid ""
+"Please supply additional images of your application so that users can see "
+"what it does.\n"
+"All images will be shown on your app page which click through to the full "
+"sized image"
+msgstr ""
+"Lisage täiendavaid pilte, mis illustreerivad rakenduse võimalusi. Neid "
+"kuvatakse antud portaalis rakenduse lehel, ja on klikatavad suuremaks."
+
+msgid "Forums"
+msgstr "Foorumid"
+
+#: /index.php
+msgid "updated @entity"
+msgstr "uuendatud @entity"
+
+#: /index.php
+msgid "updated content"
+msgstr "uuendatud sisu"
+
+#: /
+msgid "KKK"
+msgstr "FAQ"
+
+#: /admin/structure/menu/manage/menu-interact/add?render=overlay
+msgid "Upload"
+msgstr "Lae üles"
+
+#: /user
+msgid "Request new password"
+msgstr "Telli uus salasõna"
+
+#: /admin/structure/menu/manage/menu-interact/add?render=overlay
+msgid "This field is required."
+msgstr "See väli on kohustuslik."
+
+#: /admin/structure/pages/add?render=overlay;
+#: profiles/dgu/modules/contrib/media/js/media.format_form.js
+msgid "Cancel"
+msgstr "Loobu"
+
+#: /admin/structure/pages/add/page-avaleht/content?render=overlay
+msgid "Last"
+msgstr "Uusim"
+
+#: /admin/structure/pages/add/page-avaleht/content?render=overlay
+msgid "Thursday"
+msgstr "Neljapäev"
+
+#: /admin/structure/pages/add/page-avaleht/content?render=overlay
+msgid "@count years"
+msgstr "@count years"
+
+#: /admin/structure/pages/add/page-avaleht/content?render=overlay
+msgid "@count months"
+msgstr "@count kuud"
+
+msgid "More information about text formats"
+msgstr "Rohkem infot tekstiformaatide kohta"
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
+msgid ""
+"Empty paragraph killer - multiple returns will not break the site's style."
+msgstr "Mitu reavahetust järjest on lubatud ja ei tee portaali stiile katki."
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
+msgid "Web page addresses and e-mail addresses turn into links automatically."
+msgstr "Veebi ja e-posti aadressid muutuvad automaatselt linkideks."
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
+msgid "Allowed HTML tags: @tags"
+msgstr "Lubatud HTML elemendid: @tags "
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
+msgid "Lines and paragraphs break automatically."
+msgstr "Reavahetused ja paragrahvid luuakse nii nagu need kirjutate."
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
+msgid "No HTML tags allowed."
+msgstr "HTML elemendid pole lubatud."
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
+msgid "Additionally, these HTML elements will not be scanned: %blocked."
+msgstr " "
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom
+msgid ""
+"The Lexicon module will automatically mark terms that have been defined in "
+"the lexicon vocabulary with links to their descriptions. If there are "
+"certain phrases or sections of text that should be excluded from lexicon "
+"marking and linking, use the special markup, [no-lexicon] ... [/no-lexicon]."
+msgstr " "
+
+#: /panels/ajax/editor/add-pane/panel_context%3Apage-avaleht%3Apage_avaleht_panel_context/middle/custom/custom/form
+msgid "Remove"
+msgstr "Eemalda"
+
+#: /forum
+msgid "Relevance"
+msgstr "Asjakohasus"
+
+msgid "Add another item"
+msgstr "Lisa veel üks rida"
+
+#: /forum; profiles/dgu/modules/contrib/media/js/media.format_form.js
+msgid "Submit"
+msgstr "Saada"
+
+#: /apps
+msgid "Please enter some keywords."
+msgstr "Palun sisestage otsingusõnu."
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid ""
+"<ul>\n"
+"<li>Check if your spelling is correct, or try removing filters.</li>\n"
+"<li>Remove quotes around phrases to match each word individually: <em>\"blue "
+"drop\"</em> will match less than <em>blue drop</em>.</li>\n"
+"<li>You can require or exclude terms using + and -: <em>big +blue drop</em> "
+"will require a match on <em>blue</em> while <em>big blue -drop</em> will "
+"exclude results that contain <em>drop</em>.</li>\n"
+"</ul>"
+msgstr ""
+"<ul> <li>Veendu, et otsitus pole kirjavigu või eemalda otsingufiltreid.</li> "
+"<li>Eemalda jutumärgid otsitud fraasi ümbert: <em>\"avalik info\"</em> annab "
+"vähem vasteid kui <em>avalik info</em>.</li> <li>Otsingusõnu saab nõuda või "
+"välistada kasutades +/- märke: <em>+avalik info</em> nõuab vastet vähemalt "
+"sõnale <em>avalik</em>, samas kui <em>avalik -info</em> jätab tulemustest "
+"välja sõna <em>info</em> sisaldavad vasted.</li> </ul>"
+
+msgid "Language file"
+msgstr "Keelefail"
+
+msgid "Username"
+msgstr "Kasutajanimi"
+
+msgid "Password"
+msgstr "Salasõna"
+
+msgid "Display"
+msgstr "Kuva"
+
+msgid "E-mail address"
+msgstr "E-maili aadress"
+
+msgid "Blog"
+msgstr "Blogi"
+
+msgid "Language neutral"
+msgstr "Keeleneutraalne"
+
+msgid "Confirm password"
+msgstr "Kinnita salasõna"
+
+msgid "Flat list"
+msgstr "Tavaline loetelu"
+
+msgid "Threaded list"
+msgstr "Vestluste põhine loetelu"
+
+msgid "Add a new file"
+msgstr "Lisa uus fail"
+
+msgid "Files must be less than !size."
+msgstr "Failid ei tohi olla suuremad kui !size. "
+
+msgid "Allowed file types: !extensions."
+msgstr "Lubatud faili tüübid: !extensions. "
+
+msgid "Provide a menu link"
+msgstr "Tekita menüü link"
+
+msgid "- Select a value -"
+msgstr "- Vali väärtus - "
+
+msgid "Choose a file"
+msgstr "Vali fail"
+
+#: /user
+msgid "Log in"
+msgstr "Logi sisse"
+
+#: /user
+msgid "Username or e-mail address"
+msgstr "Kasutajanimi või e-maili aadress"
+
+#: /user
+msgid ""
+"You may login with either your assigned username or your e-mail address."
+msgstr ""
+"\r\n"
+"\r\n"
+"Te võite sisse logida kas oma kasutajanime või e-maili aadressiga."
+
+#: /user
+msgid "The password field is case sensitive."
+msgstr "Suur -ja väiketähtedel tehakse vahet."
+
+#: /user
+msgid ""
+"Spaces are allowed; punctuation is not allowed except for periods, hyphens, "
+"apostrophes, and underscores."
+msgstr ""
+"Tühikud on lubatud; kirjavahemärkidest lubatud ainult punkt, sidekriips ja "
+"alakriips."
+
+#: /user
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"Kõik süsteemi poolt saadetavad Teile mõeldud elektronkirjad saadetakse "
+"sellele aadressile. Seda aadressi ei publitseerita kusagil ning sinna "
+"saadetakse soovi korral ka Teie uus salasõna."
+
+#: /user
+msgid "Provide a password for the new account in both fields."
+msgstr "Sisestage salasõna mõlemasse kasti."
+
+#: /user
+msgid "Create new account"
+msgstr "Loo uus konto"
+
+#: /user
+msgid "Password must be at least %length characters."
+msgstr "Salasõna peab olema vähemalt %length tähemärki pikk."
+
+#: /user
+msgid "Password strength:"
+msgstr "Salasõna tugevus:"
+
+#: /user
+msgid "To make your password stronger:"
+msgstr "Salasõna tugevdamiseks"
+
+#: /user
+msgid "Make it at least 6 characters"
+msgstr "Pikkus vähemalt 6 tähemärki"
+
+#: /user
+msgid "Add lowercase letters"
+msgstr "Lisa väiketähti"
+
+#: /user
+msgid "Add uppercase letters"
+msgstr "Lisa suurtähti"
+
+#: /user
+msgid "Add numbers"
+msgstr "Lisa numbreid"
+
+#: /user
+msgid "Add punctuation"
+msgstr "Lisa kirjavahemärke"
+
+#: /user
+msgid "yes"
+msgstr "jah"
+
+#: /user
+msgid "no"
+msgstr "ei"
+
+#: /user
+msgid "Weak"
+msgstr "Nõrk"
+
+#: /user
+msgid "Fair"
+msgstr "Rahuldav"
+
+#: /user
+msgid "Good"
+msgstr "Hea"
+
+#: /user
+msgid "Strong"
+msgstr "Tugev"
+
+#: /user
+msgid "Passwords match:"
+msgstr "Salasõnad klapivad:"
+
+#: /user
+msgid "Click on the image and drag to mark how the image will be cropped"
+msgstr "Kliki pildil ja märgista milline osa pildist võetakse"
+
+#: /user
+msgid "I have an account"
+msgstr "Mul juba on kasutajakonto"
+
+#: /user
+msgid "I want to create an account"
+msgstr "Tahan luua kasutajakonto"
+
+#: /search/everything/?f[0]=bundle%3Aapp
+msgid "Rakendused"
+msgstr "Rakendused"
+
+#: /node/add/app
+msgid "Inherit"
+msgstr "Päritud"
+
+#: /node/add/app
+msgid "Disabled (Hidden)"
+msgstr "Maha keeratud (varjatud)"
+
+#: /node/add/app
+msgid "Read only (Closed)"
+msgstr "Ainult loetavad (Suletud)"
+
+#: /node/add/app
+msgid "Read and write (Open)"
+msgstr "Loetavad ja muudetavad (Avatud)"
+
+#: /node/add/app
+msgid "On the same page"
+msgstr "Samal lehel"
+
+#: /node/add/app
+msgid "On custom page"
+msgstr "Eraldi lehel"
+
+#: /node/add/app
+msgid "Allow replying on replies"
+msgstr "Luba vastustele vastata"
+
+#: /node/add/app
+msgid "Allow"
+msgstr "Luba"
+
+#: /node/add/app
+msgid "Deny"
+msgstr "Keela"
+
+#: /node/add/app
+msgid "The link title is limited to @maxlength characters maximum."
+msgstr "Lingi pealkirja maksimalane pikkus on @maxlength tähemärki."
+
+#: /node/add/app
+msgid "Leave blank to use trimmed value of full text as the summary."
+msgstr ""
+"Jätke tühjaks kui soovite, et teksti kokkuvõtteks oleks kogu tekst täies "
+"mahus."
+
+#: /node/add/app
+msgid "Created by !user."
+msgstr "Postitas !user. "
+
+#: /manuals
+msgid "Friday"
+msgstr "Reede"
+
+#: /admin/config.php
+msgid "Access denied"
+msgstr "Ligipääs keelatud"
+
+#: /admin/config.php
+msgid "Access Denied / User log in"
+msgstr "Ligipääs puudub / Kasutaja login"
+
+#: /admin/config.php
+msgid ""
+"Access denied. You may need to login below or register to access this page."
+msgstr ""
+"Ligipääs keelatud. Peate sisse logima või registreeruma selle lehe "
+"kasutamiseks."
+
+#: /admin/structure/taxonomy/category/add?render=overlay&render=overlay
+msgid "Sunday"
+msgstr "Pühapäev"
+
+#: /file/ajax/field_app_thumbnail/und/0/form-v-kRebeZyCAvJ2RBbOTQk5NXuSQ0ZsRvEs2w5EUb68s
+msgid "!name field is required."
+msgstr "!name väli on kohustuslik."
+
+msgid "Add new comment"
+msgstr "Lisa uus kommentaar"
+
+#: /apps/digital-agenda-scoreboard
+msgid "Average: <span !microdata>!stars</span>"
+msgstr "Keskmine: <span !microdata>!stars</span>"
+
+#: /apps/digital-agenda-scoreboard
+msgid "<span>@count</span> votes"
+msgstr "<span>@count</span> häält"
+
+#: /apps/digital-agenda-scoreboard
+msgid "No votes yet"
+msgstr "Pole veel hääli antud"
+
+#: /
+msgid "Login to make a comment"
+msgstr "Kommenteerimiseks logi sisse"
+
+#: /node/4
+msgid "1 topic"
+msgstr "1 teema"
+
+#: /forum
+msgid "@count sec"
+msgstr "@count sek"
+
+#: /users/admin
+msgid "%time ago"
+msgstr "%time tagasi"
+
+#: /node/add/page
+msgid "Read more<span class=\"element-invisible\"> about @title</span>"
+msgstr "Loe lisaks<span class=\"element-invisible\"> @title</span> "
+
+#: /reply/add/4/82/0
+msgid "%bundle was successfully created."
+msgstr "%bundle edukalt loodud."
+
+msgid "1 min"
+msgstr "1 minut"
+
+#: /forum
+msgid " reply"
+msgstr " vastus"
+
+msgid "@count min"
+msgstr "@count min"
+
+#: /users/lellsaar
+msgid "@count weeks"
+msgstr "@count nädalat"
+
+msgid "@count days"
+msgstr "@count päeva"
+
+msgid "@count hours"
+msgstr "@count tundi"
+
+#: /admin/content?render=overlay
+msgid "Updated"
+msgstr "Uuendatud"
+
+#: /reply/1/delete?destination=users%2Fadmin%23overlay%3Dadmin%2Fcontent%2Freply
+msgid "This action cannot be undone."
+msgstr "Seda aktsiooni ei ole võimalik hiljem tagasi võtta."
+
+#: /reply/2/edit?destination=admin/content/reply
+msgid "%bundle was successfully updated."
+msgstr "%bundle edukalt uuendatud."
+
+msgid "1 hour"
+msgstr "1 tund"
+
+msgid "@time ago"
+msgstr "@time tagasi"
+
+#: /admin/people/create?render=overlay&render=overlay
+msgid "Monday"
+msgstr "Esmaspäev"
+
+#: /admin/structure/features/dgu_forum/status
+msgid "[nid] topics"
+msgstr "[nid] teemat"
+
+#: /forum/categories
+msgid "[id] replies"
+msgstr "[id] vastust"
+
+#: /id_card_login
+msgid "ID-Card login"
+msgstr "ID-kaardi login"
+
+#: /id_card_login
+msgid "ID-Card login page"
+msgstr "ID-kaardi login leht"
+
+msgid "Wed"
+msgstr "kolmapäev"
+
+msgid "Wednesday"
+msgstr "Kolmapäev"
+
+#: /id_card_login
+msgid "Logged in with @id_code."
+msgstr "Logitud sisse isikukoodiga @id_code. "
+
+#: /user
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"Viga kasutajanimes või salasõnas! Kui oled salasõna või kasutajanime "
+"unustanud, pöördu aadressile <a href=\"mailto:opendatasupport@mkm.ee"
+"\">opendatasupport@mkm.ee</a> ."
+
+#: /user
+msgid "Log in with ID-Card"
+msgstr "Logi sisse ID-kaardiga"
+
+#: /users/admin
+msgid "1 week"
+msgstr "1 nädal"
+
+#: /user
+msgid "Log in using Mobiil-ID"
+msgstr "Logi sisse Mobiili-ID abil"
+
+#: /user
+msgid "Insert your phone number to log in"
+msgstr "Sisestage oma mobiiltelefoni number:"
+
+#: /user
+msgid "What is Mobiil-ID?"
+msgstr "Mis on Mobiil-ID?"
+
+#: /user
+msgid "Cancel Mobiil-ID login"
+msgstr "Loobu Mobiil-IDga sisse logimisest"
+
+#: /system/ajax
+msgid "The inserted phone number doesn't have a valid Mobiil-ID contract."
+msgstr ""
+"Sisestatud telefoninumber on sertifikaadi kehtivuskinnituse teenusele "
+"tundmatu."
+
+#: /system/ajax
+msgid "Authentication cancelled!"
+msgstr "Autentimine tühistati!"
+
+#: /system/ajax
+msgid "Signature is not valid!"
+msgstr "Digi-allkiri ei ole valiidne!"
+
+#: /system/ajax
+msgid "Authentication has expired!"
+msgstr "Autentimine aegus!"
+
+#: /system/ajax
+msgid "Mobiil-ID service is unavailable at the moment!"
+msgstr "Mobiil-ID teenus ei ole hetkel kättesaadav!"
+
+#: /system/ajax
+msgid "Phone is not reachable!"
+msgstr "Telefon ei ole kättesaadav!"
+
+#: /system/ajax
+msgid "Could not send the authentication message to the phone!"
+msgstr "Autentimise sõnumi saatmine telefonile ebaõnnestus!"
+
+#: /system/ajax
+msgid "SIM card error!"
+msgstr "SIM kaardi viga!"
+
+#: /system/ajax
+msgid "Technical error of Mobiil-ID service!"
+msgstr "Tehniline viga Mobiil-ID teenuses!"
+
+#: /system/ajax
+msgid ""
+"Follow the instructions on your phone. Before entering your PIN code make "
+"sure the verification code given here matches the one on your phone screen. "
+"After successful login you will be automatically redirected to the next page."
+msgstr ""
+"Järgige instruktsioone oma telefoni ekraanil. Enne PIN koodi sisestamist "
+"veenduge, et siin kuvatud kontrollnumber kattub sellega, mis kuvatud "
+"telefoni ekraanil. Pärast edukat sisse logimist suunatakse Teid automaatselt "
+"järgmisele lehele."
+
+#: /id_card_login
+msgid "Access Denied"
+msgstr "Ligipääs puudub"
+
+#: /id_card_login
+msgid "You are not authorized to access this page."
+msgstr "Ligipääs puudub."
+
+#: /users/admin
+msgid "1 month"
+msgstr "1 kuu"
+
+#: /services/xmlrpc
+msgid "Access denied for user @user"
+msgstr "Ligipääs keelatud kasutajale @user"
+
+#: /node/5
+msgid "@count topics"
+msgstr "@count teemat"
+
+#: /user/27/edit?destination=admin%2Fpeople&render=overlay
+msgid "Saturday"
+msgstr "Laupäev"
+
+#: /id_card_login
+msgid "Tuesday"
+msgstr "Teisipäev"
+
+#: /forum
+msgid " replies"
+msgstr " vastust"
+
+msgid "read more"
+msgstr "loe lisaks"
+
+msgid "%ago ago"
+msgstr "%ago tagasi"
+
+msgid "By !author @time ago"
+msgstr "!author poolt @time tagasi"
+
+msgid "Subject textfield"
+msgstr "Subjekti tekstiväli"
+
+#: /forum/andmete-kasutamine/traktor
+msgid "<i class=\"icon-exclamation-sign\"></i> &nbsp;Flag as offensive"
+msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
+
+#: /forum/andmete-kasutamine/jaanus-foorum-2
+msgid " <i class=\"icon-exclamation-sign\"></i> &nbsp;Flag as offensive"
+msgstr "<i class=\"icon-exclamation-sign\"></i> &nbsp;Märgi sobimatuks"
+
+#: /forum/andmete-kasutamine/traktor
+msgid "Flag as offensive"
+msgstr "Märgi sobimatuks"
+
+#: /node/18/edit
+msgid "@type %title has been updated."
+msgstr "@type %title uuendatud."
+
+#: /
+msgid "Abi"
+msgstr "Help"
+
+#: /user
+msgid "Sign in with Mobiil-ID"
+msgstr "Logi sisse Mobiil-IDga"
+
+#: /apps/digital-agenda-scoreboard-0
+msgid "not verified"
+msgstr "tuvastamata"
+
+#: /forum
+msgid "1 year"
+msgstr "1 aasta"
+
+#: /et
+msgid "What is open data portal?"
+msgstr "Mis on avaandmete portaal?"
+
+#: /
+msgid "Additional info"
+msgstr "Lisainfo"
+
+#: /
+msgid "Search for data..."
+msgstr "Otsi andmehulki..."
+
+#: /et/juhendid
+msgid "Site usage"
+msgstr "Portaali kasutus"
+
+#: /et
+msgid "Estonian Open Data Portal"
+msgstr "Avaandmete portaal"
+
+#: /et
+msgid "Sys Admin:"
+msgstr "Admin:"
+
+#: /et
+msgid "Terms of use"
+msgstr "Kasutustingimused"
+
+#: /et/kasutustingimused
+msgid ""
+"<p><strong>Terms of use</strong></p>\n"
+"<p> By definition, open data must published under a licence which permits "
+"its free and unlimited use, processing and distribution. Under the licence, "
+"it must be possible to distribute the data at the discretion of the user "
+"either without charge or for a fee. For example, <a href=\"http://et."
+"wikipedia.org/wiki/Creative_Commons\" rel=\"nofollow\">Creative Commons</a> "
+"licences are regularly used by open data publishers.</p>\n"
+"<p>The datasets published on this portal can be, as a rule, re-used under "
+"the licence that is named in the records of a particular dataset. Where no "
+"particular licence is indicated, the portal's default licence is Creative "
+"Commons BY <a href=\"http://creativecommons.org/licenses/by/4.0/deed.et\" "
+"rel=\"nofollow\">4.0</a>. The records (meta-data) of all datasets registered "
+"on the portal are published under the same license.</p>\n"
+"<p><strong>Principles of data publication</strong></p>\n"
+"<p>This portal works on the premise that all datasets and dataset records "
+"published here can be used freely, redistributed and re-used, serving the "
+"goals of opening up data, which are listed on the home page. This, by "
+"default, is also required by the Creative Commons BY licence named above. "
+"The ideas and questions posted on the forum, and the applications accessed "
+"on the <a href=\"/apps\" rel=\"nofollow\">Apps</a> page belong to their "
+"publishers and are not subject to any licencing, unless indicated otherwise."
+"</p>\n"
+"<p>&nbsp;</p>"
+msgstr ""
+"<p><strong>Kasutustingimused</strong></p>\r\n"
+"<p>Avaandmete põhimõtted näevad ette, et mistahes avaandmete hulgal peab "
+"olema litsents, mis võimaldab tema vaba, piiranguteta kasutamist, töötlemist "
+"ja levitamist, sealjuures võimaldama levitamist kasutaja valikul nii tasuta "
+"kui tasu eest. Näiteks levinud kasutuslitsentsid, mida avaandmete juures "
+"kasutatakse, pärinevad mittetulundusühingu <a href=\"http://et.wikipedia.org/"
+"wiki/Creative_Commons\" rel=\"nofollow\">Creative Commons</a> litsentside "
+"loetelust.</p>\r\n"
+"<p>Antud portaalis avaldatud andmehulgad on üldjuhul kasutatavad litsentsi "
+"alusel, mis on andmehulga infos konkreetselt välja toodud. Kui andmehulga "
+"kasutuslitsents on mingil põhjusel märkimata, siis antud portaal loeb "
+"selleks vaikimisi Creative Commons'i \"BY\" litsentsi <a href=\"http://"
+"creativecommons.org/licenses/by/4.0/deed.et\" rel=\"nofollow\">versioon 4.0</"
+"a>. Sama litsentsi alla käib ka kõigi antud portaalis registreeritud "
+"andmehulkade info.</p>\r\n"
+"<p><strong>Avaldamise põhiprintsiibid</strong></p>\r\n"
+"<p>Antud portaal eeldab, et kõik siin avaldatud andmehulgad ja nende kohta "
+"lisatud info on portaali poolt vabalt kasutatav, edasi jagatav ja "
+"taaskasutatv, ning teenib andmete avaldamise olulisi eesmärke, mis avalehel "
+"on loetletud. Selle eelduse tingib ka vaikimis Creative Commons BY litsent, "
+"mis plalpool märgitud. Foorumis avaldatud ideed ja küsimused, ning <a href="
+"\"/apps\" rel=\"nofollow\">Rakenduste</a> all loetletud rakendused on "
+"avaldaja omad, ega kuulu mingi kasutuslitsentsi alla, välja arvatud kui on "
+"märgitud teisiti.</p>\r\n"
+
+#: /
+msgid ""
+"<p><strong>Contact</strong></p>\n"
+"<p>Questions concerning registration or uploading of open data should be "
+"sent to: <a href=\"mailto:opendatasupport@mkm.ee\">opendatasupport@mkm.ee</"
+"a>.<br />Questions concerning the use of uploaded or registered open data "
+"should be sent to: <a href=\"mailto:opendatahelp@mkm.ee\">opendatahelp@mkm."
+"ee</a>.</p>"
+msgstr ""
+"<p><strong>Kontaktid</strong></p>\r\n"
+"<p>Avaandmete üles laadimise või registreerimisega seotud küsimuste korral "
+"palume pöörduda aadressile <a href=\"mailto:opendatasupport@mkm.ee"
+"\">opendatasupport@mkm.ee</a>.<br />Üles laaditud või registreritud "
+"avaandmete kasutamisega seotud küsimuste korral palume pöörduda aadressile "
+"<a href=\"mailto:opendatahelp@mkm.ee\">opendatahelp@mkm.ee</a>.</p>\r\n"
+
+#: /
+msgid ""
+"<p><strong>Help information</strong></p>\n"
+"<p>Further information on publishing data on the portal and on the topic of "
+"open data in general can be found on the pages accessible from the menu MORE "
+"INFO.</p>\n"
+"<p>Should you be unable to find answers to your questions from these pages, "
+"please send your information request to either of the following e-mail "
+"addresses:</p>\n"
+"<p>Questions concerning registration or uploading of open data: <a href="
+"\"mailto:opendatasupport@mkm.ee\">opendatasupport@mkm.ee</a>.<br />Questions "
+"concerning the use of uploaded or registered open data: <a href=\"mailto:"
+"opendatahelp@mkm.ee\">opendatahelp@mkm.ee</a>.</p>"
+msgstr ""
+"<p><strong>Abiinfo portaali kasutamise kohta</strong></p>\r\n"
+"<p>Informatsiooni andmehulkade lisamise kohta ning avaandmete temaatikast "
+"laiemalt leiate LISAINFO menüü valikute alt.</p>\r\n"
+"<p>Kui Te nimetatud lehtedelt oma küsimustele vastust ei leia, siis palume "
+"abi saamiseks pöörduda järgmistele e-posti aadressidele:</p>\r\n"
+"<p>Avaandmete üles laadimise või registreerimisega seotud küsimuste korral "
+"palume pöörduda aadressile <a href=\"mailto:opendatasupport@mkm.ee"
+"\">opendatasupport@mkm.ee</a>.<br />Üles laetud või registreritud avaandmete "
+"kasutamisega seotud küsimuste korral palume pöörduda aadressile <a href="
+"\"mailto:opendatahelp@mkm.ee\">opendatahelp@mkm.ee</a>.</p>"
+
+#: /et/about
+msgid ""
+"<p><strong>What is the open data portal?</strong></p>\n"
+"<p><a href=\"http://opendata.riik.ee\" rel=\"nofollow\">The open data "
+"portal</a> is intended to serve as a platform where to gather the records of "
+"the public<em>datasets</em> created by public bodies and local authorities "
+"and where new datasets can be made public. On one hand, it is a place where "
+"the owners of the dataset or <em>holders of information</em> can register or "
+"upload their datasets. On the other hand, it is a place where the "
+"stakeholders and regular citizens can search and download the published data "
+"and use it for further processing or information requests.</p>\n"
+"<p><strong>Goals of opening up data:</strong></p>\n"
+"<p>Opening up data, their collection and making available on a single "
+"platforms serve several important purposes:</p>\n"
+"<ul><li>to stimulate economy;</li>\n"
+"<li>to increase transparency;</li>\n"
+"<li>to decrease the number of information requests and, consequently, also "
+"reduce the workload of public sector workers;</li>\n"
+"<li>to facilitate creation and management of open services for private and "
+"community sectors</li>\n"
+"<li>to encourage migration to future technologies such as <a href=\"http://"
+"et.wikipedia.org/wiki/Linkandmed\" rel=\"nofollow\">Linked Data</a>, \"<a "
+"href=\"http://en.wikipedia.org/wiki/Internet_of_Things\" rel=\"nofollow"
+"\">Internet of Things</a>\" ja \"<a href=\"http://en.wikipedia.org/wiki/"
+"Big_data\" rel=\"nofollow\">Big Data</a>\".</li>\n"
+"</ul><p><strong>What are open data?</strong></p>\n"
+"<p>Open data is taken to mean raw data that is freely made available online "
+"for use by everybody in a machine readable format without any restrictions "
+"on use and distribution. In general, if no charge is stipulated in "
+"legislation for the retrieval of data, the open data can be retrieved free "
+"of charge and without any restrictions on access. More information (in "
+"Estonian) on the principles, technologies and processes of opening up data "
+"is available <a href=\"http://opendata.riik.ee/juhendid/juhend-avaandmete-"
+"avaldamiseks-ning-avaandemete-portaali-kasutamiseks\" rel=\"nofollow\">here</"
+"a>.</p>\n"
+"<p><strong>What kind of data can be found here?</strong></p>\n"
+"<p>All datasets which are created by government agencies and local "
+"authorities, whose public use is not directly forbidden and which contain "
+"other data than personal data are to be made public and registered on the "
+"open data portal. If the datasets contain both personal and non-personal "
+"data, only the non-personal parts of the data will be made public.</p>\n"
+"<p>In particular, the data in the datasets to be published should in general "
+"be created, collected or administered by a government agency or local "
+"authority. A government agency or a local authority may, with the consent of "
+"a third party, also publish the data of that third party if it considers it "
+"to be of sufficient interest to the public.</p>\n"
+"<p>Such datasets may be collections of agreements, regulations, "
+"correspondence metadata, budget files, statistics files, databases/registers "
+"converted into a publicly readable format or web services which retrieve "
+"information from such databases/registers. It is not reasonable to regard a "
+"single agreement, regulation, etc. as a separate dataset whereas a single "
+"database typically should be regarded as a separate dataset.</p>\n"
+"<p>In technical sense, a published dataset may be either a collection of "
+"human-readable text files (such as a collection of statutes, regulations, "
+"agreements or official announcements) or a collection of machine-readable "
+"data (such as a database that is exported to CSV or XML files or a web "
+"service that allows searching and downloading all data in the dataset in, "
+"for example, json or xml format).</p>\n"
+"<p><strong>How can open data be used?</strong></p>\n"
+"<p>Published datasets can be used in many different ways and for different "
+"purposes, e.g., trend analyses in particular policy areas over certain "
+"periods of time, comparison of datasets of different government agencies and "
+"ministries in order to detect dependencies and derive potential new "
+"information, etc. Stakeholders who possess sufficient technical capabilities "
+"may, using published raw data, create useful and interesting applications "
+"and services for the public.</p>\n"
+"<p><strong>Where can I find more information?</strong></p>\n"
+"<p>Read the materials found on the pages accessible from the menu MORE INFO "
+"or, should you have a specific question, send it to one of the e-mail "
+"addresses listed on the <a href=\"/kontaktid\" rel=\"nofollow\">Contacts</a> "
+"page.</p>\n"
+msgstr ""
+"<p><strong>Mis on avaandmete portaal?</strong></p>\r\n"
+"<p><a href=\"http://opendata.riik.ee\" rel=\"nofollow\">Avaandmete portaal</"
+"a> ehk teabevärav on mõeldud riigi ja kohalike omavalitsuste loodud avalike "
+"<em>andmehulkade</em> info koondamiseks ja uute andmekogude avalikustamise "
+"hõlbustamiseks. Ühelt poolt on see koht, kus andmehulkade omanikud ehk "
+"<em>teabevaldajad</em> saavad oma avalikke andmhulki registreerida või üles "
+"laadida. Teisalt on see koht, kus huvitatud pooled ja tavakodanikud saavad "
+"avalikustatud andmehulki otsida, neid alla laadida ja edasiseks töötluseks "
+"või päringuteks kasutada.</p>\r\n"
+"<p><strong>Miks on andmete avamine vajalik?</strong></p>\r\n"
+"<p>Andmete avamine ning nende koondamise ja leidmise hõlbustamine teenib "
+"mitmeid olulisi eesmärke:</p>\r\n"
+"<ul><li>majanduse elavdamine;</li>\r\n"
+"<li>läbipaistvuse suurendamine;</li>\r\n"
+"<li>teabenõuete arvu vähendamine ja sellega avaliku sektori koormuse "
+"vähendamine;</li>\r\n"
+"<li>avatud teenuste loomise ja haldamise võimaldamine era- ja vabasektorile</"
+"li>\r\n"
+"<li>õhutada üleminekut tuleviku tehnoloogiatele nagu <a href=\"http://et."
+"wikipedia.org/wiki/Linkandmed\" rel=\"nofollow\">linkandmed</a>, \"<a href="
+"\"http://en.wikipedia.org/wiki/Internet_of_Things\" rel=\"nofollow\">asjade "
+"Internet</a>\" ja \"<a href=\"http://en.wikipedia.org/wiki/Big_data\" rel="
+"\"nofollow\">big data</a>\".</li>\r\n"
+"</ul><p><strong>Mis on avaandmed?</strong></p>\r\n"
+"<p>Avaandmete all mõistame kõigile avalikult vabalt kasutamiseks antud, "
+"veebist kättesaadavaid, masinloetavas formaadis toorandmeid ilma kasutamis-, "
+"patentide- ja levitamispiiranguteta. Üldjuhul, kui seaduses ei ole andmete "
+"hankimise eest ette nähtud tasu, saab avaandmeid kätte tasuta ja ilma "
+"ligipääsupiiranguteta. Lähemalt võib andmete avalikustamise põhimõtetest, "
+"protsessidest ja tehnoloogiatest lugeda <a href=\"http://opendata.riik.ee/"
+"juhendid/juhend-avaandmete-avaldamiseks-ning-avaandemete-portaali-"
+"kasutamiseks\" rel=\"nofollow\">siit</a>.</p>\r\n"
+"<p><strong>Mis laadi andmeid siit võib leida?</strong></p>\r\n"
+"<p>Avalikustamisele ning avaandmete portaalis registreerimisele kuuluvad "
+"kõik nii riigiametite kui kohalike omavalitsuste loodud andmehulgad, mille "
+"avalik kasutus ei ole otseselt keelatud ning mis sisaldavad ka muid andmeid "
+"peale isikuandmete. Andmehulkadest, mis sisaldavad nii isikuandmeid kui muid "
+"andmeid, avalikustatakse ainult mitte-isikuandmete osad.</p>\r\n"
+"<p>Konkreetsemalt peaksid avalikustatavates andmehulkades sisalduvad andmed "
+"olema üldjuhul riigiameti või kohaliku omavalituse poolt loodavad, kogutavad "
+"või hallatavad. Riigiamet või omavalitsus võib kokkuleppel mõne kolmanda "
+"osapoolega avalikustada ka selle kolmanda osapoole andmeid, kui peab neid "
+"avalikkusele piisavalt huvipakkuvaks.</p>\r\n"
+"<p>Taolised andmehulgad võivad olla näiteks lepingutekstide kogud, määruste "
+"tekstide kogud, kirjavahetuse metainfo kogud, eelarvefailid, "
+"statistikafailid, avalikult loetavasse formaati konverteeritud andmebaasid/"
+"registrid või siis neist andmeid väljastavad veebiteenused. Üksikuid "
+"lepinguid, määrusi jne ei ole mõistlik käsitleda eraldi andmehulgana, samas "
+"kui üksikut andmebaasi tüüpiliselt on mõistlik käsitleda eraldi andmehulgana."
+"</p>\r\n"
+"<p>Avalikustatav andmehulk võib tehnilises mõttes olla nii kogumik "
+"inimloetavaid tekstifaile (näiteks seaduste või määruste kogu, ametlike "
+"teadete kogu, lepingute kogu) kui kogum masinloetavaid andmeid (näiteks CSV "
+"või XML formaadis failideks eksporditud andmebaas või veebiteenus, mis "
+"võimaldab otsida ja alla laadida kõiki andmehulga andmeid näiteks json või "
+"xml formaadis).</p>\r\n"
+"<p><strong>Kuidas avaandmeid kasutada?</strong></p>\r\n"
+"<p>Avalikustatud andmehulki on võimalik kasutada mitmetel erinevatel "
+"viisidel. Näiteks trendianalüüsid teatud poliitikavaldkonna teatud "
+"ajalõikes, erinavte riigiametite ja osakondade andmhulkade võrdlemine seoste "
+"ja potentsiaalselt uue informatsiooni tuletamiseks jne. Vastava tehnilise "
+"võimekusega huvitatud pooled võivad avalikustatud toorandmete baasil luua "
+"kasulikke ja huvipakkuvaid rakendusi ning teenuseid kogu avalikkusele.</p>"
+"\r\n"
+"<p><strong>Kust ma leian veel informatsiooni?</strong></p>\r\n"
+"<p>Kasutage LISAINFO menüü alt leitavaid täiendavaid materjale või "
+"kontakteeruge konkreetsete küsimuste korral <a href=\"/kontaktid\" rel="
+"\"nofollow\">kontaktide</a> lehel toodud aadressidel.</p>\r\n"
+
+#: /
+msgid ""
+"<p>The entire content of the portal and all datasets are available for "
+"download by all users, including anonymous ones.</p>\n"
+"\n"
+"<p>In order to use forums and provide feedback, you must be logged in to the "
+"portal. In order to be able to publish and administer datasets, a logged in "
+"user must be linked to a particular holder of information and have the "
+"requisite rights. For a detailed description of this process, see the "
+"relevant chapter in the guidelines for information holders which can be "
+"found under <a href=\"/juhendid\">More info-&gt;Guidelines</a></p>\n"
+"\n"
+"<p style=\"padding-bottom:10px\">To log in, use any of the following options:"
+"</p>\n"
+"\n"
+"<p>&nbsp;</p><ul style=\"list-style:none;padding-left:0px;\"><li id=\"id-"
+"card-login-link\"><a href=\"/id_card_login\">Log in with an ID card</a></"
+"li></ul>"
+msgstr ""
+"<p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile "
+"kasutajatele, sealhulgas ka anonüümsetele.</p>\r\n"
+"\r\n"
+"<p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse "
+"logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja "
+"olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle "
+"portsessi kohta võib lugeda vastavast peatükist teabevaldajate "
+"kasutusjuhendis, mis on leitav <a href=\"/juhendid\">Lisainfo-&gt;Juhendid</"
+"a> alt.</p>\r\n"
+"\r\n"
+"<p>Sisse logimiseks kasutage alltoodud võimalusi:</p>\r\n"
+"\r\n"
+" <p>&nbsp;</p><li id=\"id-card-login-link\"><a href=\"/id_card_login\">Log "
+"in with an ID card</a></li></ul> "
+
+#: /et/user
+msgid ""
+"<div id=\"login_hints\"><p>The entire content of the portal and all datasets "
+"are available for download by all users, including anonymous ones.</p>\n"
+"\n"
+"<p>In order to use forums and provide feedback, you must be logged in to the "
+"portal. In order to be able to publish and administer datasets, a logged in "
+"user must be linked to a particular holder of information and have the "
+"requisite rights. For a detailed description of this process, see the "
+"relevant chapter in the guidelines for information holders which can be "
+"found under <a href=\"/juhendid\">More info-&gt;Guidelines</a></p>\n"
+"\n"
+"<p style=\"padding-bottom:10px\">To log in, use any of the following options:"
+"</p></div>"
+msgstr ""
+"<p>Kogu portaali sisu ja andmehulkade alla tõmbamine on avatud kõigile "
+"kasutajatele, sealhulgas ka anonüümsetele.</p>\r\n"
+"<p>Foorumites osalemiseks ning tagasiside andmiseks tuleb portaali sisse "
+"logida. Andmehulkade lisamiseks ja haldamiseks peab sisse loginud kasutaja "
+"olema seotud konkreetse teabevaldajaga vajalikes õigustes. Täpsemalt selle "
+"portsessi kohta võib lugeda vastavast peatükist teabevaldajate "
+"kasutusjuhendis, mis on leitav <a href=\"/juhendid\">Lisainfo-&gt;Juhendid</"
+"a> alt.</p>\r\n"
+"<p>Sisse logimiseks kasutage alltoodud võimalusi:</p>"
+
+#: /et/admin/structure/pages/edit/page-faq
+msgid "Frequently asked questions"
+msgstr "Korduma kippuvad küsimused"
+
+#: /et/admin/structure/pages/edit/page-faq
+msgid ""
+"<p><strong>1. What is the government open data portal?</strong></p>\n"
+"\n"
+"<p>The open data portal is intended to serve as a platform for the "
+"dissemination of data by public bodies and for searching and retrieving such "
+"datasets by open data users.</p>\n"
+"\n"
+"<p>On the open data portal, it is possible:</p>\n"
+"\n"
+"<ul>\n"
+"<li>to search and download open data;</li>\n"
+"<li>to publish new open data: to gain access to this functionality, a prior "
+"registration with the portal's administrator is required;</li>\n"
+"<li>to use it as a storage of datasets by government agencies and local "
+"authorities;</li>\n"
+"<li>to search and use applications created on the basis of open data;</li>\n"
+"<li>to post news, questions and instructions pertaining to open data and to "
+"have discussions on relevant topics.</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>2. Why open up data?</strong></p>\n"
+"\n"
+"\n"
+"<p>Opening up data and their collection, storage and dissemination serves "
+"the following important goals:</p>\n"
+"\n"
+"<ul>\n"
+"<li>to stimulate economy by the re-use of data;</li>\n"
+"<li>to increase the transparency of the public sector;</li>\n"
+"<li>to decrease the number of information requests and, consequently, also "
+"reduce the workload of public sector workers;</li>\n"
+"<li>to facilitate creation and management of open services for private and "
+"community sectors;</li>\n"
+"<li>to encourage migration to future technologies such as <a href=\"http://"
+"et.wikipedia.org/wiki/Linkandmed\">Linked Data</a>, \"<a href=\"http://en."
+"wikipedia.org/wiki/Internet_of_Things\">Internet of Things</a>\" and \"<a "
+"href=\"http://en.wikipedia.org/wiki/Big_data\">Big Data</a>\".</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>3. What to publish?</strong></p>\n"
+"\n"
+"<p>The publication of data created by public sector bodies serves many "
+"purposes, most importantly allowing private individuals, companies and third "
+"sector bodies simply to examine the existing data or to use it in their "
+"software applications to create value added. .</p>\n"
+"\n"
+"<p>All datasets which are created by government agencies and local "
+"authorities, whose public use is not directly forbidden and which contain "
+"other data than personal data are to be made public. If the datasets contain "
+"both personal and non-personal data, only the non-personal parts of the data "
+"will be made public.</p>\n"
+"\n"
+"<p>In particular, the data in the datasets to be published should in general "
+"be created, collected or administered by a government agency or local "
+"authority. A government agency or a local authority may, with the consent of "
+"a third party, also publish the data of that third party if it considers it "
+"to be of sufficient interest to the public.</p>\n"
+"\n"
+"<p><strong>4.Which principles need to be followed when publishing datasets?</"
+"strong></p>\n"
+"\n"
+"<p>Two goals must be balanced while publishing datasets:</p>\n"
+"\n"
+"<ul>\n"
+"<li>the data presentation should be convenient and understandable for the "
+"users;</li>\n"
+"<li>the data publisher should be able to publish data with ease and minimal "
+"effort.</li>\n"
+"</ul>\n"
+"\n"
+"<p>Public sector data shall be considered open if it is made public in a way "
+"that complies with the principles below: (retrieved from: <a href=\"http://"
+"www.opengovdata.org/home/8principles\" title=\"http://www.opengovdata.org/"
+"home/8principles\">http://www.opengovdata.org/home/8principles</a> ):</p>\n"
+"\n"
+"<p style=\"margin-left:40px\">1. Complete<br />\n"
+"All public data is made available. Public data is data that is not subject "
+"to valid privacy, security or privilege limitations.<br />2. Primary<br /"
+">Data is as collected at the source, with the highest possible level of "
+"granularity, not in aggregate or modified forms.<br />3. Timely<br />Data is "
+"made available as quickly as necessary to preserve the value of the data."
+"<br />4. Accessible<br />Data is available to the widest range of users for "
+"the widest range of purposes.<br />5. Machine processable<br />Data is "
+"reasonably structured to allow automated processing.<br />6. Non-"
+"discriminatory<br />Data is available to anyone, with no requirement of "
+"registration.<br />7. Non-proprietary<br />Data is available in a format "
+"over which no entity has exclusive control.<br />8. Licence-free<br />Data "
+"is not subject to any copyright, patent, trademark or trade secret "
+"regulation. Reasonable privacy, security and privilege restrictions may be "
+"allowed.</p>\n"
+"\n"
+"<p><strong>5. How can my organisation publish data on this portal?</strong></"
+"p>\n"
+"\n"
+"<p>A Guidance for data publishers is found here…</p>\n"
+"\n"
+"<p><strong>6. Will personal information be at risk?</strong></p>\n"
+"\n"
+"<p>The published data will not identify or provide ways to identify "
+"individuals, unless that information is already published (such as the names "
+"of the civil servants working at the ministries).</p>\n"
+"\n"
+"<p><strong>7. What are the licence requirements for the published data?</"
+"strong></p>\n"
+"\n"
+"<p>The open data must published under a licence which permits its free and "
+"unlimited use, processing and distribution. Under the licence, it must be "
+"possible to distribute the data at the discretion of the user either without "
+"charge or for a fee.</p>\n"
+"\n"
+"<p>We recommend that you pick a CreativeCommons licence, see <a href="
+"\"http://creativecommons.org/\" title=\"http://creativecommons.org/\">http://"
+"creativecommons.org/</a>From among the licences listed on the site, we "
+"recommend the CC by 3.0 licence: <a href=\"http://creativecommons.org/"
+"licenses/by/3.0/\" title=\"http://creativecommons.org/licenses/by/3.0/"
+"\">http://creativecommons.org/licenses/by/3.0/</a></p>\n"
+"\n"
+"<p><strong>8. Can the published data be used for commercial purposes (such "
+"as for the creation of paid services)?</strong></p>\n"
+"\n"
+"<p>Reuse of data for commercial purposes is permitted. We will be more than "
+"delighted if profitable services are created using our data.</p>\n"
+"\n"
+"<p><strong>9. What format and encoding types are recommended for datasets?</"
+"strong></p>\n"
+"\n"
+"<p>As a principle, it is better to publish the data in an inconvenient "
+"format than to leave it unpublished at first and wait for a planned "
+"improvement in its encoding in the future. A published dataset can always be "
+"republished in a new and better encoding. We recommend that you publish your "
+"open data <strong>at least in a 3-star format</strong>.</p>\n"
+"\n"
+"<p>The system of the Five Stars of Openness was developed in the UK by Tim "
+"Berners-Lee and we follow exactly the same scoring and goals: more stars "
+"means better format/encoding for the user. For examples and further "
+"information: <a href=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-"
+"example/\" title=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/"
+"\">http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/</a></p>\n"
+"\n"
+"<p><strong>10. How can people use opendata.riik.ee?</strong></p>\n"
+"\n"
+"<p>TBA</p>\n"
+"\n"
+"<p><strong>11. How can people submit applications created on the basis of "
+"open data?</strong></p>\n"
+"\n"
+"<p>Go to the Apps page where you can find information on all applications "
+"which have so far been created on the basis of the open data. Once you have "
+"logged in to the portal, you can also submit your comments on the "
+"applications. Using a corresponding link on the Apps page, you can also "
+"submit your own application for publication on the portal. When approved by "
+"the administator, your application will be added to the portal.</p>\n"
+"\n"
+"<p><strong>12. Is there a place where it is possible to discuss ideas, "
+"applications and using of the data?</strong></p>\n"
+"\n"
+"<p>Yes, the portal's Forum serves that purpose. Furthermore, comments can be "
+"added to specific datasets and applications and we also have an open "
+"wishlist for new datasets.</p>\n"
+"\n"
+"<p><strong>13. Where can I find further information on open data?</strong></"
+"p>\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"http://riso.ee/et/avaandmete-roheline-raamat\">The Estonian "
+"Green Book on the Publication of Machine Readable Public Data (in Estonian)</"
+"a>.</li>\n"
+"<li><a href=\"https://riigikantselei.ee/sites/default/files/content-editors/"
+"TOF/TOF_uuringud/lingitud_eesti_lopparuanne_2.0.pdf\">Study 'Linked "
+"Estonia' (in Estonian)</a>.</li>\n"
+"<li><a href=\"https://www.riigiteataja.ee/en/eli/518012016001/consolide"
+"\">Public Information Act (English translation)</a>.</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>14. Will more public data become available in the future?</"
+"strong></p>\n"
+"\n"
+"<p>Certainly! As the work on the project progresses, new open data will be "
+"added to the portal and the portal will also be linked to the open data "
+"portals of other countries.</p>"
+msgstr ""
+"<p><strong>1. Mis on riigi avaandmete portaal?</strong></p>\r\n"
+"\r\n"
+"<p>Aandmete portaal on mõeldud andmete avalikustamise hõlbustamiseks "
+"ametkondadele ja taoliste andmehulkade leidmise kergendamiseks avaldatud "
+"andmete kasutajatele.</p>\r\n"
+"\r\n"
+"<p>Avaandmete portaali peamised ülesanded on:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>Otsida ja alla laadida ava-andmeid.</li>\r\n"
+"<li>Lisada uusi avaandmeid: selleks on eelnevalt vaja portaali registreeruda "
+"ja saada ligipääsõigus portaali haldaja käest.</li>\r\n"
+"<li>Kasutada andmehulkade hoidlat, mis on üks võimalikest kohtadest, kuhu "
+"avaandmeid salvestada.</li>\r\n"
+"<li>Kasutada ja leida avaandmete põhjal loodud rakendusi.</li>\r\n"
+"<li>Võimaldada avaandmete teemal uudiste, küsimuste, diskussioonide ja "
+"juhendite postitamine.</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>2. Miks andmed avalikustada?</strong></p>\r\n"
+"\r\n"
+"\r\n"
+"<p>Andmete avamine ning nende koondamise ja leidmise hõlbustamine teenib "
+"mitmeid olulisi eesmärke:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>majanduse elavdamine andmete taaskasutuse läbi;</li>\r\n"
+"<li>avaliku sektori läbipaistvuse suurendamine;</li>\r\n"
+"<li>teabenõuete arvu vähendamine ja sellega avaliku sektori koormuse "
+"vähendamine;</li>\r\n"
+"<li>avatud teenuste loomise ja haldamise võimaldamine era- ja vabasektorile;"
+"</li>\r\n"
+"<li>õhutada üleminekut tuleviku tehnoloogiatele nagu <a href=\"http://et."
+"wikipedia.org/wiki/Linkandmed\">linkandmed</a>, \"<a href=\"http://en."
+"wikipedia.org/wiki/Internet_of_Things\">asjade Internet</a>\" ja \"<a href="
+"\"http://en.wikipedia.org/wiki/Big_data\">big data</a>\".</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>3. Mida avalikustada</strong></p>\r\n"
+"\r\n"
+"<p>Ametkondlikult loodud andmete avalikustamisel on mitmed olulised "
+"eesmärgid, kõige konkreetsemad neist on isikute, ettevõtete ja kolmanda "
+"sektori huvi kas lihtsalt tutvuda olemasolevate andmetega või kasutada neid "
+"oma tarkvara-rakendustes lisaväärtuse loomiseks mingis valdkonnas.</p>\r\n"
+"\r\n"
+"<p>Avalikustamisele kuuluvad kõik nii riigiametite kui kohalike "
+"omavalitsuste loodud andmehulgad, mille avalik kasutus ei ole otseselt "
+"keelatud ning mis sisaldavad ka muid andmeid peale isikuandmete. "
+"Andmehulkadest, mis sisaldavad nii isikuandmeid kui muid andmeid, "
+"avalikustatakse ainult mitte-isikuandmete osad.</p>\r\n"
+"\r\n"
+"<p>Konkreetsemalt peaksid avalikustatavates andmehulkades sisalduvad andmed "
+"olema üldjuhul riigiameti või kohaliku omavalituse poolt loodavad, kogutavad "
+"või hallatavad. Riigiamet või omavalitsus võib kokkuleppel mõne kolmanda "
+"osapoolega avalikustada ka selle kolmanda osapoole andmeid, kui peab neid "
+"avalikkusele piisavalt huvipakkuvaks.</p>\r\n"
+"\r\n"
+"<p><strong>4. Millised on andmehulga avalikustamise põhimõtted?</strong></p>"
+"\r\n"
+"\r\n"
+"<p>Andmehulga avalikustamise juures tuleb otsida kompromissi kahe eesmärgi "
+"vahel:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>andmete mugav kasutatavus ja arusaadavus andmete otsijale ja "
+"allalaadijale</li>\r\n"
+"<li>andmete avalikustamise lihtsus ja töökulu minimeerimine avalikustajale.</"
+"li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p>Selleks, et andmehulka pidada avatuks, peab ta olema (vt ka "
+"originaalviidet <a href=\"http://www.opengovdata.org/home/8principles\" "
+"title=\"http://www.opengovdata.org/home/8principles\">http://www.opengovdata."
+"org/home/8principles</a> ):</p>\r\n"
+"\r\n"
+"<p>1. Terviklik<br />\r\n"
+"Kõik avalikud andmed tehakse kättesaadavaks, ehk teisisõnu kõik andmeid, "
+"mida ei piira isikuandmete või muul põhjusel salastatud andmete piirangud."
+"<br />2. Algallikast<br />Andmed on töötluseta kogutud algallikast, "
+"säilitades oma originaalkuju ja detailsuse.<br />3. Ajakohane<br />Andmehulk "
+"on avaldatud võimalikult kiirelt, et säilitada selle asjakohasus.<br />4. "
+"Kättesaadav<br />Andmed on saadavad võimalikult laiale kasutajateringile "
+"võimalikult laia kasutuseesmärgiga.<br />5. Masinloetav<br />Andmed on "
+"mõistetava struktuuriga ja automaatselt töödeldavad.<br />6. Mitte-"
+"diskrimineeriv<br />Andmed on esitatud avalikult, kättesaamiseks pole vaja "
+"registreeruda ega taotleda juurdepääsu.<br />7. Vabu standardeid kasutav<br /"
+">Andmed on esitatud vabas formaadis, mis ei ole ühegi ettevõtte ega isiku "
+"ainuomand.<br />8. Vaba litsentsiga<br />Andmed ei ole kaitstud "
+"autoriõiguse, patendi, kaubamärgi ega ärisaladuse regulatsiooniga. "
+"Mõistlikud privaatsus- ja turvalisuspiirangud võivad olla lubatud.</p>\r\n"
+"\r\n"
+"<p><strong>5. Kuidas toimub andmete avalikustamine?</strong></p>\r\n"
+"\r\n"
+"<p>Juhend andmete avalikustamiseks asub…</p>\r\n"
+"\r\n"
+"<p><strong>6. Kas on oht, et avalikustatakse ka isikuandmed?</strong></p>\r\n"
+"\r\n"
+"<p>Andmed, mis avalikustatakse, ei sisalda isikuandmeid ega võimalda "
+"avaldatud andmete kokku sobitamise teel isikuid identifitseerida, välja "
+"arvatud juhul kui informatsioon on niigi avalik (nt ministeeriumite "
+"töötajad).</p>\r\n"
+"\r\n"
+"<p><strong>7. Kas avaldatud andmetel peab olema ka litsents?</strong></p>\r\n"
+"\r\n"
+"<p>Avaandmete hulgal peab olema litsents, mis võimaldab tema vaba, "
+"piiranguteta kasutamist, töötlemist ja levitamist, sealjuures võimaldama "
+"levitamist kasutaja valikul nii tasuta kui tasu eest.</p>\r\n"
+"\r\n"
+"<p>Eelsitatult soovitame litsentsiks valida CreativeCommons litsentsi, vt "
+"täpsemalt <a href=\"http://creativecommons.org/\" title=\"http://"
+"creativecommons.org/\">http://creativecommons.org/</a>Sealloetletud "
+"litsentsidest soovitame eeskätt CC by 3.0 litsentsi: <a href=\"http://"
+"creativecommons.org/licenses/by/3.0/\" title=\"http://creativecommons.org/"
+"licenses/by/3.0/\">http://creativecommons.org/licenses/by/3.0/</a></p>\r\n"
+"\r\n"
+"<p><strong>8. Kas portaalis avaldavat informatsiooni võib kasutada ärilistel "
+"eesmärkidel (nt tasuliste teenuste loomiseks)?</strong></p>\r\n"
+"\r\n"
+"<p>Andmetetaaskasutamineärilisteleesmärkidel on lubatudning on super, "
+"kuiandmetetaaskasutaminevõimaldabluuauusikasumlikketeenuseid.</p>\r\n"
+"\r\n"
+"<p><strong>9. Millised on andmehulga soovitavad formaadid ja kodeeringud?</"
+"strong></p>\r\n"
+"\r\n"
+"<p>Peamise põhimõttena arvestame, et palju parem on avaldada andmed "
+"ebamugavas kodeeringus, kui jätta nad esialgu avaldamata põhjusel, et "
+"millalgi on plaanis võtta ette kodeeringu täiustamine. Teiseks, avaldatud "
+"andmehulka saab edaspidi avaldada uues, paremas kodeeringus. Soovitame oma "
+"avaandmed avaldada <strong>vähemalt 3 tärni formaadis</strong>.</p>\r\n"
+"\r\n"
+"<p>Viie tärni süsteemi viis U.K. avaandmete süsteemi kontekstis sisse "
+"Berners Lee ning lähtume täpselt samast tähistusest ja eesmärkidest: suurem "
+"tärnide arv tähendab kasutajale paremat formaati/kodeeringut. Vaata näiteid "
+"ja lisainfot siit: <a href=\"http://lab.linkeddata.deri.ie/2010/star-scheme-"
+"by-example/\" title=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-"
+"example/\">http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/</a></p>"
+"\r\n"
+"\r\n"
+"<p><strong>10. Kuidas kasutadaopendata.riik.ee portaali?</strong></p>\r\n"
+"\r\n"
+"<p>TBA</p>\r\n"
+"\r\n"
+"<p><strong>11. Kuidas saab portaali lisada andmete põhjal loodud rakendusi?</"
+"strong></p>\r\n"
+"\r\n"
+"<p>Selleks mine Rakenduste lehele, kus on üleval informatsioon kõikidest "
+"rakendustest, mis inimesed on senini avaandmete põhjal teinud. Olles "
+"portaali sisse logunud saad tehtud rakendusi ka kommenteerida. Samuti on "
+"Rakenduste lehel  link, mis lubab sul postitada lehele oma loodud rakenduse "
+"ning peale portaali administraatori luba postitatakse sinu rakendus portaali."
+"</p>\r\n"
+"\r\n"
+"<p><strong>12. Kas portaalis on olemas koht, kus arutleda avaandmete teemal, "
+"võimalike rakenduste ja andmed taaskasutamise teemadel?</strong></p>\r\n"
+"\r\n"
+"<p>Selle tarbeks on loodud portaali Foorum. Lisaks saab lisada kommentaare "
+"otse erinevatele andmehulkadele ja rakendustele ning samuti saab postitada "
+"sooviavaldusi uute andmehulkade avamiseks.</p>\r\n"
+"\r\n"
+"<p><strong>13. Kust saab avaandmete temaatika kohta lisainformatsiooni?</"
+"strong></p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li><a href=\"http://riso.ee/et/avaandmete-roheline-raamat\">Avaliku teabe "
+"masinloetava avalikustamise roheline raamat</a>.</li>\r\n"
+"<li><a href=\"https://riigikantselei.ee/sites/default/files/content-editors/"
+"TOF/TOF_uuringud/lingitud_eesti_lopparuanne_2.0.pdf\">Uuring „Lingitud "
+"Eesti“</a>.</li>\r\n"
+"<li><a href=\"https://www.riigiteataja.ee/akt/119122012004\">Avaliku teabe "
+"seadus (AvTS)</a>.</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>14. Kas tulevikus kättesaadava avaandmete hulk kasvab?</strong></"
+"p>\r\n"
+"\r\n"
+"<p>Kasvab! Projekti edenedes lisandub portaali uusi avaandmeid ja portaal "
+"seotakse ka teiste riikide avaandmete portaalidega.</p>"
+
+#: /et/roheline-raamat
+msgid "Guidelines"
+msgstr "Juhendid"
+
+#: /et/roheline-raamat
+msgid ""
+"<p>Here you can find guidelines pertaining to the use of the portal, "
+"publication of datasets and their use.</p>\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"sites/default/files/manuals/portaali-kasutusjuhend-"
+"teabevaldajatele-v06.odt\" rel=\"nofollow\">Portal guidelines for holders of "
+"information (in Estonian)</a></li>\n"
+"<li><a href=\"/sites/default/files/manuals/juhised-andmete-avalikustamiseks."
+"odt\" rel=\"nofollow\">Open data guidelines for holders of information (in "
+"Estonian) </a> </li>\n"
+"<li><a href=\"sites/default/files/manuals/data-exchange-with-Estonian-open-"
+"data-portal.odt\" rel=\"nofollow\">Data exchange with Estonian open data "
+"portal</a></li>\n"
+"</ul>\n"
+"\n"
+"<p>The following guidelines provide instruction on which data should be "
+"published as open data and which principles should be observed when "
+"publishing open data.</p>\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"https://www.ria.ee/public/Arhitektuur/"
+"Avaandmete_loomise_juhend.pdf\" rel=\"nofollow\">Guidelines for creating and "
+"publishing open data (in Estonian)</a></li>\n"
+"</ul>"
+msgstr ""
+"<p>Siit lehelt leiate erinevaid juhendeid, mis seotud portaali kasutamisega, "
+"andmehulkade avalikustamisega ja nende kasutamisega.</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li><a href=\"sites/default/files/manuals/portaali-kasutusjuhend-"
+"teabevaldajatele-v06.odt\" rel=\"nofollow\">Portaali kasutusjuhend "
+"teabevaldajatele</a></li>\r\n"
+"<li><a href=\"/sites/default/files/manuals/juhised-andmete-avalikustamiseks."
+"odt\" rel=\"nofollow\">Juhised andmete avalikustamiseks teabevaldajale </a> "
+"</li>\r\n"
+"<li><a href=\"sites/default/files/manuals/data-exchange-with-Estonian-open-"
+"data-portal.odt\" rel=\"nofollow\">Data exchange with Estonian open data "
+"portal</a></li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p>Järgnev juhend kirjeldab, millised andmed tuleb avaldada kui avaandmed ja "
+"millistest põhimõtetest lähtuda avaandmete avaldamisel.</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li><a href=\"https://www.ria.ee/public/Arhitektuur/"
+"Avaandmete_loomise_juhend.pdf\" rel=\"nofollow\">Avaandmete loomise ja "
+"avaldamise juhend</a></li>\r\n"
+"</ul>"
+
+#: /et/roheline-raamat
+msgid "Green paper on open data"
+msgstr "Avaandmete roheline raamat"
+
+#: /et/apps
+msgid "More info"
+msgstr "Lisainfo"
+
+#: /et/roheline-raamat
+msgid ""
+"<p><strong>1. What is the government open data portal?</strong></p>\n"
+"\n"
+"<p>The open data portal is intended to serve as a platform for the "
+"dissemination of data by public bodies and for searching and retrieving such "
+"datasets by open data users.</p>\n"
+"\n"
+"<p>On the open data portal, it is possible:</p>\n"
+"\n"
+"<ul>\n"
+"<li>to search and download open data;</li>\n"
+"<li>to publish new open data: to gain access to this functionality, a prior "
+"registration with the portal's administrator is required;</li>\n"
+"<li>to use it as a storage of datasets by government agencies and local "
+"authorities;</li>\n"
+"<li>to search and use applications created on the basis of open data;</li>\n"
+"<li>to post news, questions and instructions pertaining to open data and to "
+"have discussions on relevant topics.</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>2. Why open up data?</strong></p>\n"
+"\n"
+"\n"
+"<p>Opening up data and their collection, storage and dissemination serves "
+"the following important goals:</p>\n"
+"\n"
+"<ul>\n"
+"<li>to stimulate economy by the re-use of data;</li>\n"
+"<li>to increase the transparency of the public sector;</li>\n"
+"<li>to decrease the number of information requests and, consequently, also "
+"reduce the workload of public sector workers;</li>\n"
+"<li>to facilitate creation and management of open services for private and "
+"community sectors;</li>\n"
+"<li>to encourage migration to future technologies such as <a href=\"http://"
+"et.wikipedia.org/wiki/Linkandmed\">Linked Data</a>, \"<a href=\"http://en."
+"wikipedia.org/wiki/Internet_of_Things\">Internet of Things</a>\" and \"<a "
+"href=\"http://en.wikipedia.org/wiki/Big_data\">Big Data</a>\".</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>3. What to publish?</strong></p>\n"
+"\n"
+"<p>The publication of data created by public sector bodies serves many "
+"purposes, most importantly allowing private individuals, companies and third "
+"sector bodies simply to examine the existing data or to use it in their "
+"software applications to create value added. .</p>\n"
+"\n"
+"<p>All datasets which are created by government agencies and local "
+"authorities, whose public use is not directly forbidden and which contain "
+"other data than personal data are to be made public. If the datasets contain "
+"both personal and non-personal data, only the non-personal parts of the data "
+"will be made public.</p>\n"
+"\n"
+"<p>In particular, the data in the datasets to be published should in general "
+"be created, collected or administered by a government agency or local "
+"authority. A government agency or a local authority may, with the consent of "
+"a third party, also publish the data of that third party if it considers it "
+"to be of sufficient interest to the public.</p>\n"
+"\n"
+"<p><strong>4.Which principles need to be followed when publishing datasets?</"
+"strong></p>\n"
+"\n"
+"<p>Two goals must be balanced while publishing datasets:</p>\n"
+"\n"
+"<ul>\n"
+"<li>the data presentation should be convenient and understandable for the "
+"users;</li>\n"
+"<li>the data publisher should be able to publish data with ease and minimal "
+"effort.</li>\n"
+"</ul>\n"
+"\n"
+"<p>Public sector data shall be considered open if it is made public in a way "
+"that complies with the principles below: (retrieved from: <a href=\"http://"
+"www.opengovdata.org/home/8principles\" title=\"http://www.opengovdata.org/"
+"home/8principles\">http://www.opengovdata.org/home/8principles</a> ):</p>\n"
+"\n"
+"<p style=\"margin-left:40px\">1. Complete<br />\n"
+"All public data is made available. Public data is data that is not subject "
+"to valid privacy, security or privilege limitations.<br />2. Primary<br /"
+">Data is as collected at the source, with the highest possible level of "
+"granularity, not in aggregate or modified forms.<br />3. Timely<br />Data is "
+"made available as quickly as necessary to preserve the value of the data."
+"<br />4. Accessible<br />Data is available to the widest range of users for "
+"the widest range of purposes.<br />5. Machine processable<br />Data is "
+"reasonably structured to allow automated processing.<br />6. Non-"
+"discriminatory<br />Data is available to anyone, with no requirement of "
+"registration.<br />7. Non-proprietary<br />Data is available in a format "
+"over which no entity has exclusive control.<br />8. Licence-free<br />Data "
+"is not subject to any copyright, patent, trademark or trade secret "
+"regulation. Reasonable privacy, security and privilege restrictions may be "
+"allowed.</p>\n"
+"\n"
+"<p><strong>5. How can my organisation publish data on this portal?</strong></"
+"p>\n"
+"\n"
+"<p>A Guidance for data publishers is found here…</p>\n"
+"\n"
+"<p><strong>6. Will personal information be at risk?</strong></p>\n"
+"\n"
+"<p>The published data will not identify or provide ways to identify "
+"individuals, unless that information is already published (such as the names "
+"of the civil servants working at the ministries).</p>\n"
+"\n"
+"<p><strong>7. What are the licence requirements for the published data?</"
+"strong></p>\n"
+"\n"
+"<p>The open data must published under a licence which permits its free and "
+"unlimited use, processing and distribution. Under the licence, it must be "
+"possible to distribute the data at the discretion of the user either without "
+"charge or for a fee.</p>\n"
+"\n"
+"<p>We recommend that you pick a CreativeCommons licence, see <a href="
+"\"http://creativecommons.org/\" title=\"http://creativecommons.org/\">http://"
+"creativecommons.org/</a>From among the licences listed on the site, we "
+"recommend the CC by 3.0 licence: <a href=\"http://creativecommons.org/"
+"licenses/by/3.0/\" title=\"http://creativecommons.org/licenses/by/3.0/"
+"\">http://creativecommons.org/licenses/by/3.0/</a></p>\n"
+"\n"
+"<p><strong>8. Can the published data be used for commercial purposes (such "
+"as for the creation of paid services)?</strong></p>\n"
+"\n"
+"<p>Reuse of data for commercial purposes is permitted. We will be more than "
+"delighted if profitable services are created using our data.</p>\n"
+"\n"
+"<p><strong>9. What format and encoding types are recommended for datasets?</"
+"strong></p>\n"
+"\n"
+"<p>As a principle, it is better to publish the data in an inconvenient "
+"format than to leave it unpublished at first and wait for a planned "
+"improvement in its encoding in the future. A published dataset can always be "
+"republished in a new and better encoding. We recommend that you publish your "
+"open data <strong>at least in a 3-star format</strong>.</p>\n"
+"\n"
+"<p>The system of the Five Stars of Openness was developed in the UK by Tim "
+"Berners-Lee and we follow exactly the same scoring and goals: more stars "
+"means better format/encoding for the user. For examples and further "
+"information: <a href=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-"
+"example/\" title=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/"
+"\">http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/</a></p>\n"
+"\n"
+"<p><strong>10. How can people use opendata.riik.ee?</strong></p>\n"
+"\n"
+"<p>TBA</p>\n"
+"\n"
+"<p><strong>11. How can people submit applications created on the basis of "
+"open data?</strong></p>\n"
+"\n"
+"<p>Go to the Apps page where you can find information on all applications "
+"which have so far been created on the basis of the open data. Once you have "
+"logged in to the portal, you can also submit your comments on the "
+"applications. Using a corresponding link on the Apps page, you can also "
+"submit your own application for publication on the portal. When approved by "
+"the administator, your application will be added to the portal.</p>\n"
+"\n"
+"<p><strong>12. Is there a place where it is possible to discuss ideas, "
+"applications and using of the data?</strong></p>\n"
+"\n"
+"<p>Yes, the portal's Forum serves that purpose. Furthermore, comments can be "
+"added to specific datasets and applications and we also have an open "
+"wishlist for new datasets.</p>\n"
+"\n"
+"<p><strong>13. Where can I find further information on open data?</strong></"
+"p>\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"http://riso.ee/et/avaandmete-roheline-raamat\">The Estonian "
+"Green Paper on Open Data (in Estonian)</a>.</li>\n"
+"<li><a href=\"https://riigikantselei.ee/sites/default/files/content-editors/"
+"TOF/TOF_uuringud/lingitud_eesti_lopparuanne_2.0.pdf\">Study 'Linked "
+"Estonia' (in Estonian)</a>.</li>\n"
+"<li><a href=\"https://www.riigiteataja.ee/en/eli/518012016001/consolide"
+"\">Public Information Act (English translation)</a>.</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>14. Will more public data become available in the future?</"
+"strong></p>\n"
+"\n"
+"<p>Certainly! As the work on the project progresses, new open data will be "
+"added to the portal and the portal will also be linked to the open data "
+"portals of other countries.</p>"
+msgstr ""
+"<p><strong>1. Mis on riigi avaandmete portaal?</strong></p>\r\n"
+"\r\n"
+"<p>Aandmete portaal on mõeldud andmete avalikustamise hõlbustamiseks "
+"ametkondadele ja taoliste andmehulkade leidmise kergendamiseks avaldatud "
+"andmete kasutajatele.</p>\r\n"
+"\r\n"
+"<p>Avaandmete portaali peamised ülesanded on:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>Otsida ja alla laadida ava-andmeid.</li>\r\n"
+"<li>Lisada uusi avaandmeid: selleks on eelnevalt vaja portaali registreeruda "
+"ja saada ligipääsõigus portaali haldaja käest.</li>\r\n"
+"<li>Kasutada andmehulkade hoidlat, mis on üks võimalikest kohtadest, kuhu "
+"avaandmeid salvestada.</li>\r\n"
+"<li>Kasutada ja leida avaandmete põhjal loodud rakendusi.</li>\r\n"
+"<li>Võimaldada avaandmete teemal uudiste, küsimuste, diskussioonide ja "
+"juhendite postitamine.</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>2. Miks andmed avalikustada?</strong></p>\r\n"
+"\r\n"
+"\r\n"
+"<p>Andmete avamine ning nende koondamise ja leidmise hõlbustamine teenib "
+"mitmeid olulisi eesmärke:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>majanduse elavdamine andmete taaskasutuse läbi;</li>\r\n"
+"<li>avaliku sektori läbipaistvuse suurendamine;</li>\r\n"
+"<li>teabenõuete arvu vähendamine ja sellega avaliku sektori koormuse "
+"vähendamine;</li>\r\n"
+"<li>avatud teenuste loomise ja haldamise võimaldamine era- ja vabasektorile;"
+"</li>\r\n"
+"<li>õhutada üleminekut tuleviku tehnoloogiatele nagu <a href=\"http://et."
+"wikipedia.org/wiki/Linkandmed\">linkandmed</a>, \"<a href=\"http://en."
+"wikipedia.org/wiki/Internet_of_Things\">asjade Internet</a>\" ja \"<a href="
+"\"http://en.wikipedia.org/wiki/Big_data\">big data</a>\".</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>3. Mida avalikustada</strong></p>\r\n"
+"\r\n"
+"<p>Ametkondlikult loodud andmete avalikustamisel on mitmed olulised "
+"eesmärgid, kõige konkreetsemad neist on isikute, ettevõtete ja kolmanda "
+"sektori huvi kas lihtsalt tutvuda olemasolevate andmetega või kasutada neid "
+"oma tarkvara-rakendustes lisaväärtuse loomiseks mingis valdkonnas.</p>\r\n"
+"\r\n"
+"<p>Avalikustamisele kuuluvad kõik nii riigiametite kui kohalike "
+"omavalitsuste loodud andmehulgad, mille avalik kasutus ei ole otseselt "
+"keelatud ning mis sisaldavad ka muid andmeid peale isikuandmete. "
+"Andmehulkadest, mis sisaldavad nii isikuandmeid kui muid andmeid, "
+"avalikustatakse ainult mitte-isikuandmete osad.</p>\r\n"
+"\r\n"
+"<p>Konkreetsemalt peaksid avalikustatavates andmehulkades sisalduvad andmed "
+"olema üldjuhul riigiameti või kohaliku omavalituse poolt loodavad, kogutavad "
+"või hallatavad. Riigiamet või omavalitsus võib kokkuleppel mõne kolmanda "
+"osapoolega avalikustada ka selle kolmanda osapoole andmeid, kui peab neid "
+"avalikkusele piisavalt huvipakkuvaks.</p>\r\n"
+"\r\n"
+"<p><strong>4. Millised on andmehulga avalikustamise põhimõtted?</strong></p>"
+"\r\n"
+"\r\n"
+"<p>Andmehulga avalikustamise juures tuleb otsida kompromissi kahe eesmärgi "
+"vahel:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>andmete mugav kasutatavus ja arusaadavus andmete otsijale ja "
+"allalaadijale</li>\r\n"
+"<li>andmete avalikustamise lihtsus ja töökulu minimeerimine avalikustajale.</"
+"li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p>Selleks, et andmehulka pidada avatuks, peab ta olema (vt ka "
+"originaalviidet <a href=\"http://www.opengovdata.org/home/8principles\" "
+"title=\"http://www.opengovdata.org/home/8principles\">http://www.opengovdata."
+"org/home/8principles</a> ):</p>\r\n"
+"\r\n"
+"<p>1. Terviklik<br />\r\n"
+"Kõik avalikud andmed tehakse kättesaadavaks, ehk teisisõnu kõik andmeid, "
+"mida ei piira isikuandmete või muul põhjusel salastatud andmete piirangud."
+"<br />2. Algallikast<br />Andmed on töötluseta kogutud algallikast, "
+"säilitades oma originaalkuju ja detailsuse.<br />3. Ajakohane<br />Andmehulk "
+"on avaldatud võimalikult kiirelt, et säilitada selle asjakohasus.<br />4. "
+"Kättesaadav<br />Andmed on saadavad võimalikult laiale kasutajateringile "
+"võimalikult laia kasutuseesmärgiga.<br />5. Masinloetav<br />Andmed on "
+"mõistetava struktuuriga ja automaatselt töödeldavad.<br />6. Mitte-"
+"diskrimineeriv<br />Andmed on esitatud avalikult, kättesaamiseks pole vaja "
+"registreeruda ega taotleda juurdepääsu.<br />7. Vabu standardeid kasutav<br /"
+">Andmed on esitatud vabas formaadis, mis ei ole ühegi ettevõtte ega isiku "
+"ainuomand.<br />8. Vaba litsentsiga<br />Andmed ei ole kaitstud "
+"autoriõiguse, patendi, kaubamärgi ega ärisaladuse regulatsiooniga. "
+"Mõistlikud privaatsus- ja turvalisuspiirangud võivad olla lubatud.</p>\r\n"
+"\r\n"
+"<p><strong>5. Kuidas toimub andmete avalikustamine?</strong></p>\r\n"
+"\r\n"
+"<p>Juhend andmete avalikustamiseks asub…</p>\r\n"
+"\r\n"
+"<p><strong>6. Kas on oht, et avalikustatakse ka isikuandmed?</strong></p>\r\n"
+"\r\n"
+"<p>Andmed, mis avalikustatakse, ei sisalda isikuandmeid ega võimalda "
+"avaldatud andmete kokku sobitamise teel isikuid identifitseerida, välja "
+"arvatud juhul kui informatsioon on niigi avalik (nt ministeeriumite "
+"töötajad).</p>\r\n"
+"\r\n"
+"<p><strong>7. Kas avaldatud andmetel peab olema ka litsents?</strong></p>\r\n"
+"\r\n"
+"<p>Avaandmete hulgal peab olema litsents, mis võimaldab tema vaba, "
+"piiranguteta kasutamist, töötlemist ja levitamist, sealjuures võimaldama "
+"levitamist kasutaja valikul nii tasuta kui tasu eest.</p>\r\n"
+"\r\n"
+"<p>Eelsitatult soovitame litsentsiks valida CreativeCommons litsentsi, vt "
+"täpsemalt <a href=\"http://creativecommons.org/\" title=\"http://"
+"creativecommons.org/\">http://creativecommons.org/</a>Sealloetletud "
+"litsentsidest soovitame eeskätt CC by 3.0 litsentsi: <a href=\"http://"
+"creativecommons.org/licenses/by/3.0/\" title=\"http://creativecommons.org/"
+"licenses/by/3.0/\">http://creativecommons.org/licenses/by/3.0/</a></p>\r\n"
+"\r\n"
+"<p><strong>8. Kas portaalis avaldavat informatsiooni võib kasutada ärilistel "
+"eesmärkidel (nt tasuliste teenuste loomiseks)?</strong></p>\r\n"
+"\r\n"
+"<p>Andmetetaaskasutamineärilisteleesmärkidel on lubatudning on super, "
+"kuiandmetetaaskasutaminevõimaldabluuauusikasumlikketeenuseid.</p>\r\n"
+"\r\n"
+"<p><strong>9. Millised on andmehulga soovitavad formaadid ja kodeeringud?</"
+"strong></p>\r\n"
+"\r\n"
+"<p>Peamise põhimõttena arvestame, et palju parem on avaldada andmed "
+"ebamugavas kodeeringus, kui jätta nad esialgu avaldamata põhjusel, et "
+"millalgi on plaanis võtta ette kodeeringu täiustamine. Teiseks, avaldatud "
+"andmehulka saab edaspidi avaldada uues, paremas kodeeringus. Soovitame oma "
+"avaandmed avaldada <strong>vähemalt 3 tärni formaadis</strong>.</p>\r\n"
+"\r\n"
+"<p>Viie tärni süsteemi viis U.K. avaandmete süsteemi kontekstis sisse "
+"Berners Lee ning lähtume täpselt samast tähistusest ja eesmärkidest: suurem "
+"tärnide arv tähendab kasutajale paremat formaati/kodeeringut. Vaata näiteid "
+"ja lisainfot siit: <a href=\"http://lab.linkeddata.deri.ie/2010/star-scheme-"
+"by-example/\" title=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-"
+"example/\">http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/</a></p>"
+"\r\n"
+"\r\n"
+"<p><strong>10. Kuidas kasutadaopendata.riik.ee portaali?</strong></p>\r\n"
+"\r\n"
+"<p>TBA</p>\r\n"
+"\r\n"
+"<p><strong>11. Kuidas saab portaali lisada andmete põhjal loodud rakendusi?</"
+"strong></p>\r\n"
+"\r\n"
+"<p>Selleks mine Rakenduste lehele, kus on üleval informatsioon kõikidest "
+"rakendustest, mis inimesed on senini avaandmete põhjal teinud. Olles "
+"portaali sisse logunud saad tehtud rakendusi ka kommenteerida. Samuti on "
+"Rakenduste lehel  link, mis lubab sul postitada lehele oma loodud rakenduse "
+"ning peale portaali administraatori luba postitatakse sinu rakendus portaali."
+"</p>\r\n"
+"\r\n"
+"<p><strong>12. Kas portaalis on olemas koht, kus arutleda avaandmete teemal, "
+"võimalike rakenduste ja andmed taaskasutamise teemadel?</strong></p>\r\n"
+"\r\n"
+"<p>Selle tarbeks on loodud portaali Foorum. Lisaks saab lisada kommentaare "
+"otse erinevatele andmehulkadele ja rakendustele ning samuti saab postitada "
+"sooviavaldusi uute andmehulkade avamiseks.</p>\r\n"
+"\r\n"
+"<p><strong>13. Kust saab avaandmete temaatika kohta lisainformatsiooni?</"
+"strong></p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li><a href=\"http://riso.ee/et/avaandmete-roheline-raamat\">Avaliku teabe "
+"masinloetava avalikustamise roheline raamat</a>.</li>\r\n"
+"<li><a href=\"https://riigikantselei.ee/sites/default/files/content-editors/"
+"TOF/TOF_uuringud/lingitud_eesti_lopparuanne_2.0.pdf\">Uuring „Lingitud "
+"Eesti“</a>.</li>\r\n"
+"<li><a href=\"https://www.riigiteataja.ee/akt/119122012004\">Avaliku teabe "
+"seadus (AvTS)</a>.</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>14. Kas tulevikus kättesaadava avaandmete hulk kasvab?</strong></"
+"p>\r\n"
+"\r\n"
+"<p>Kasvab! Projekti edenedes lisandub portaali uusi avaandmeid ja portaal "
+"seotakse ka teiste riikide avaandmete portaalidega.</p>"
+
+#: /et/roheline-raamat
+msgid "Green Paper on Open Data"
+msgstr "Avaandmete roheline raamat"
+
+#: /et/roheline-raamat
+msgid ""
+"<p>The Green Paper on Open Data is the first systematic government report on "
+"the open data policy in Estonia, setting out its guiding principles, "
+"interoperability architecture, central policy choices and an activity plan. "
+"It is a must read for anyone who plans to explore the concept of open data "
+"and related terminology. The holders of information can find here answers to "
+"many questions they encounter in relation to opening up data.</p>\n"
+"\n"
+"<p>The Green Paper was prepared by the Department of State Information "
+"Systems of the Estonian Ministry of Economic Affairs and Communications in "
+"cooperation with the Estonian Data Protection Inspectorate and the Strategy "
+"Unit of the Government Office. The preliminary version of the Green Paper "
+"was made available for consultations in November 2013 on the portal osale."
+"ee. Four rounds of discussions were held, recommendations for amendments "
+"were asked from all ministries, constitutional institutions, Estonian "
+"Association of Information Technology, Association of Estonian Cities and "
+"the Association of Estonian Municipalities, and more than 50 experts were "
+"consulted with via e-mail.</p>\n"
+"\n"
+"<p>The Green Paper on Open Data (in Estonian) can be downloaded from the "
+"following link:</p>\n"
+"\n"
+"<p><a href=\"/sites/default/files/manuals/avaliku-teabe-masinloetava-"
+"avalikustamise-roheline-raamat-20141125_0.odt\" rel=\"nofollow\">avaliku-"
+"teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt</a></p>"
+msgstr ""
+"<p>Avaandmete roheline raamat on avaandmete valdkonna poliitika esimene "
+"süstemaatiline käsitlus, mis avab selle valdkonna põhimõtted, koosvõime "
+"arhitektuuri, olulisemad poliitikavalikud ning tegevuskava. See on "
+"soovitatav lugemismaterjal kõigile, kes soovivad avaandmete valdkonna ja "
+"selle mõistetega lähemat tutvust teha. Teabevaldajatele sisaldab see "
+"konkreetseid vastuseid paljudele andmete avalikistamisega seotud küsimustele."
+"</p>\r\n"
+"\r\n"
+"<p>Raamatu koostas Majandus-ja Kommunikatsiooniministeeriumi riigi "
+"infosüsteemide osakond (RISO) koostöös Andmekaitse Inspektsiooni ja "
+"Riigikantselei strateegiabürooga. Rohelise raamatu esimene versioon1 avati "
+"konsultatsioonideks novembris 2013 portaalis osale.ee, korraldati neli "
+"teemakohast arutelu, muudatusettepanekuid küsiti kõikidelt "
+"ministeeriumitelt, põhiseaduslikelt institutsioonidelt, ITLlt, Eesti Linnade "
+"Liidult ja Kohalike Omavalitsuste Liidult, lisaks e-posti teel enam kui 50 "
+"eksperdilt.</p>\r\n"
+"\r\n"
+"<p>Avaandmete roheline raamat on võimalik alla laadida alljärgnevalt lingilt:"
+"</p>\r\n"
+"\r\n"
+"<p><a href=\"/sites/default/files/manuals/avaliku-teabe-masinloetava-"
+"avalikustamise-roheline-raamat-20141125_0.odt\" rel=\"nofollow\">avaliku-"
+"teabe-masinloetava-avalikustamise-roheline-raamat-20141125_0.odt</a></p>"
+
+#: /et/roheline-raamat
+msgid ""
+"<p><strong>1. What is the government open data portal?</strong></p>\n"
+"\n"
+"<p>The open data portal is intended to serve as a platform for the "
+"dissemination of data by public bodies and for searching and retrieving such "
+"datasets by open data users.</p>\n"
+"\n"
+"<p>On the open data portal, it is possible:</p>\n"
+"\n"
+"<ul>\n"
+"<li>to search and download open data;</li>\n"
+"<li>to publish new open data: to gain access to this functionality, a prior "
+"registration with the portal's administrator is required;</li>\n"
+"<li>to use it as a storage of datasets by government agencies and local "
+"authorities;</li>\n"
+"<li>to search and use applications created on the basis of open data;</li>\n"
+"<li>to post news, questions and instructions pertaining to open data and to "
+"have discussions on relevant topics.</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>2. Why open up data?</strong></p>\n"
+"\n"
+"\n"
+"<p>Opening up data and their collection, storage and dissemination serves "
+"the following important goals:</p>\n"
+"\n"
+"<ul>\n"
+"<li>to stimulate economy by the re-use of data;</li>\n"
+"<li>to increase the transparency of the public sector;</li>\n"
+"<li>to decrease the number of information requests and, consequently, also "
+"reduce the workload of public sector workers;</li>\n"
+"<li>to facilitate creation and management of open services for private and "
+"community sectors;</li>\n"
+"<li>to encourage migration to future technologies such as <a href=\"http://"
+"et.wikipedia.org/wiki/Linkandmed\">Linked Data</a>, \"<a href=\"http://en."
+"wikipedia.org/wiki/Internet_of_Things\">Internet of Things</a>\" and \"<a "
+"href=\"http://en.wikipedia.org/wiki/Big_data\">Big Data</a>\".</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>3. What to publish?</strong></p>\n"
+"\n"
+"<p>The publication of data created by public sector bodies serves many "
+"purposes, most importantly allowing private individuals, companies and third "
+"sector bodies simply to examine the existing data or to use it in their "
+"software applications to create value added. .</p>\n"
+"\n"
+"<p>All datasets which are created by government agencies and local "
+"authorities, whose public use is not directly forbidden and which contain "
+"other data than personal data are to be made public. If the datasets contain "
+"both personal and non-personal data, only the non-personal parts of the data "
+"will be made public.</p>\n"
+"\n"
+"<p>In particular, the data in the datasets to be published should in general "
+"be created, collected or administered by a government agency or local "
+"authority. A government agency or a local authority may, with the consent of "
+"a third party, also publish the data of that third party if it considers it "
+"to be of sufficient interest to the public.</p>\n"
+"\n"
+"<p><strong>4.Which principles need to be followed when publishing datasets?</"
+"strong></p>\n"
+"\n"
+"<p>Two goals must be balanced while publishing datasets:</p>\n"
+"\n"
+"<ul>\n"
+"<li>the data presentation should be convenient and understandable for the "
+"users;</li>\n"
+"<li>the data publisher should be able to publish data with ease and minimal "
+"effort.</li>\n"
+"</ul>\n"
+"\n"
+"<p>Public sector data shall be considered open if it is made public in a way "
+"that complies with the principles below: (retrieved from: <a href=\"http://"
+"www.opengovdata.org/home/8principles\" title=\"http://www.opengovdata.org/"
+"home/8principles\">http://www.opengovdata.org/home/8principles</a> ):</p>\n"
+"\n"
+"<p style=\"margin-left:40px\">1. Complete<br />\n"
+"All public data is made available. Public data is data that is not subject "
+"to valid privacy, security or privilege limitations.<br />2. Primary<br /"
+">Data is as collected at the source, with the highest possible level of "
+"granularity, not in aggregate or modified forms.<br />3. Timely<br />Data is "
+"made available as quickly as necessary to preserve the value of the data."
+"<br />4. Accessible<br />Data is available to the widest range of users for "
+"the widest range of purposes.<br />5. Machine processable<br />Data is "
+"reasonably structured to allow automated processing.<br />6. Non-"
+"discriminatory<br />Data is available to anyone, with no requirement of "
+"registration.<br />7. Non-proprietary<br />Data is available in a format "
+"over which no entity has exclusive control.<br />8. Licence-free<br />Data "
+"is not subject to any copyright, patent, trademark or trade secret "
+"regulation. Reasonable privacy, security and privilege restrictions may be "
+"allowed.</p>\n"
+"\n"
+"<p><strong>5. How can my organisation publish data on this portal?</strong></"
+"p>\n"
+"\n"
+"<p>A Guidance for data publishers is found here…</p>\n"
+"\n"
+"<p><strong>6. Will personal information be at risk?</strong></p>\n"
+"\n"
+"<p>The published data will not identify or provide ways to identify "
+"individuals, unless that information is already published (such as the names "
+"of the civil servants working at the ministries).</p>\n"
+"\n"
+"<p><strong>7. What are the licence requirements for the published data?</"
+"strong></p>\n"
+"\n"
+"<p>The open data must published under a licence which permits its free and "
+"unlimited use, processing and distribution. Under the licence, it must be "
+"possible to distribute the data at the discretion of the user either without "
+"charge or for a fee.</p>\n"
+"\n"
+"<p>We recommend that you pick a CreativeCommons licence, see <a href="
+"\"http://creativecommons.org/\" title=\"http://creativecommons.org/\">http://"
+"creativecommons.org/</a>From among the licences listed on the site, we "
+"recommend the CC by 3.0 licence: <a href=\"http://creativecommons.org/"
+"licenses/by/3.0/\" title=\"http://creativecommons.org/licenses/by/3.0/"
+"\">http://creativecommons.org/licenses/by/3.0/</a></p>\n"
+"\n"
+"<p><strong>8. Can the published data be used for commercial purposes (such "
+"as for the creation of paid services)?</strong></p>\n"
+"\n"
+"<p>Reuse of data for commercial purposes is permitted. We will be more than "
+"delighted if profitable services are created using our data.</p>\n"
+"\n"
+"<p><strong>9. What format and encoding types are recommended for datasets?</"
+"strong></p>\n"
+"\n"
+"<p>As a principle, it is better to publish the data in an inconvenient "
+"format than to leave it unpublished at first and wait for a planned "
+"improvement in its encoding in the future. A published dataset can always be "
+"republished in a new and better encoding. We recommend that you publish your "
+"open data <strong>at least in a 3-star format</strong>.</p>\n"
+"\n"
+"<p>The system of the Five Stars of Openness was developed in the UK by Tim "
+"Berners-Lee and we follow exactly the same scoring and goals: more stars "
+"means better format/encoding for the user. For examples and further "
+"information: <a href=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-"
+"example/\" title=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/"
+"\">http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/</a></p>\n"
+"\n"
+"<p><strong>10. How can people use opendata.riik.ee?</strong></p>\n"
+"\n"
+"<p>TBA</p>\n"
+"\n"
+"<p><strong>11. How can people submit applications created on the basis of "
+"open data?</strong></p>\n"
+"\n"
+"<p>Go to the Apps page where you can find information on all applications "
+"which have so far been created on the basis of the open data. Once you have "
+"logged in to the portal, you can also submit your comments on the "
+"applications. Using a corresponding link on the Apps page, you can also "
+"submit your own application for publication on the portal. When approved by "
+"the administator, your application will be added to the portal.</p>\n"
+"\n"
+"<p><strong>12. Is there a place where it is possible to discuss ideas, "
+"applications and using of the data?</strong></p>\n"
+"\n"
+"<p>Yes, the portal's Forum serves that purpose. Furthermore, comments can be "
+"added to specific datasets and applications and we also have an open "
+"wishlist for new datasets.</p>\n"
+"\n"
+"<p><strong>13. Where can I find further information on open data?</strong></"
+"p>\n"
+"\n"
+"<ul>\n"
+"<li><a href=\"http://riso.ee/et/avaandmete-roheline-raamat\">The Estonian "
+"Green Paper on the Publication of Machine Readable Public Data (in "
+"Estonian)</a>.</li>\n"
+"<li><a href=\"https://riigikantselei.ee/sites/default/files/content-editors/"
+"TOF/TOF_uuringud/lingitud_eesti_lopparuanne_2.0.pdf\">Study 'Linked "
+"Estonia' (in Estonian)</a>.</li>\n"
+"<li><a href=\"https://www.riigiteataja.ee/en/eli/518012016001/consolide"
+"\">Public Information Act (English translation)</a>.</li>\n"
+"</ul>\n"
+"\n"
+"<p><strong>14. Will more public data become available in the future?</"
+"strong></p>\n"
+"\n"
+"<p>Certainly! As the work on the project progresses, new open data will be "
+"added to the portal and the portal will also be linked to the open data "
+"portals of other countries.</p>"
+msgstr ""
+"<p><strong>1. Mis on riigi avaandmete portaal?</strong></p>\r\n"
+"\r\n"
+"<p>Aandmete portaal on mõeldud andmete avalikustamise hõlbustamiseks "
+"ametkondadele ja taoliste andmehulkade leidmise kergendamiseks avaldatud "
+"andmete kasutajatele.</p>\r\n"
+"\r\n"
+"<p>Avaandmete portaali peamised ülesanded on:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>Otsida ja alla laadida ava-andmeid.</li>\r\n"
+"<li>Lisada uusi avaandmeid: selleks on eelnevalt vaja portaali registreeruda "
+"ja saada ligipääsõigus portaali haldaja käest.</li>\r\n"
+"<li>Kasutada andmehulkade hoidlat, mis on üks võimalikest kohtadest, kuhu "
+"avaandmeid salvestada.</li>\r\n"
+"<li>Kasutada ja leida avaandmete põhjal loodud rakendusi.</li>\r\n"
+"<li>Võimaldada avaandmete teemal uudiste, küsimuste, diskussioonide ja "
+"juhendite postitamine.</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>2. Miks andmed avalikustada?</strong></p>\r\n"
+"\r\n"
+"\r\n"
+"<p>Andmete avamine ning nende koondamise ja leidmise hõlbustamine teenib "
+"mitmeid olulisi eesmärke:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>majanduse elavdamine andmete taaskasutuse läbi;</li>\r\n"
+"<li>avaliku sektori läbipaistvuse suurendamine;</li>\r\n"
+"<li>teabenõuete arvu vähendamine ja sellega avaliku sektori koormuse "
+"vähendamine;</li>\r\n"
+"<li>avatud teenuste loomise ja haldamise võimaldamine era- ja vabasektorile;"
+"</li>\r\n"
+"<li>õhutada üleminekut tuleviku tehnoloogiatele nagu <a href=\"http://et."
+"wikipedia.org/wiki/Linkandmed\">linkandmed</a>, \"<a href=\"http://en."
+"wikipedia.org/wiki/Internet_of_Things\">asjade Internet</a>\" ja \"<a href="
+"\"http://en.wikipedia.org/wiki/Big_data\">big data</a>\".</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>3. Mida avalikustada</strong></p>\r\n"
+"\r\n"
+"<p>Ametkondlikult loodud andmete avalikustamisel on mitmed olulised "
+"eesmärgid, kõige konkreetsemad neist on isikute, ettevõtete ja kolmanda "
+"sektori huvi kas lihtsalt tutvuda olemasolevate andmetega või kasutada neid "
+"oma tarkvara-rakendustes lisaväärtuse loomiseks mingis valdkonnas.</p>\r\n"
+"\r\n"
+"<p>Avalikustamisele kuuluvad kõik nii riigiametite kui kohalike "
+"omavalitsuste loodud andmehulgad, mille avalik kasutus ei ole otseselt "
+"keelatud ning mis sisaldavad ka muid andmeid peale isikuandmete. "
+"Andmehulkadest, mis sisaldavad nii isikuandmeid kui muid andmeid, "
+"avalikustatakse ainult mitte-isikuandmete osad.</p>\r\n"
+"\r\n"
+"<p>Konkreetsemalt peaksid avalikustatavates andmehulkades sisalduvad andmed "
+"olema üldjuhul riigiameti või kohaliku omavalituse poolt loodavad, kogutavad "
+"või hallatavad. Riigiamet või omavalitsus võib kokkuleppel mõne kolmanda "
+"osapoolega avalikustada ka selle kolmanda osapoole andmeid, kui peab neid "
+"avalikkusele piisavalt huvipakkuvaks.</p>\r\n"
+"\r\n"
+"<p><strong>4. Millised on andmehulga avalikustamise põhimõtted?</strong></p>"
+"\r\n"
+"\r\n"
+"<p>Andmehulga avalikustamise juures tuleb otsida kompromissi kahe eesmärgi "
+"vahel:</p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li>andmete mugav kasutatavus ja arusaadavus andmete otsijale ja "
+"allalaadijale</li>\r\n"
+"<li>andmete avalikustamise lihtsus ja töökulu minimeerimine avalikustajale.</"
+"li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p>Selleks, et andmehulka pidada avatuks, peab ta olema (vt ka "
+"originaalviidet <a href=\"http://www.opengovdata.org/home/8principles\" "
+"title=\"http://www.opengovdata.org/home/8principles\">http://www.opengovdata."
+"org/home/8principles</a> ):</p>\r\n"
+"\r\n"
+"<p>1. Terviklik<br />\r\n"
+"Kõik avalikud andmed tehakse kättesaadavaks, ehk teisisõnu kõik andmeid, "
+"mida ei piira isikuandmete või muul põhjusel salastatud andmete piirangud."
+"<br />2. Algallikast<br />Andmed on töötluseta kogutud algallikast, "
+"säilitades oma originaalkuju ja detailsuse.<br />3. Ajakohane<br />Andmehulk "
+"on avaldatud võimalikult kiirelt, et säilitada selle asjakohasus.<br />4. "
+"Kättesaadav<br />Andmed on saadavad võimalikult laiale kasutajateringile "
+"võimalikult laia kasutuseesmärgiga.<br />5. Masinloetav<br />Andmed on "
+"mõistetava struktuuriga ja automaatselt töödeldavad.<br />6. Mitte-"
+"diskrimineeriv<br />Andmed on esitatud avalikult, kättesaamiseks pole vaja "
+"registreeruda ega taotleda juurdepääsu.<br />7. Vabu standardeid kasutav<br /"
+">Andmed on esitatud vabas formaadis, mis ei ole ühegi ettevõtte ega isiku "
+"ainuomand.<br />8. Vaba litsentsiga<br />Andmed ei ole kaitstud "
+"autoriõiguse, patendi, kaubamärgi ega ärisaladuse regulatsiooniga. "
+"Mõistlikud privaatsus- ja turvalisuspiirangud võivad olla lubatud.</p>\r\n"
+"\r\n"
+"<p><strong>5. Kuidas toimub andmete avalikustamine?</strong></p>\r\n"
+"\r\n"
+"<p>Juhend andmete avalikustamiseks asub…</p>\r\n"
+"\r\n"
+"<p><strong>6. Kas on oht, et avalikustatakse ka isikuandmed?</strong></p>\r\n"
+"\r\n"
+"<p>Andmed, mis avalikustatakse, ei sisalda isikuandmeid ega võimalda "
+"avaldatud andmete kokku sobitamise teel isikuid identifitseerida, välja "
+"arvatud juhul kui informatsioon on niigi avalik (nt ministeeriumite "
+"töötajad).</p>\r\n"
+"\r\n"
+"<p><strong>7. Kas avaldatud andmetel peab olema ka litsents?</strong></p>\r\n"
+"\r\n"
+"<p>Avaandmete hulgal peab olema litsents, mis võimaldab tema vaba, "
+"piiranguteta kasutamist, töötlemist ja levitamist, sealjuures võimaldama "
+"levitamist kasutaja valikul nii tasuta kui tasu eest.</p>\r\n"
+"\r\n"
+"<p>Eelsitatult soovitame litsentsiks valida CreativeCommons litsentsi, vt "
+"täpsemalt <a href=\"http://creativecommons.org/\" title=\"http://"
+"creativecommons.org/\">http://creativecommons.org/</a>Sealloetletud "
+"litsentsidest soovitame eeskätt CC by 3.0 litsentsi: <a href=\"http://"
+"creativecommons.org/licenses/by/3.0/\" title=\"http://creativecommons.org/"
+"licenses/by/3.0/\">http://creativecommons.org/licenses/by/3.0/</a></p>\r\n"
+"\r\n"
+"<p><strong>8. Kas portaalis avaldavat informatsiooni võib kasutada ärilistel "
+"eesmärkidel (nt tasuliste teenuste loomiseks)?</strong></p>\r\n"
+"\r\n"
+"<p>Andmetetaaskasutamineärilisteleesmärkidel on lubatudning on super, "
+"kuiandmetetaaskasutaminevõimaldabluuauusikasumlikketeenuseid.</p>\r\n"
+"\r\n"
+"<p><strong>9. Millised on andmehulga soovitavad formaadid ja kodeeringud?</"
+"strong></p>\r\n"
+"\r\n"
+"<p>Peamise põhimõttena arvestame, et palju parem on avaldada andmed "
+"ebamugavas kodeeringus, kui jätta nad esialgu avaldamata põhjusel, et "
+"millalgi on plaanis võtta ette kodeeringu täiustamine. Teiseks, avaldatud "
+"andmehulka saab edaspidi avaldada uues, paremas kodeeringus. Soovitame oma "
+"avaandmed avaldada <strong>vähemalt 3 tärni formaadis</strong>.</p>\r\n"
+"\r\n"
+"<p>Viie tärni süsteemi viis U.K. avaandmete süsteemi kontekstis sisse "
+"Berners Lee ning lähtume täpselt samast tähistusest ja eesmärkidest: suurem "
+"tärnide arv tähendab kasutajale paremat formaati/kodeeringut. Vaata näiteid "
+"ja lisainfot siit: <a href=\"http://lab.linkeddata.deri.ie/2010/star-scheme-"
+"by-example/\" title=\"http://lab.linkeddata.deri.ie/2010/star-scheme-by-"
+"example/\">http://lab.linkeddata.deri.ie/2010/star-scheme-by-example/</a></p>"
+"\r\n"
+"\r\n"
+"<p><strong>10. Kuidas kasutadaopendata.riik.ee portaali?</strong></p>\r\n"
+"\r\n"
+"<p>TBA</p>\r\n"
+"\r\n"
+"<p><strong>11. Kuidas saab portaali lisada andmete põhjal loodud rakendusi?</"
+"strong></p>\r\n"
+"\r\n"
+"<p>Selleks mine Rakenduste lehele, kus on üleval informatsioon kõikidest "
+"rakendustest, mis inimesed on senini avaandmete põhjal teinud. Olles "
+"portaali sisse logunud saad tehtud rakendusi ka kommenteerida. Samuti on "
+"Rakenduste lehel  link, mis lubab sul postitada lehele oma loodud rakenduse "
+"ning peale portaali administraatori luba postitatakse sinu rakendus portaali."
+"</p>\r\n"
+"\r\n"
+"<p><strong>12. Kas portaalis on olemas koht, kus arutleda avaandmete teemal, "
+"võimalike rakenduste ja andmed taaskasutamise teemadel?</strong></p>\r\n"
+"\r\n"
+"<p>Selle tarbeks on loodud portaali Foorum. Lisaks saab lisada kommentaare "
+"otse erinevatele andmehulkadele ja rakendustele ning samuti saab postitada "
+"sooviavaldusi uute andmehulkade avamiseks.</p>\r\n"
+"\r\n"
+"<p><strong>13. Kust saab avaandmete temaatika kohta lisainformatsiooni?</"
+"strong></p>\r\n"
+"\r\n"
+"<ul>\r\n"
+"<li><a href=\"http://riso.ee/et/avaandmete-roheline-raamat\">Avaliku teabe "
+"masinloetava avalikustamise roheline raamat</a>.</li>\r\n"
+"<li><a href=\"https://riigikantselei.ee/sites/default/files/content-editors/"
+"TOF/TOF_uuringud/lingitud_eesti_lopparuanne_2.0.pdf\">Uuring „Lingitud "
+"Eesti“</a>.</li>\r\n"
+"<li><a href=\"https://www.riigiteataja.ee/akt/119122012004\">Avaliku teabe "
+"seadus (AvTS)</a>.</li>\r\n"
+"</ul>\r\n"
+"\r\n"
+"<p><strong>14. Kas tulevikus kättesaadava avaandmete hulk kasvab?</strong></"
+"p>\r\n"
+"\r\n"
+"<p>Kasvab! Projekti edenedes lisandub portaali uusi avaandmeid ja portaal "
+"seotakse ka teiste riikide avaandmete portaalidega.</p>"
+
+#: /
+msgid "Add your app"
+msgstr "Lisa oma rakendus"
+
+#: /
+msgid "Login to add your app"
+msgstr "Rakenduse lisamiseks logi sisse"
+
+#: /
+msgid "Login to take part in forums"
+msgstr "Foorumites osalemiseks logi sisse"
+
+#: /
+msgid "Create new forum topic (for authenticated users)"
+msgstr "Ava uus foorumi teema (autenditud kasutajale)"
+
+#: /
+msgid "Create new forum topic"
+msgstr "Ava uus foorumi teema"
+
+#: /et/apps
+msgid "Search ..."
+msgstr "Otsi ..."
+
+#: /et/apps
+msgid "Click search icon to see all content in this category"
+msgstr "Kogu sisu nägemiseks selles kategoorias vajuta otsinguikoonil"
+
+#: /et/apps
+msgid "results"
+msgstr "tulemust"
+
+#: /et/forum
+msgid "Newest forum topics"
+msgstr "Uusimad foorumi teemad"
+
+#: /
+msgid "Free"
+msgstr "Tasuta"
+
+#: /
+msgid "Partially Free"
+msgstr "Osaliselt tasuta"
+
+#: /
+msgid "Paid for"
+msgstr "Tasuline"
+
+#: /et/forum/%C3%BCldine-diskussioon/linkandmed
+msgid "Posted by "
+msgstr "Postitas"
+
+#: /et/forum/%C3%BCldine-diskussioon/linkandmed
+msgid "Categories"
+msgstr "Kategooriad"
+
+#: /node/add/forum
+msgid "Create forum topic"
+msgstr "Uue teema lisamine"
+
+#: /et/apps
+msgid "Site Usage"
+msgstr "Portaali kasutus"
+
+#: /apps/haridussilm
+msgid "Updated "
+msgstr "Uuendatud"
+
+#: /
+msgid " new"
+msgstr " uut"
+
+#: /et/admin/config/search/apachesolr/search-pages/block/mlt-001/delete?render=overlay
+msgid "In the same category"
+msgstr "Samast kategooriast"
+
+#: /et/forum
+msgid "No replies so far"
+msgstr "Seni vastuseid pole"
+
+#: /et/admin/structure/views/view/forum_categories/preview/forum_categories_block/ajax
+msgid "<span class=\"counter\">@count</span> topics"
+msgstr "<span class=\"counter\">@count</span> teemat "
+
+#: /et/admin/structure/views/view/forum_categories/preview/forum_categories_block/ajax
+msgid "<span class=\"counter\">1</span> topic"
+msgstr "<span class=\"counter\">1</span> teema"
+
+#: /et/admin/structure/views/view/forum_categories/preview/forum_categories_block/ajax
+msgid "<span class=\"counter\">@count</span> replies"
+msgstr "<span class=\"counter\">@count</span> vastust"
+
+#: /et/forum/categories
+msgid "1</span> new"
+msgstr "1</span> uus"
+
+#: /et/forum/categories
+msgid "1 new"
+msgstr "1 uus"
+
+#: /et/forum/categories
+msgid "<span class=\"counter\">1</span> reply"
+msgstr "<span class=\"counter\">1</span> vastus "
+
+#: /et/node/39/edit?destination=node/39
+msgid "Partially free"
+msgstr "Osaliselt tasuta"
+
+#: /et/search/everything/andmed
+msgid "Sort by:"
+msgstr "Sorteeri:"
+
+#: /search/everything/rakendus?solrsort=score
+msgid "@count <span class=\"result-count-type\">results"
+msgstr "@count <span class=\"result-count-type\">tulemust "
+
+#: /search/everything/riigiraha?solrsort=score
+msgid "1 <span class=\"result-count-type\">result"
+msgstr "1 <span class=\"result-count-type\">tulemus"
+
+#: blocks:block:1:body
+msgid ""
+"<h2>The Open Data Portal provides a single point of access for general "
+"public to unrestricted public sector data with the permission to "
+"re-use and redistribute such data for both commercial and "
+"non-commercial purposes.</h2>"
+msgstr ""
+"<h2>Portaali&nbsp;kaudu on igaühel juurdepääs avaliku sektori "
+"juurdepääsupiiranguteta andmetele koos nende taaskasutamise ja "
+"edasijagamise õigusega ärilistel ja mitteärilistel "
+"eesmärkidel.</h2>"
+
+#: blocks:block:3:body
+msgid ""
+"<ul>\r\n"
+"\t<li>to stimulate economy</li>\r\n"
+"\t<li>to increase transparency</li>\r\n"
+"\t<li>to provide access to information</li>\r\n"
+"\t<li>to decrease the number of information requests and, "
+"consequently, also reduce the workload of public sector "
+"workers</li>\r\n"
+"\t<li>to facilitate creation and management of open services for "
+"private and community sectors</li>\r\n"
+"\t<li>to encourage migration to future technologies such as Linked "
+"Data, Big Data and Internet of Things</li>\r\n"
+"</ul>\r\n"
+msgstr ""
+"<ul>\r\n"
+"\t<li>Elavdab majandust</li>\r\n"
+"\t<li>Suurendab läbipaistvust</li>\r\n"
+"\t<li>Pakub informatsiooni</li>\r\n"
+"\t<li>Vähendab teabenõuete arvu ja sellega avaliku sektori "
+"koormust</li>\r\n"
+"\t<li>Pakub avatud teenuste loomist ja haldamist era- ja "
+"vabasektorile</li>\r\n"
+"\t<li>Õhutab üleminekut tuleviku teholoogiatele nagu "
+"<em>linkandmed</em>, <em>suurandmed</em> ja <em>asjade "
+"internet</em></li>\r\n"
+"</ul>\r\n"
+
+#: blocks:block:3:title
+msgid "Goals of opening up data:"
+msgstr "Andmete avamise olulisemad eesmärgid:"
+
+#: blocks:block:5:body
+msgid ""
+"<div style=\"float:right;text-align:right;font-size:0.8em\"><p>The "
+"Open Data Portal is created as part of the EU structural funds' "
+"programme 'Raising Awareness of<br>Information Society' which is "
+"financed through the EU Regional Development Fund.</p></div>"
+msgstr ""
+"<div "
+"style=\"float:right;text-align:right;font-size:0.8em\"><p>Avaandmete "
+"portaal valmib EL struktuurifondide programmist \"Infoühiskonna "
+"teadlikkuse tõstmine\"<br />\r\n"
+"Euroopa Regionaalarengu Fondi rahastusel.</p></div>\r\n"

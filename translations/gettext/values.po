@@ -1,5 +1,5 @@
 # Estonian translations for Open Data Portal http://opendata.riik.ee/.
-# Copyright (C) 2017 Ministry of Economic Affairs and Communications.
+# Copyright (C) 2015-2017 Ministry of Economic Affairs and Communications.
 # This file is distributed under the same license as the Datagov project.
 #
 # Märt Põder <tramm@infoaed.ee>, 2017.
