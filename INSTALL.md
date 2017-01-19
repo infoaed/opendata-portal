@@ -168,7 +168,7 @@ Uuenduste rakendumiseks töötavas süsteemis tuleb enamasti taaskäivitada veeb
 
 Genereerimist vajavad seadistused on harudes `ckan`, `ckanext-dgu` ja `shared_dguk_assets`, esimeses neist on CKANi ja selle laiendusi puudutavad tõlked, teises skripti- ja laadifailid ning kolmandas CKANi ja Drupali poolt ühiselt kasutatavad skripti- ning laadifailid ja JavaScripti kasutavate komponentide tõlked.
 
-> Tõlgete genereerimiseks on kasutusel CKANi tõlkesüsteem, mis põhineb Gettext standardil ning kasutab tõlkefraaside kogumiseks ning haldamiseks Babeli moodulit. Sama standard on kasutusel ka JavaScripti tõlkimisel, kuid tõlked teisendatakse kasutamiseks tavapärase Gettext MO-objektkoodi asemel JSON-vormingusse. Drupali tõlked on samuti Gettext formaadis, kuid neid hallatakse Drupali enda vahenditega ning vajadusel eksporditakse/imporditakse (sellest allpool täpsemalt).
+> Tõlgete genereerimiseks on kasutusel CKANi tõlkesüsteem, mis põhineb _Gettext_-standardil ning kasutab tõlkefraaside kogumiseks ning haldamiseks Babeli moodulit. Sama standard on kasutusel ka JavaScripti tõlkimisel, kuid tõlked teisendatakse kasutamiseks tavapärase Gettext MO-objektkoodi asemel JSON-vormingusse. Drupali tõlked on samuti Gettext formaadis, kuid neid hallatakse Drupali enda vahenditega ning vajadusel eksporditakse/imporditakse (sellest allpool täpsemalt).
 > 
 > CKANi tõlkefailide haldamine toimub kolme eri ülesande vahel liikudes, sj neid vajadusel korrates või omavahel kombineerides:
 > 
@@ -206,7 +206,25 @@ Selle tulemusel luuakse masinale loetavad MO-objektkoodis fail `/src/ckan/ckan/i
 
 Selle tulemusel luuakse JSON-standardile vastavalt markeeritud tõlkeid sisaldav tekstifail `/src/shared_dguk_assets/assets/json/i18n/et.json`, mida kasutavad portaali JavaScriptil põhinevad komponendid fraaside esitamiseks kasutajale. Grunt kasutab JSON-failide genereerimisel _po2json_ moodulit, mis tuleb paigaldada käsuga `npm install grunt-po2json`.
 
-Viimase käsuga (st `grunt default`) uuendatakse ka CKANi ja Drupali poolt kasutatavad skripti- ning laadifailid. Sama käsk uuendab skripti- ja laadifaile ka `ckanext-dgu` harus. Kõik nimetatud käsud tuleb käivitada vastavate harude juurkataloogis, st kataloogides `/src/ckan`, `/src/ckanext-dgu` ja `/src/shared_dguk_assets` ning need tuleb käivitada CKANi kasutuskeskkonnas kasutajana `co` (vt viidet teksti alguses).
+Viimase käsuga (st `grunt default`) uuendatakse ka CKANi ja Drupali poolt kasutatavad skripti- ning laadifailid. Sama käsk uuendab skripti- ja laadifaile ka `ckanext-dgu` harus. Kõik nimetatud käsud tuleb käivitada vastavate harude juurkataloogis, st kataloogides `/src/ckan`, `/src/ckanext-dgu` ja `/src/shared_dguk_assets` ning need tuleb käivitada CKANi kasutuskeskkonnas kasutajana `co` (vt ka viidet juhendi alguses).
+
+## CKANi Eurovoc-märksõnastiku ja tõlgete importimine
+
+CKANi Eurovoc-märksõnastikku saab uuendada ja tõlkeid lisada ainult siis, kui CKAN server käib ja mitmekeelsust võimaldavad moodulid on aktiveeritud.
+
+> Eurovoc sõnastik on realiseeritud CKAN keskkonna soovituslike märksõnade sõnastikuna (ingl k _tag vocabulary_, vt täpsemalt [CKANi dokumentatsioonist](http://docs.ckan.org/en/ckan-2.2.3/tag-vocabularies.html)). Märksõnastiku tõlkimise võimalus on süsteemi sisse ehitatud ning [võimaldatud vastavate laiendustega](http://docs.ckan.org/en/ckan-2.2.3/multilingual.html#setup-and-configuration). Rangelt võttes pole Eurovoc sõnastiku tõlkimisel tegu kasutajaliidese tõlkimisega, vaid see on osa andmekihist ning lisaks on võimalik lülitada sisse ka mitmekeelsust andmehulkade ja teabevaldajate talletamisel ning esitamisel.
+
+Uuendatud sõnastikufailid on tõlkelahenduse GitHubi varamus [taksonoomiate/klassifikaatorite kataloogis](https://github.com/infoaed/opendata-portal/tree/master/translations/taxonomy) ning need põhinevad Eurovoc märksõnastiku 2016. aasta [väljalaskel 4.5](http://eurovoc.europa.eu/drupal/?q=et/node/1486&cl=et). Esmalt võiks CKAN märksõnastikku lisada uuendatud eestikeelse sõnastiku ning seejärel sellele vastavad tõlked. Sõnastikufail ja tõlgete fail on ette valmistatud sama malli alusel nagu varasem sõnastik, st sealt on eemaldatud märgid, mis on CKAN märksõnastikus keelatud (st sulud, komad, apostroofid, jutumärgid jmt, lubatud on vaid sidekriips, allkriips ja punkt), kuigi need on samas tõlgetes lubatud. Eemaldatud on ka kirjed märkega _under translation_ ja üks kirje, mis ületas märksõnadele lubatud pikkuse piiri (_Vabadusel, Turvalisusel ja Õigusel Rajaneva Ala Suuremahuliste IT-süsteemide Operatiivjuhtimise Euroopa Amet_), täpsermalt vt [faili muudatuste ajaloost](https://github.com/infoaed/opendata-portal/commit/1cf1f09912797987fd5cb2c0ed8d510d47634609).
+
+Märksõnade faili [eurovoc-4.5-et.json](https://raw.githubusercontent.com/infoaed/opendata-portal/master/translations/taxonomy/eurovoc-4.5-et.json) alusel märksõnastiku uuendamiseks tuleb mõnes Internetti ühendatud arvutis käivitada käsk:
+
+	$ curl -X POST 'https://opendata.riik.ee/api/action/vocabulary_update' -H 'Authorization: {API_KEY}' --data @eurovoc-4.5-et.json
+
+Märksõnastiku tõlgete lisamiseks [eurovoc-4.5-et-en.json](https://raw.githubusercontent.com/infoaed/opendata-portal/master/translations/taxonomy/eurovoc-4.5-et-en.json) failist tuleb käivitada:
+
+	$ curl -X POST 'https://opendata.riik.ee/api/action/term_translation_update_many' -H 'Authorization: {API_KEY}' --data @eurovoc-4.5-et-en.json
+
+Võtme leiab Drupali admin-veebi kataloogis [/admin/config/system/ckan](https://opendata.riik.ee/admin/config/system/ckan) lehelt ning see tuleb pannan käsus {API_KEY} asemele (ilma looksulgudeta). Kui importimine ei õnnestu, siis tasub uurida [CKAN API dokumentatsiooni](http://docs.ckan.org/en/ckan-2.2.3/api.html#ckan.logic.action.update.term_translation_update_many) ja/või veenduda serveri töökorras. Märksõnastiku uuendamise käsk peaks vastama teatega _success_ ning tagastama kõigi lisatud märksõnade väärtused, tõlgete uuendamise käsk peaks tagastama teate _success_ ja lisatud tõlgete arvu.
 
 ## Drupali moodulite seadistamine
 
@@ -230,7 +248,7 @@ Protsessi võib soovi korral ohjata ka admin-veebis [_Features_-sektsioonis](htt
 
 Ülaloleval pildil on moodulite laivis oleva ja koodis oleva seisu vastuolud lahendatud, ainult üks moodul on seisundis, kus andmebaasis olev kirjutab üle midagi koodis olevat (seisund `Overridden`, kooskõlaline on `Default`, kui muudatused on probleemsed, siis on seisund tavaliselt `Needs review` vmt).
 
-Järgnevad _Feature_-moodulite lühikirjeldused mitmekeelsuse vaatepunktist. Osades moodulites mitmekeelsusega suuri muudatusi ei kaasne, neis kinnitatakse siis üle ainult mitmekeelse keskkonnaga kaasnevad vaikimisi seadistused, ka eeldavad _Feature_-moodulid, et on korrektselt paigaldatud neile vajalikud keele- vm lisamoodulid (vt sellest altpoolt).
+Järgnevad _Feature_-moodulite lühikirjeldused mitmekeelsuse vaatepunktist. Osades moodulites mitmekeelsusega suuri muudatusi ei kaasne, neis kinnitatakse siis üle ainult mitmekeelse keskkonnaga kaasnevad vaikimisi seadistused, ka eeldavad _Feature_-moodulid, et on korrektselt paigaldatud neile vajalikud keele- vm lisamoodulid (vt sellest altpoolt). Paigaldus on õnnestunud, kui ühegi _Feature_-mooduli staatus pole vastuoluline või on vastuoluks põhjendatud vajadus.
 
 #### DGU Site Feature
 
@@ -304,32 +322,34 @@ Selle tulemusel paigaldatakse `apachesolr`versioon 7.x-1.8 ja `apachesolr_multil
 
 ### Tõlgete endi lisamine
 
-Drupali tõlked ise on Gettext PO failides ja neid saab lisada nii admin-veebist [/admin/config/regional/translate/import](https://opendata.riik.ee/admin/config/regional/translate/import) alt kui vastava _drush_'i käsu abil, mille jaoks on vaja alla laadida keelemoodulite käsustik:
+Drupali tõlked ise on _Gettext PO_ failides ja neid saab lisada nii admin-veebist [/admin/config/regional/translate/import](https://opendata.riik.ee/admin/config/regional/translate/import) alt kui vastava _drush_'i käsu abil, mille jaoks on vaja alla laadida [keelemoodulite käsustik](https://www.drupal.org/project/drush_language):
 
 	$ drush dl drush_language
 
 Keelefailide importimiseks saab seejärel käivitada:
 
 	$ drush language-import et profiles/dgu/i18n/et
+	
+Seda käsku tuleb korrata alati, kui tõlkijatelt laekub uusi väljaspool admin-veebi tehtud tõlkeid.
+
+> Drupali tõlkeprotsess on samasuguse ülesehitusega nagu CKANi oma, aga tõlgitavaid fraase tuleb lähtekoodis märgistada pigem erandjuhtudel, sest tõlgitavaks muudavad sisu vastavad lisamoodulid automaatselt. Fraaside kogumist saab algatada admin-veebis [/admin/config/regional/translate/i18n_string](https://opendata.riik.ee/admin/config/regional/translate/i18n_string) või käsuga `drush language-refresh`, mis liidab automaatselt tõlkimist vajavad stringid juba tõlgitud stringide loeteluga. Tõlkeid saab _Gettext PO_ vormingus eksportida adnmin-veebis [/admin/config/regional/translate/export](https://opendata.riik.ee/admin/config/regional/translate/export) või käsuga `drush language-export`. Valmis tõlkeid imporditakse nagu ülal juba kirjeldatud.
+>
+> Drupal kasutab ka _Gettext_ standardis kirjeldatud tõlkekonteksti määramise võimalust, aga nimetab seda oma terminoloogias tekstirühmaks (ingl k _text group_). Avaandmete portaalis kasutatud [_Translation fallback_ moodul](https://www.drupal.org/project/translation_fallback) lubab tekstirühmas puuduva tõlke korral tõlget ka _default_-tekstirühmast (kasutajaliideses "Sisseehitatud kasutajaliides", ingl k _Built-in interface_), mistõttu pole tekstirühmade eristused mugavuse ja tõlke võimalikult laialdase automaatse rakenduvuse nimel aktiivses kasutuses, kuid samade fraaside täpse tõlkimise nimel eri kontekstides võib tulevikus tõlgete pidamine eri tekstirühmade jaoks vajalikuks osutuda.
+>
+> Lisaks võimaldab Drupal tõlkida fraase otse admin-veebis [/admin/config/regional/translate/translate](https://opendata.riik.ee/admin/config/regional/translate/translate) ning on saadaval ka protsessi veelgi hõlbustavaid lisamooduleid nagu [Localization client](https://www.drupal.org/project/l10n_client) jt.
+
+### Eestikeelse sisu tõlgitavaks tegemine
 
 Kuna avaandmete portaal oli algselt tõlgitud eesti keelde tõlkefraaside _ad hoc_ ülekirjutamisega, siis tuleb teatud kohtades eesti keele fraasid jõuga ingliskeelsetega asendada. Üks selline valdkond on nt taksonoomiad/klassifikaatorid, mis on saidi sisu ja mitte seadistused, seega nende uuendamiseks ülal mainitud sammudest esialgu ei piisa. Need tuleb uuendada käsitsi vastavates admin-veebi jaotistes, st [/admin/structure/taxonomy/category](https://opendata.riik.ee/admin/structure/taxonomy/category), [/admin/structure/taxonomy/sector](https://opendata.riik.ee/admin/structure/taxonomy/sector) ja [/admin/structure/taxonomy/forums](https://opendata.riik.ee/admin/structure/taxonomy/forums). Malli selleks leiab portaali Drupali osa [tõlgete kataloogist](https://github.com/infoaed/dgu_d7/tree/look_feel_est/i18n), võimalik on ka kasutada selleks ette valmistatud SQL-skripte, mille leiab [tõlkeprojekti koodivaramust](https://github.com/infoaed/opendata-portal/tree/master/translations/taxonomy), kuid sel juhul tuleb veenduda, et need teevad täpselt seda, mida vaja.
 
 Foorumite klassifikaatorite puhul tuleb täita ka nende jaoks loodud uus väli nimega `machine_name`. Sellel väljal tuleb määrata sõne, mis hakkab foorumi rubriiki viitama foorumi URLis, nt string `üldine-diskussioon` URLis https://opendata.riik.ee/forum/üldine-diskussioon. Kuna portaalis on kasutatud vaikimisi malli, et üldkategooriat väljendavate alamletede URLide vastavad osad on inglise keeles (nt _forum_, _app_, _data_, _publisher_ jmt), aga eestikeelset sisu väljendavad osad on eesti keeles, siis on mõistlik siin kasutada samu stringe, mis on kasutusel foorumite klassifikaatoride URL aliastes (st nende vastavad osad kopeerida väljale `machine_name`.
 
-## CKANi Eurovoc märksõnastiku ja tõlgete importimine
+### Täiendavad parandused
 
-Kuna lähtekood on nüüd uuendatud ja veebiserver taaskäivitatud, siis võib vahepeal uuendada ära CKANi Eurovoc märksõnastiku, mida saab teha ainult töötavas süsteemis.
+Üksikute [koodipuus haldamata moodulite paranduste hulka](https://github.com/infoaed/dgu_d7/tree/look_feel_est/patches) on lisatud kolm täiendavat parandust, neist [widget.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/widget.patch) ja [widget_links.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/widget_links.patch) puudutavad otsingutulemuste näitamist/tõlkimist ja [locale.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/locale.patch) on ajutiseks sisselülitamiseks siis, kui tõlgete importimisel annab süsteem hoiatusi, et kasutatakse keelatud HTML-märgendeid.
 
-> Eurovoc sõnastik on realiseeritud CKAN keskkonna soovituslike märksõnade sõnastikuna (ingl k _tag vocabulary_, vt täpsemalt [CKANi dokumentatsioonist](http://docs.ckan.org/en/ckan-2.2.3/tag-vocabularies.html)). Märksõnastiku tõlkimise võimalus on süsteemi sisse ehitatud ning [võimaldatud vastavate laiendustega](http://docs.ckan.org/en/ckan-2.2.3/multilingual.html#setup-and-configuration). Rangelt võttes pole Eurovoc sõnastiku tõlkimisel tegu kasutajaliidese tõlkimisega, vaid see on osa andmekihist ning lisaks on võimalik lülitada sisse ka mitmekeelsust andmehulkade ja teabevaldajate talletamisel ning esitamisel.
+Paranduste rakendamiseks:
 
-Uuendatud sõnastikufailid on tõlkelahenduse GitHubi varamus [taksonoomiate/klassifikaatorite kataloogis](https://github.com/infoaed/opendata-portal/tree/master/translations/taxonomy) ning need põhinevad Eurovoc märksõnastiku 2016. aasta [väljalaskel 4.5](http://eurovoc.europa.eu/drupal/?q=et/node/1486&cl=et). Esmalt võiks CKAN märksõnastikku lisada uuendatud eestikeelse sõnastiku ning seejärel sellele vastavad tõlked. Sõnastikufail ja tõlgete fail on ette valmistatud sama malli alusel nagu varasem sõnastik, st sealt on eemaldatud märgid, mis on CKAN märksõnastikus keelatud (st sulud, komad, apostroofid, jutumärgid jmt, lubatud on vaid sidekriips, allkriips ja punkt), kuigi need on samas tõlgetes lubatud. Eemaldatud on ka kirjed märkega _under translation_ ja üks kirje, mis ületas märksõnadele lubatud pikkuse piiri (_Vabadusel, Turvalisusel ja Õigusel Rajaneva Ala Suuremahuliste IT-süsteemide Operatiivjuhtimise Euroopa Amet_), täpsermalt vt [faili muudatuste ajaloost](https://github.com/infoaed/opendata-portal/commit/1cf1f09912797987fd5cb2c0ed8d510d47634609).
+	$ patch -p0 < {FAILINIMI}
 
-Märksõnade faili [eurovoc-4.5-et.json](https://raw.githubusercontent.com/infoaed/opendata-portal/master/translations/taxonomy/eurovoc-4.5-et.json) alusel märksõnastiku uuendamiseks tuleb mõnes Internetti ühendatud arvutis käivitada käsk:
-
-	$ curl -X POST 'https://opendata.riik.ee/api/action/vocabulary_update' -H 'Authorization: {API_KEY}' --data @eurovoc-4.5-et.json
-
-Märksõnastiku tõlgete lisamiseks [eurovoc-4.5-et-en.json](https://raw.githubusercontent.com/infoaed/opendata-portal/master/translations/taxonomy/eurovoc-4.5-et-en.json) failist tuleb käivitada:
-
-	$ curl -X POST 'https://opendata.riik.ee/api/action/term_translation_update_many' -H 'Authorization: {API_KEY}' --data @eurovoc-4.5-et-en.json
-
-Võtme leiab Drupali admin-veebi kataloogis [/admin/config/system/ckan](https://opendata.riik.ee/admin/config/system/ckan) lehelt ning see tuleb pannan käsus {API_KEY} asemele (ilma looksulgudeta). Kui importimine ei õnnestu, siis tasub uurida [CKAN API dokumentatsiooni](http://docs.ckan.org/en/ckan-2.2.3/api.html#ckan.logic.action.update.term_translation_update_many) ja/või veenduda serveri töökorras. Märksõnastiku uuendamise käsk peaks vastama teatega _success_ ning tagastama kõigi lisatud märksõnade väärtused, tõlgete uuendamise käsk peaks tagastama teate _success_ ja lisatud tõlgete arvu.
+Sama käsuga saab ka paranduse annulleerida.
