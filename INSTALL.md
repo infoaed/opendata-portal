@@ -1,10 +1,10 @@
-# Avaandmete portaali http://opendata.riik.ee kakskeelse kasutajaliidese loomine ja tõlgete ning tõlkemoodulite seadistamine
+# Avaandmete portaali https://opendata.riik.ee kakskeelse kasutajaliidese loomine ja tõlgete ning tõlkemoodulite seadistamine
 
 Projekti eesmärgiks oli muuta http://opendata.riik.ee kasutajaliides ligipääsetavaks ka inglise keeles. Sisuliselt tähendab see kakskeelse kasutajaliidese loomist ning seadistamist. Kuna kõik poraali aluseks olnud tarkvaramoodulid toetavad vähemalt teatud määral tõlkemoodulite kasutamist, siis töö suurimaks osaks oli tõlkemoodulite seadistamine ja nende omavahelisse kooskõlla viimine.
 
 Kuna portaali kasutajalides oli loodud osaliselt eestikeelsena, osaliselt tõlgitud eesti keelde ingliskeelses lähtekoodis vajalikes kohtades võõrkeelsete fraaside _ad hoc_ asendamisega vastavate eestikeelsete fraasidega, siis oli tõlkemoodulite seadistamise eelduseks lähtekoodis kirjeldatud eesti fraaside eemaldamine, asendamine ingliskeelsete fraasidega ning eemaldatud eestikeelsete fraaside säilitamine taaskasutuseks tõlkemoodulites.
 
-Järgnev kirjeldab tõlkemoodulite ja taaskasutamiseks ettevalmistatud ning täiendavalt loodud tõlkefailide seadistamise protsessi juba töös olevas avaandmete portaalis http://opendata.riik.ee ning pakub sinna kõrvale elementaarseid selgitusi portaali tõlkeprotsessi tehnilise ja sisulise korralduse mõistmiseks.
+Järgnev kirjeldab tõlkemoodulite ja taaskasutamiseks ettevalmistatud ning täiendavalt loodud tõlkefailide seadistamise protsessi juba töös olevas avaandmete portaalis https://opendata.riik.ee ning pakub sinna kõrvale elementaarseid selgitusi portaali tõlkeprotsessi tehnilise ja sisulise korralduse mõistmiseks.
 
 Portaali eri komponentide tõlkemoodulite omavahelist ühildamist, lähtekoodi tõlkimiseks ettevalmistamist jm tehtud töid, sh tõlkesüsteemi üldist ülesehitust ja sellega seotud küsimusi lahatakse täpsemalt tõlkesüsteemi kirjelduses, mis on jälgitavuse huvides vormistatud eraldi dokumendina.
 
@@ -35,6 +35,10 @@ Oluline on lülituda CKAN keskkonnale, et uuendataks ainult õigeid faile ja tä
 Seda CKAN keskkonnale lülitumist tasub endale iga kord meelde tuletada, kui on vaja süsteemis mingeid uuendusi teha või logid masinasse sisse.
 
 Ka on mõistlik lähtekoodi ja saidi seadistuste muutmise ajaks peatada veebiserver ja panna sait hooldusrežiimile. Viimast saab teha Drupali saidi admin-veebis aadressil [/admin/config/development/maintenance](https://opendata.riik.ee/et/admin/config/development/maintenance).
+
+Uuenduste rakendamiseks veebiserveris võib puhastada vahemälud ja serveri taaskäivitada:
+
+	$ drush cc all && sudo service apache2 restart
 	
 ## Apache'i veebiserveri seadistused
 
@@ -224,7 +228,7 @@ Märksõnastiku tõlgete lisamiseks [eurovoc-4.5-et-en.json](https://raw.githubu
 
 	$ curl -X POST 'https://opendata.riik.ee/api/action/term_translation_update_many' -H 'Authorization: {API_KEY}' --data @eurovoc-4.5-et-en.json
 
-Võtme leiab Drupali admin-veebi kataloogis [/admin/config/system/ckan](https://opendata.riik.ee/admin/config/system/ckan) lehelt ning see tuleb pannan käsus {API_KEY} asemele (ilma looksulgudeta). Kui importimine ei õnnestu, siis tasub uurida [CKAN API dokumentatsiooni](http://docs.ckan.org/en/ckan-2.2.3/api.html#ckan.logic.action.update.term_translation_update_many) ja/või veenduda serveri töökorras. Märksõnastiku uuendamise käsk peaks vastama teatega _success_ ning tagastama kõigi lisatud märksõnade väärtused, tõlgete uuendamise käsk peaks tagastama teate _success_ ja lisatud tõlgete arvu.
+Võtme leiab Drupali admin-veebi kataloogis [/admin/config/system/ckan](https://opendata.riik.ee/admin/config/system/ckan) lehelt ning see tuleb pannan käsus {API_KEY} asemele (ilma looksulgudeta). Kui importimine ei õnnestu, siis tasub uurida [CKAN API dokumentatsiooni](http://docs.ckan.org/en/ckan-2.2.3/api.html#ckan.logic.action.update.term_translation_update_many) ja/või veenduda serveri töökorras nt laadides esmalt prooviks üles mõne lühema faili. Märksõnastiku uuendamise käsk peaks vastama teatega _success_ ning tagastama kõigi lisatud märksõnade väärtused, tõlgete uuendamise käsk peaks tagastama teate _success_ ja lisatud tõlgete arvu.
 
 ## Drupali moodulite seadistamine
 
@@ -240,15 +244,17 @@ See käsk [püüab taastada](https://drushcommands.com/drush-8x/features/feature
 
 > Siiski on enamasti laivsüsteemis tehtud vajalikke muudatusi, mida oleks vaja säilitada või mis on koodis realiseeritud _Feature_-moodulitega vastuolus. Need vastuolud on 18.01.2017 seisuga küll lahendatud, aga tõenäoliselt see portaali uuenduste vm jooksvate muudatuste tõttu päriselt nii ei jää. Seega on reaalne muudatuste rakendamise protsess samm-sammuline ja võib vajada jooksvat korrigeerimist. Ka ei paigalda _Feature_-moodulid kõiki vajalikke sõltuvusi ja kuigi see on tehniliselt võimalik, siiski poleks see mõistlik, sest _Feature_'ide süsteem [pole mõteldud asendama täiemahulist paketihaldust](https://www.drupal.org/docs/7/modules/features/version-control-and-configuration-management), vaid on üks võimalik abivahend paljude seast Drupali saitide seadistuste/laienduste haldamiseks.
 
-Laivsüsteemi tehtud muudatusi saab uurida [vastavate _drush_-käskudega](https://drushcommands.com/drush-8x/features/features-diff/) ja neid tuleks kindluse mõttes esmalt [eksportida eraldi moodulisse](https://drushcommands.com/drush-8x/features/features-export/) või [vastavasse koodiharusse](https://drushcommands.com/drush-8x/features/features-add/) ning seejärel võrdlevalt liita [olemasoleva koodipuu vastavate sektsioonidega](https://github.com/opendata-ee/dgu_d7/tree/look_feel_est/modules/features). Üheks põhjuseks on, et Eesti avaandmete portaal kasutab täiendavaid tõlkevõimalusi, mille nt _drush_'i _add_-käsk kohati automaatselt üle kirjutab ning sellega osa kasutajaliidese tõlkeid võib tühistada.
+Laivsüsteemi tehtud muudatusi saab uurida [vastavate _drush_-käskudega](https://drushcommands.com/drush-8x/features/features-diff/) (kasutamiseks paigaldada [Diff-moodul](https://www.drupal.org/project/diff)) ja neid tuleks kindluse mõttes esmalt [eksportida eraldi moodulisse](https://drushcommands.com/drush-8x/features/features-export/) või [vastavasse koodiharusse](https://drushcommands.com/drush-8x/features/features-add/) ning seejärel võrdlevalt liita [olemasoleva koodipuu vastavate sektsioonidega](https://github.com/opendata-ee/dgu_d7/tree/look_feel_est/modules/features). Üheks põhjuseks on, et Eesti avaandmete portaal kasutab täiendavaid tõlkevõimalusi, mille nt _drush_'i _add_-käsk kohati automaatselt üle kirjutab ning sellega osa kasutajaliidese tõlkeid võib tühistada.
 
 Protsessi võib soovi korral ohjata ka admin-veebis [_Features_-sektsioonis](https://opendata.riik.ee/admin/structure/features), kus saab muudatusi visuaalselt võrrelda ja seal on koodis tehtud muudatuste kehtestamise käsuks _Revert_ ja muudatusi eksporditakse uude _Feature_-moodulisse käsuga _Create_. Avaandmete portraalis on kasutusel ainult osa DGU moodulitest ning kasutusel olevad moodulid on muudetud seadistustega.
 
 ![_Feature_-moodulite nimekiri portaali admin-veebis](features.png  "_Feature_-moodulite nimekiri")
 
-Ülaloleval pildil on moodulite laivis oleva ja koodis oleva seisu vastuolud lahendatud, ainult üks moodul on seisundis, kus andmebaasis olev kirjutab üle midagi koodis olevat (seisund `Overridden`, kooskõlaline on `Default`, kui muudatused on probleemsed, siis on seisund tavaliselt `Needs review` vmt).
+Ülaloleval pildil on moodulite laivis oleva ja koodis oleva seisu vastuolud lahendatud, ainult üks moodul on seisundis, kus andmebaasis olev kirjutab üle midagi koodis olevat (seisund `Overridden`, kooskõlaline on `Default`, kui muudatused on probleemsed, siis on seisund tavaliselt `Needs review` vmt). _Feature_-moodulite uuendus/paigaldus on õnnestunud, kui ühegi _Feature_-mooduli staatus pole vastuoluline või on vastuoluks põhjendatud vajadus. Kui vastuolude lahendamine ühelgi iseenesestmõistetaval viisil ei õnnestu, siis tasub uurida, kas probleemile on [mõni dokumenteeritud lahendus](https://www.drupal.org/docs/7/modules/features/troubleshooting-reasons-features-may-be-stuck-as-overridden).
 
-Järgnevad _Feature_-moodulite lühikirjeldused mitmekeelsuse vaatepunktist. Osades moodulites mitmekeelsusega suuri muudatusi ei kaasne, neis kinnitatakse siis üle ainult mitmekeelse keskkonnaga kaasnevad vaikimisi seadistused, ka eeldavad _Feature_-moodulid, et on korrektselt paigaldatud neile vajalikud keele- vm lisamoodulid (vt sellest altpoolt). Paigaldus on õnnestunud, kui ühegi _Feature_-mooduli staatus pole vastuoluline või on vastuoluks põhjendatud vajadus.
+Ilmselt on vaja protsessi käigus üle genereerida kasutajagruppide ligipääsuõigused saidi sisutüüpidele admin-veebis [/admin/reports/status/rebuild](https://opendatatest.riik.ee/admin/reports/status/rebuild), mitmekeelsuse muudatustega _Feature_-moodulid on genereeritud _Features_ versiooniga 7.x-2.10, seega võib olla mõistlike tulemuste tarvis vaja uuendada ka _Features_-moodulit ennast `drush up features`. Kui muu ei tööta, siis saab lõpuks muuta panna seadistused koodiga klappima, muutes vajalikud moodulite seadistused ära käsitsi. Mõnikord piisab värskendamiseks ka seadistuste muutmisest, salvestamisest ja seejärel `drush fr {MOODUL}` käivitamisest.
+
+Järgnevad _Feature_-moodulite lühikirjeldused mitmekeelsuse vaatepunktist. Osades moodulites mitmekeelsusega suuri muudatusi ei kaasne, neis kinnitatakse siis üle ainult mitmekeelse keskkonnaga kaasnevad vaikimisi seadistused, ka eeldavad _Feature_-moodulid, et on korrektselt paigaldatud neile vajalikud keele- vm lisamoodulid (vt sellest altpoolt).
 
 #### DGU Site Feature
 
@@ -296,7 +302,9 @@ Realiseerib andmehulga jaoks seotud andmehulkade vaate. Seos mitmekeelsusega puu
 
 #### DGU Blog Feature, DGU Consultation, DGU Data Set Request, DGU Glossary, DGU Idea, DGU Library, DGU Linked Data, DGU Location, DGU Notifications, DGU Organogram
 
-Pole avaandmete portaalis kasutusel ja oleks mõistlik välja lülitada.
+Pole avaandmete portaalis kasutusel ja oleks mõistlik välja lülitada. Kiiresti aitab selle ära teha:
+
+	$ drush dis dgu_blog dgu_consultation dgu_data_set_request dgu_glossary dgu_idea dgu_library dgu_linked_data dgu_location dgu_notifications dgu_organogram
 
 ### Drupali tõlkemoodulid jt vajalikud madalama taseme kohandused
 
@@ -353,3 +361,7 @@ Paranduste rakendamiseks:
 	$ patch -p0 < {FAILINIMI}
 
 Sama käsuga saab ka paranduse annulleerida.
+
+### Avalehe neli tekstiblokki
+
+Kuna need tekstid on vormistatud Drupali tavapärase sisuna, st tekstiblokkidena, siis tuleb nendel vajadusel käsitsi sisse lülitada mitmekeelsus (bloki seadistustes _Language_ -> _Make this block translatable_) ja tekst tõlkida. Tulevikus võiks need blokid esitada paneelidena ja salvestada koos ülejäänud seadistustega koodis.
