@@ -17,6 +17,10 @@ Specific changes to the logic of i18n:
 * https://github.com/opendata-ee/shared_dguk_assets/compare/look_feel_est...infoaed:look_feel_est
 * https://github.com/opendata-ee/ckan/compare/release-v2.2-dgu...infoaed:release-v2.2-dgu
 
+Merge changes to live portal 2014-2017 into Drupal features:
+
+* https://github.com/infoaed/dgu_d7/compare/6fd3ffb00e93bb863448f524300904d63406bbc4...odp_ee_features
+
 You can read about how fun it is to build and manage translations for open source software properly:
 
 * https://viki.pingviin.org/Tarkvara_tõlkimine_(juhend) (in Estonian)
