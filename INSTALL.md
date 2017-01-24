@@ -164,7 +164,7 @@ Teine puudutab Google'i analüütikateenust ja ei tohiks puutuda uuendustesse:
 	     <!--[if lt IE 9]>
 	     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 
-Kui suuri muudatusi pole või on need talletatud edaspidiseks kasutamiseks, siis võib püüda lähtekoodi uuendada käivitades igas nimetatud koodivaramu kataloogis käsu `git pull`. Selle tulemusel peaks saama lähtekood uuendatud.
+-->Kui suuri muudatusi pole või on need talletatud edaspidiseks kasutamiseks, siis võib püüda lähtekoodi uuendada käivitades igas nimetatud koodivaramu kataloogis käsu `git pull`. Selle tulemusel peaks saama lähtekood uuendatud.
 
 Uuenduste rakendumiseks töötavas süsteemis tuleb enamasti taaskäivitada veebiserver, ka on mõistlik enne uuendamist, sj lähtekoodi uuendamist varamutest veebiserver peatada või lülitada CKAN/Drupal hooldusrežiimile ning uuenduste allalaadimise ja täiendavate seadistuste genereerimise järel uuesti käivitada.
 
@@ -317,7 +317,7 @@ Enne _Feature_-moodulite rakendama asumist tuleks minna kataloogi `/var/www/drup
 
 Kui kõik õnnestub, siis nende käskude käivitamise järel peaks olema lubatud järgmised Drupali lisamoodulid: `i18n`, `i18n_translation`, `i18n_string`, `variable`, `variable_realm`, `variable_store`, `i18n_variable`, `i18n_node`, `translation`, `translation_fallback`, `i18n_field`, `i18n_menu`, `i18n_taxonomy`, `i18n_block`, `i18nviews`.
 
-Kuigi mitmekeelsuse tugi ei käivitu nende uuenduste järel veel täielikult ja portaali mõned osad ei tööta veel korrektselt või pole ülepea ligipääsetavad (nt foorumite ja rakenduste sektsioon), siiski võiks eri vaheetappide läbimisel faasis Drupali vahemälu tühjendada ja taaskäivitada veebiserveri, et seadistamisega kulgeks võimalikult väheste anomaaliatega.
+Kuigi mitmekeelsuse tugi ei käivitu nende uuenduste järel veel täielikult ja portaali mõned osad ei tööta veel korrektselt või pole ülepea ligipääsetavad (nt foorumite ja rakenduste sektsioon), siiski võiks eri vaheetappide läbimisel faasis Drupali vahemälu tühjendada ja taaskäivitada veebiserveri, et seadistamine kulgeks võimalikult väheste anomaaliatega.
 
 Seejärel võiks jätkata _Feature_-moodulite seadistamisega.
 
@@ -328,7 +328,7 @@ Mitmekeelse otsingu jaoks on vaja paigaldada/uuendada järgnevad moodulid:
 
 Selle tulemusel paigaldatakse `apachesolr`versioon 7.x-1.8 ja `apachesolr_multilingual` versioon 7.x-1.3. Otsingu seadistuste muutmise järel on vaja saidi sisu uuesti indekseerida.
 
-### Tõlgete endi lisamine
+### Tõlgete lisamine
 
 Drupali tõlked ise on _Gettext PO_ failides ja neid saab lisada nii admin-veebist [/admin/config/regional/translate/import](https://opendata.riik.ee/admin/config/regional/translate/import) alt kui vastava _drush_'i käsu abil, mille jaoks on vaja alla laadida [keelemoodulite käsustik](https://www.drupal.org/project/drush_language):
 
@@ -340,7 +340,7 @@ Keelefailide importimiseks saab seejärel käivitada:
 	
 Seda käsku tuleb korrata alati, kui tõlkijatelt laekub uusi väljaspool admin-veebi tehtud tõlkeid.
 
-> Drupali tõlkeprotsess on samasuguse ülesehitusega nagu CKANi oma, aga tõlgitavaid fraase tuleb lähtekoodis märgistada pigem erandjuhtudel, sest tõlgitavaks muudavad sisu vastavad lisamoodulid automaatselt. Fraaside kogumist saab algatada admin-veebis [/admin/config/regional/translate/i18n_string](https://opendata.riik.ee/admin/config/regional/translate/i18n_string) või käsuga `drush language-refresh`, mis liidab automaatselt tõlkimist vajavad stringid juba tõlgitud stringide loeteluga. Tõlkeid saab _Gettext PO_ vormingus eksportida adnmin-veebis [/admin/config/regional/translate/export](https://opendata.riik.ee/admin/config/regional/translate/export) või käsuga `drush language-export`. Valmis tõlkeid imporditakse nagu ülal juba kirjeldatud.
+> Drupali tõlkeprotsess on samasuguse ülesehitusega nagu CKANi oma, aga tõlgitavaid fraase tuleb lähtekoodis märgistada pigem erandjuhtudel, sest tõlgitavaks muudavad sisu vastavad lisamoodulid automaatselt. Fraaside kogumist saab algatada admin-veebis [/admin/config/regional/translate/i18n_string](https://opendata.riik.ee/admin/config/regional/translate/i18n_string) või käsuga `drush language-refresh`, mis liidab automaatselt tõlkimist vajavad stringid juba tõlgitud stringide loeteluga. Tõlkeid saab _Gettext PO_ vormingus eksportida admin-veebis [/admin/config/regional/translate/export](https://opendata.riik.ee/admin/config/regional/translate/export) või käsuga `drush language-export`. Valmis tõlkeid imporditakse nagu ülal juba kirjeldatud.
 >
 > Drupal kasutab ka _Gettext_ standardis kirjeldatud tõlkekonteksti määramise võimalust, aga nimetab seda oma terminoloogias tekstirühmaks (ingl k _text group_). Avaandmete portaalis kasutatud [_Translation fallback_ moodul](https://www.drupal.org/project/translation_fallback) lubab tekstirühmas puuduva tõlke korral tõlget ka _default_-tekstirühmast (kasutajaliideses "Sisseehitatud kasutajaliides", ingl k _Built-in interface_), mistõttu pole tekstirühmade eristused mugavuse ja tõlke võimalikult laialdase automaatse rakenduvuse nimel aktiivses kasutuses, kuid samade fraaside täpse tõlkimise nimel eri kontekstides võib tulevikus tõlgete pidamine eri tekstirühmade jaoks vajalikuks osutuda.
 >
@@ -348,13 +348,17 @@ Seda käsku tuleb korrata alati, kui tõlkijatelt laekub uusi väljaspool admin-
 
 ### Eestikeelse sisu tõlgitavaks tegemine
 
-Kuna avaandmete portaal oli algselt tõlgitud eesti keelde tõlkefraaside _ad hoc_ ülekirjutamisega, siis tuleb teatud kohtades eesti keele fraasid jõuga ingliskeelsetega asendada. Üks selline valdkond on nt taksonoomiad/klassifikaatorid, mis on saidi sisu ja mitte seadistused, seega nende uuendamiseks ülal mainitud sammudest esialgu ei piisa. Need tuleb uuendada käsitsi vastavates admin-veebi jaotistes, st [/admin/structure/taxonomy/category](https://opendata.riik.ee/admin/structure/taxonomy/category), [/admin/structure/taxonomy/sector](https://opendata.riik.ee/admin/structure/taxonomy/sector) ja [/admin/structure/taxonomy/forums](https://opendata.riik.ee/admin/structure/taxonomy/forums). Malli selleks leiab portaali Drupali osa [tõlgete kataloogist](https://github.com/infoaed/dgu_d7/tree/look_feel_est/i18n), võimalik on ka kasutada selleks ette valmistatud SQL-skripte, mille leiab [tõlkeprojekti koodivaramust](https://github.com/infoaed/opendata-portal/tree/master/translations/taxonomy), kuid sel juhul tuleb veenduda, et need teevad täpselt seda, mida vaja.
+Kuna avaandmete portaal oli algselt tõlgitud eesti keelde tõlkefraaside _ad hoc_ ülekirjutamisega, siis tuleb teatud kohtades eesti keele fraasid jõuga ingliskeelsetega asendada. Üks selline valdkond on nt taksonoomiad/klassifikaatorid, mis on saidi sisu ja mitte seadistused, seega nende uuendamiseks ülal mainitud sammudest esialgu ei piisa. Need tuleb uuendada käsitsi vastavates admin-veebi jaotistes, st [/admin/structure/taxonomy/category](https://opendata.riik.ee/admin/structure/taxonomy/category), [/admin/structure/taxonomy/sector](https://opendata.riik.ee/admin/structure/taxonomy/sector) ja [/admin/structure/taxonomy/forums](https://opendata.riik.ee/admin/structure/taxonomy/forums). Malli selleks leiab portaali Drupali osa [tõlgete kataloogist](https://github.com/infoaed/dgu_d7/tree/look_feel_est/i18n), võimalik on ka kasutada selleks ette valmistatud SQL-skripte, mille leiab [tõlkeprojekti koodivaramust](https://github.com/infoaed/opendata-portal/tree/master/translations/taxonomy), kuid sel juhul tuleb veenduda, et need teevad täpselt seda, mida antud sisu puhul vaja, nt kas identifikaatorid klapivad jmt.
 
-Foorumite klassifikaatorite puhul tuleb täita ka nende jaoks loodud uus väli nimega `machine_name`. Sellel väljal tuleb määrata sõne, mis hakkab foorumi rubriiki viitama foorumi URLis, nt string `üldine-diskussioon` URLis https://opendata.riik.ee/forum/üldine-diskussioon. Kuna portaalis on kasutatud vaikimisi malli, et üldkategooriat väljendavate alamletede URLide vastavad osad on inglise keeles (nt _forum_, _app_, _data_, _publisher_ jmt), aga eestikeelset sisu väljendavad osad on eesti keeles, siis on mõistlik siin kasutada samu stringe, mis on kasutusel foorumite klassifikaatoride URL aliastes (st nende vastavad osad kopeerida väljale `machine_name`.
+Foorumite klassifikaatorite puhul tuleb täita ka nende jaoks loodud uus väli nimega `machine_name`. Sellel väljal tuleb määrata sõne, mis hakkab foorumi rubriiki viitama foorumi URLis, nt string `üldine-diskussioon` URLis https://opendata.riik.ee/forum/üldine-diskussioon. Kuna portaalis on kasutatud vaikimisi malli, et üldkategooriat väljendavate alamletede URLide vastavad osad on inglise keeles (nt _forum_, _app_, _data_, _publisher_ jmt), aga eestikeelset sisu väljendavad osad on eesti keeles, siis on mõistlik siin kasutada samu stringe, mis on kasutusel foorumite klassifikaatoride URL aliastes, st nende vastavad osad kopeerida väljale `machine_name`, andmete sobivuse kontrollimise järel võib kasutada ka [vastavat skripti](https://github.com/infoaed/opendata-portal/blob/master/translations/taxonomy/taxonomy-of-forums-machine-name.sql).
+
+Kuna portaalis on juba loodud sisu, siis vajab tõlgete täielikuks rakendumiseks _Translation Fallback_ moodul [täiendavat seadistamist](http://cgit.drupalcode.org/translation_fallback/tree/README.md), lisaks võiks kontrollida, kas olemasolev sisu on määramata keelega ja vajadusel tühistada sisule määratud keele:
+
+	mysql> UPDATE node SET language='und';
 
 ### Täiendavad parandused
 
-Üksikute [koodipuus haldamata moodulite paranduste hulka](https://github.com/infoaed/dgu_d7/tree/look_feel_est/patches) on lisatud kolm täiendavat parandust, neist [widget.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/widget.patch) ja [widget_links.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/widget_links.patch) puudutavad otsingutulemuste näitamist/tõlkimist ja [locale.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/locale.patch) on ajutiseks sisselülitamiseks siis, kui tõlgete importimisel annab süsteem hoiatusi, et kasutatakse keelatud HTML-märgendeid.
+Üksikute [koodipuus haldamata moodulite paranduste hulka](https://github.com/infoaed/dgu_d7/tree/look_feel_est/patches) on lisatud neli täiendavat parandust, neist [widget.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/widget.patch), [widget_links.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/widget_links.patch) ja [apachesolr_search.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/apachesolr_search.patch) puudutavad otsingutulemuste näitamist/tõlkimist ja [locale.patch](https://github.com/infoaed/dgu_d7/blob/look_feel_est/patches/locale.patch) on ajutiseks sisselülitamiseks siis, kui tõlgete importimisel annab süsteem hoiatusi, et kasutatakse keelatud HTML-märgendeid.
 
 Paranduste rakendamiseks:
 
@@ -362,6 +366,6 @@ Paranduste rakendamiseks:
 
 Sama käsuga saab ka paranduse annulleerida.
 
-### Avalehe neli tekstiblokki
+### Avalehe neli vabalt täidetavat blokki
 
-Kuna need tekstid on vormistatud Drupali tavapärase sisuna, st tekstiblokkidena, siis tuleb nendel vajadusel käsitsi sisse lülitada mitmekeelsus (bloki seadistustes _Language_ -> _Make this block translatable_) ja tekst tõlkida. Tulevikus võiks need blokid esitada paneelidena ja salvestada koos ülejäänud seadistustega koodis.
+Kuna need tekstid (hetkel MKM/EL logod, video ja kaks tekstivälja) on praegu vormistatud Drupali tavapärase sisuna, st tekstiblokkidena, siis tuleb nende jaoks vajadusel käsitsi sisse lülitada mitmekeelsus (bloki seadistustes _Language_ -> _Make this block translatable_) ja tekst tõlkida. Tulevikus võiks need blokid esitada paneelidena ja salvestada koos ülejäänud seadistustega lähtekoodis.
