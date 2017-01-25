@@ -10,7 +10,7 @@ Kuigi portaali tuum põhineb CKANi avaandmete halduse tarkvaral, siiski ei kasut
 
 ### Kasutajaliidese tõlked
 
-Tõlkimist vajavad kasutajaliidese fraasid on üldiselt süsteemi loogikat realiseerivas Pythoni lähtekoodis, Genshi HTML-mallides ja kasutajaliidese komponente täiendavas JavaScripti lähtekoodis. CKANi on sisse ehitatud kõigi nende tõlkimiseks vajalikud vahendid, kuid DGUK portaalis tõlget realiseeritud pole, mistõttu on tõlkemoodulite töökord osaline, sj CKANi ametlikke JavaScripti funktsioone, sh (Jed-tõlkemooduleid)[http://docs.ckan.org/en/ckan-2.2.3/frontend-development.html#i18n-jed] ülepea ei kasutata.
+Tõlkimist vajavad kasutajaliidese fraasid on üldiselt süsteemi loogikat realiseerivas Pythoni lähtekoodis, Genshi HTML-mallides ja kasutajaliidese komponente täiendavas JavaScripti lähtekoodis. CKANi on sisse ehitatud kõigi nende tõlkimiseks vajalikud vahendid, kuid DGUK portaalis tõlget realiseeritud pole, mistõttu on tõlkemoodulite töökord osaline, sj CKANi ametlikke JavaScripti funktsioone, sh [Jed-tõlkemooduleid](http://docs.ckan.org/en/ckan-2.2.3/frontend-development.html#i18n-jed) ülepea ei kasutata.
 
 Avaandmete portaali CKANil põhineva kasutajaliidese tõlgitavad fraasid on:
 
