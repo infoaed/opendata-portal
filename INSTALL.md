@@ -8,6 +8,10 @@ Järgnev kirjeldab tõlkemoodulite ja taaskasutamiseks ettevalmistatud ning täi
 
 Portaali eri komponentide tõlkemoodulite omavahelist ühildamist, lähtekoodi tõlkimiseks ettevalmistamist jm tehtud töid, sh tõlkesüsteemi üldist ülesehitust ja sellega seotud küsimusi lahatakse täpsemalt tõlkesüsteemi kirjelduses, mis on jälgitavuse huvides vormistatud eraldi dokumendina.
 
+## Juhendi kontekst ja terminite kasutus
+
+Juhend on kirjutatud lähtuvalt eeldusest, et selle kasutaja on tuttav [avaandmete portaali paigaldusjuhendiga](https://github.com/opendata-ee/dgu-vagrant-puppet/blob/togo/Avaandmete%20portaali%20paigaldusjuhend.odt) (ja varundamis- ning taasteplaaniga), ka on püütud järgida selle malli terminikasutuses ja juhiste esituses.
+
 ## Süsteemi varukoopia tegemine
 
 Süsteemi taastamise võimalike vigade korral tagab piisava kindlusega eeldatavasti järgmine skript, mis varundab nii lähtekoodi kui andmebaasid ning lisaks ka CKAN keskkonna seisu ning otsingu/indekseerimise keskkonna seadistused:
