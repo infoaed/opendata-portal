@@ -6,11 +6,11 @@ Kõigi alustarkvara ja selle moodulite tõlkesüsteemid põhinevad vaba tarkvara
 
 ## CKAN
 
-Kuigi portaali tuum põhineb CKANi avaandmete halduse tarkvaral, siiski ei kasuta ei ühendkuningriigi (edaspidi DGUK) ega meie avaandmete portaal märkimisväärselt selle tõlkesüsteemi, sest suurem jagu kasutajaliidesest on realiseeritud CKAN funktsionaalsuse ülekatetena _ckanext_-laiendmoodulite kujul ja Drupali sisuhalduses. Siiski genereeritakse ja hallatakse CKANi põhineva portaaliosa tõlkefaile [koodipuu CKANi harus](https://github.com/opendata-ee/ckan).
+Kuigi portaali tuum põhineb CKANi avaandmete halduse tarkvaral, siiski ei kasuta ei ühendkuningriigi avaandmete portaal (edaspidi DGUK) ega meie avaandmete portaal märkimisväärselt selle tõlkesüsteemi, sest suurem jagu kasutajaliidesest on realiseeritud CKAN funktsionaalsuse ülekatetena _ckanext_-laiendmoodulite kujul ja Drupali sisuhalduses. Siiski genereeritakse ja hallatakse CKANi põhineva portaaliosa tõlkefaile [koodipuu CKANi harus](https://github.com/opendata-ee/ckan).
 
 ### Kasutajaliidese tõlked
 
-Tõlkimist vajavad kasutajaliidese fraasid on üldiselt süsteemi loogikat realiseerivas Pythoni lähtekoodis, Genshi HTML-mallides ja kasutajaliidese komponente täiendavas JavaScripti lähtekoodis. CKANi on sisse ehitatud kõigi nende tõlkimiseks vajalikud vahendid, kuid DGUK portaalis tõlget realiseeritud pole, mistõttu on tõlkemoodulite töökord osaline, sj CKANi ametlikke JavaScripti funktsioone, sh [Jed-tõlkemooduleid](http://docs.ckan.org/en/ckan-2.2.3/frontend-development.html#i18n-jed) ülepea ei kasutata.
+Tõlkimist vajavad kasutajaliidese fraasid on üldiselt süsteemi loogikat realiseerivas lähtekoodis ja dünaamilistes kujundusmallides. CKANi on sisse ehitatud nende tõlkimiseks vajalikud vahendid, kuid DGUK portaalis tõlget realiseeritud pole, mistõttu on tõlkemoodulite töökord osaline, nt ei kasutata üldse CKANi süsteemseid JavaScripti funktsioone, mh [Jed-tõlkemoodulit](http://docs.ckan.org/en/ckan-2.2.3/frontend-development.html#i18n-jed) ülepea ei kasutata.
 
 Avaandmete portaali CKANil põhineva kasutajaliidese tõlgitavad fraasid on:
 
@@ -72,7 +72,7 @@ Mitmekeelsuse tagamiseks tehti:
 * Kanti _Features_-moodulitesse üle Drupali portaali 2014. aastast alates laiv-keskkonnas tehtud muudatused ja veenduti, et tõlked on realiseeritud sisuhalduse lähtekoodis ning ülekantavad test- ja toodanguportaali vahel (vt muudatusi [`odp_ee_features` harus](https://github.com/infoaed/opendata-portal#merge-live-portal-changes-since-2014-into-drupal-features)).
 * Muudatused viidi sisse ja dokumenteeriti [GitHubi arenduskeskkonna avalikes koodivaramutes](https://github.com/infoaed/opendata-portal) avatud lähtekoodiga tarkvaraarenduse põhimõtetest lähtuvalt.
 
-## Hinnang portaali tarakvara seisundile
+## Hinnang portaali tarkvara seisundile
 
 Kuna mitmekeelsuse tagamiseks tuli teha muudatusi kõigis portaali komponentides, siis andis selline arendustöö läbilõikelise pildi tarkvara üldisest olukorrast. Arendaja vaatepunktist on silmatorkav, et portaalil puudub arendaja perspektiivi silmas pidav dokumentatsioon, mis kirjeldaks portaalis DGUK oma suhtes tehtud muudatusi ja põhjendaks mingil tasemel tehtud valikuid ja motivatsiooni nende taga (lähimad sellele on [portaali paigaldusjuhend](https://github.com/opendata-ee/dgu-vagrant-puppet/blob/togo/Avaandmete%20portaali%20paigaldusjuhend.odt) ja varundus- ning taasteplaan, aga need täitavad seda rolli ainult osaliselt, osalt on abi [GitHubi arendusvaramu](https://github.com/opendata-ee) kommentaaridest, aga ka neis puudub süstemaatilisus).
 
@@ -88,6 +88,11 @@ Andmeteadus ja kitsamalt avaandmed on kiirelt arenev infoühiskonna eesliinil as
 Esimese arendustsükli tulemusena loodud tarkvara täidab oma esialgse funktsiooni, arenduses toimunud pausi tõttu puudulikuks jäänud dokumentatsioonini saab praegu ilmselt jõuda ainult arendustöö käigus [jooksvalt kerkivate küsimuste](https://github.com/opendata-ee/opendata.riik.ee/issues/2) lahendamise dokumenteerimise teel.
 
 Suurem väljakutse võib olla aga portaali töökindluse tagamine selle laiema kasutamise korral, kahtlustäratavaid märke esines ka arendustööde käigus, nt kippus toppama jääma Eurovoc märksõnade ja nende tõlgete [importimine CKAN API kaudu](..INSTALL.md#ckani-eurovoc-märksõnastiku-ja-tõlgete-importimine) ning konkreetne probleem leidurluse ja taaskäivituste kombinatsioonis, kuid mõistagi pole sellised lahendused kättesaadavad ega kohased laias kasutuses olevale süsteemile. Portaal vajaks põhifunktsionaalsuse täiendavat testimist [kõige elementaarsemal tasemel](https://github.com/opendata-ee/opendata.riik.ee/issues/3) ja kui täiemahulise testimisplaani elluviimine ei osutu otstarbekaks, siis võib olla alternatiiviks leida avaandmetest sisuliselt huvitatud partnereid, kellele pakkuda motivatsiooni beetatestija rolli enda peale võtmiseks.
+
+Avatud lähtekoodi ja [sellel põhineva tarkvaraarenduse](http://oss-watch.ac.uk/resources/softwaredevelopment) puhul on oluline teha koostööd arendajate kogukondadega, mis väljendub kõrgendatud nõudmistes lähtekoodi kvaliteedile, modulaarsuse ja taaskasutatavuse loogika järgimisele ja standarditele vastavusele. Käesolev arendusprojekt on tegelikult standardite ja [kogukonna vedajate soovituste vähese prioritiseerimise tulemus](https://github.com/datagovuk/ckanext-dgu/issues/46), sama võib ütelda ka Drupali arenduse ja CKANi koodi kohta, mis sobivad esimeste töötavate lahendustena — ja kliendile võib see esialgu tundudagi piisava —, kuid avaandmete ja avatud lähtekoodi ökosüsteemiga kasu saamiseks tuleb need viimistleda, kogukonda n-ö tagasi panustada ja arendus tugevalt kogukonna eesliiniga haakida.
+
+## Portaali edasine arendus
+
 
 
 
