@@ -6,7 +6,7 @@ Kuna portaali kasutajalides oli loodud osaliselt eestikeelsena, osaliselt tõlgi
 
 Järgnev kirjeldab tõlkemoodulite ja taaskasutamiseks ettevalmistatud ning täiendavalt loodud tõlkefailide seadistamise protsessi juba töös olevas avaandmete portaalis https://opendata.riik.ee ning pakub sinna kõrvale elementaarseid selgitusi portaali tõlkeprotsessi tehnilise ja sisulise korralduse mõistmiseks.
 
-Portaali eri komponentide tõlkemoodulite omavahelist ühildamist, lähtekoodi tõlkimiseks ettevalmistamist jm tehtud töid, sh tõlkesüsteemi üldist ülesehitust ja sellega seotud küsimusi lahatakse täpsemalt tõlkesüsteemi kirjelduses, mis on jälgitavuse huvides vormistatud [eraldi dokumendina](docs/README.md).
+Portaali eri komponentide tõlkemoodulite omavahelist ühildamist, lähtekoodi tõlkimiseks ettevalmistamist jm tehtud töid, sh tõlkesüsteemi üldist ülesehitust ja sellega seotud küsimusi lahatakse täpsemalt tõlkesüsteemi kirjelduses, mis on jälgitavuse huvides vormistatud eraldi dokumendina.
 
 ## Juhendi kontekst ja terminite kasutus
 
@@ -252,7 +252,7 @@ Laivsüsteemi tehtud muudatusi saab uurida [vastavate _drush_-käskudega](https:
 
 Protsessi võib soovi korral ohjata ka admin-veebis [_Features_-sektsioonis](https://opendata.riik.ee/admin/structure/features), kus saab muudatusi visuaalselt võrrelda ja seal on koodis tehtud muudatuste kehtestamise käsuks _Revert_ ja muudatusi eksporditakse uude _Feature_-moodulisse käsuga _Create_. Avaandmete portraalis on kasutusel ainult osa DGU moodulitest ning kasutusel olevad moodulid on muudetud seadistustega.
 
-![_Feature_-moodulite nimekiri portaali admin-veebis](features.png  "_Feature_-moodulite nimekiri")
+![_Feature_-moodulite nimekiri portaali admin-veebis, kus muudatused on edukalt kantud lähtekoodi.](features.png  "_Feature_-moodulite nimekiri")
 
 Ülaloleval pildil on moodulite laivis oleva ja koodis oleva seisu vastuolud lahendatud, ainult üks moodul on seisundis, kus andmebaasis olev kirjutab üle midagi koodis olevat (seisund `Overridden`, kooskõlaline on `Default`, kui muudatused on probleemsed, siis on seisund tavaliselt `Needs review` vmt). _Feature_-moodulite uuendus/paigaldus on õnnestunud, kui ühegi _Feature_-mooduli staatus pole vastuoluline või on vastuoluks põhjendatud vajadus. Kui vastuolude lahendamine ühelgi iseenesestmõistetaval viisil ei õnnestu, siis tasub uurida, kas probleemile on [mõni dokumenteeritud lahendus](https://www.drupal.org/docs/7/modules/features/troubleshooting-reasons-features-may-be-stuck-as-overridden).
 

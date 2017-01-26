@@ -4,7 +4,7 @@ This is the development repository for implementing multilingual UI support for 
 
 ## Developemnt branches and repositories
 
-The code was forked from relevant repositories of Estonian Open Data Portal. First iteration on default `look_feel_est` branch was to remove hardcoded Estonian translation and replace it with English strings decorated with proper gettext notation. In parallel language switcher and other changes to UI logic were implemented, environment to generate gettext files was prepared, taxonomies and other dynamic content were configures for translation on `i18n_logic` branch. In the end it appeared that changes to live Drupal site never been merged into Feature modules during development of the portal, so this evolved into separate process and was dubbed as `odp_ee_features`. In the end all the branches were merged into `look_feel_est` where the code got its last touch.
+The code was forked from relevant repositories of Estonian Open Data Portal. First iteration on default `look_feel_est` branch was to remove hardcoded Estonian translation and replace it with English strings decorated with proper gettext notation. In parallel language switcher and other changes to UI logic were implemented, environment to generate gettext files was prepared, taxonomies and other dynamic content were configured for translation on `i18n_logic` branch. In the end it appeared that changes to live Drupal site never been merged into Feature modules during development of the portal, so this evolved into separate process and was dubbed as `odp_ee_features`. In the end all the branches were merged into `look_feel_est` where the code got its last touch.
 
 ### Replace hardcoded Estonian with gettexted English
 
