@@ -10,7 +10,7 @@ Kuigi portaali tuum põhineb CKANi avaandmete halduse tarkvaral, siiski ei kasut
 
 ### Kasutajaliidese tõlked
 
-Tõlkimist vajavad kasutajaliidese fraasid on üldiselt süsteemi loogikat realiseerivas lähtekoodis ja dünaamilistes kujundusmallides. CKANi on sisse ehitatud nende tõlkimiseks vajalikud vahendid, kuid DGUK portaalis tõlget realiseeritud pole, mistõttu on tõlkemoodulite töökord osaline, nt ei kasutata üldse CKANi süsteemseid JavaScripti funktsioone, mh [Jed-tõlkemoodulit](http://docs.ckan.org/en/ckan-2.2.3/frontend-development.html#i18n-jed) ülepea ei kasutata.
+Tõlkimist vajavad kasutajaliidese fraasid on üldiselt süsteemi loogikat realiseerivas lähtekoodis ja dünaamilistes kujundusmallides. CKANi on sisse ehitatud nende tõlkimiseks vajalikud vahendid, kuid DGUK portaalis tõlget realiseeritud pole, mistõttu on CKANist päritud tõlkemoodulite töökord osaline, nt ei kasutata üldse CKANi süsteemseid JavaScripti funktsioone, mh [Jed-tõlkemoodulit](http://docs.ckan.org/en/ckan-2.2.3/frontend-development.html#i18n-jed).
 
 Avaandmete portaali CKANil põhineva kasutajaliidese tõlgitavad fraasid on:
 
@@ -40,7 +40,7 @@ DGUK portaalis on võimalik kasutada Drupali sisuhaldusse sisseehitatud tõlkemo
 
 Drupali tõlgitavad fraasid on laiali selle [lähtekoodis](http://cgit.drupalcode.org/drupal/tree/?h=7.x) (see on portaali paigalduse raames alla laaditud serveri kataloogi `/var/www/drupal/dgu`), laiendmoodulites (need on paigalduse raames alla laaditud serveri kataloogi `/var/www/drupal/dgu/profiles/dgu/modules/contrib`) ja DGUK täiendavates [_Features_-moodulites](https://github.com/opendata-ee/dgu_d7/tree/look_feel_est/modules/features) ja muudes kohandatud moodulites kataloogides [modules/custom](https://github.com/opendata-ee/dgu_d7/tree/look_feel_est/modules/custom) ja `/var/www/drupal/dgu/sites/all/modules`.
 
-Tõlkimisel kasutatakse _Gettext_ PO-failide importimist/eksportimist, Drupali vastavat liidest ning protsessi hõlbustavaid lisamooduleid. JavaScripti tõlkimisel kasutatakse CKANiga sama minimalistlikku lisamoodulit, mida hallatakse mõlema koodibaasi üleselt.
+Tõlkimisel kasutatakse _Gettext_ PO-failide importimist/eksportimist, Drupali vastavat liidest ning protsessi hõlbustavaid lisamooduleid. JavaScripti tõlkimisel kasutatakse Drupali standardseid [JavaScript APIt vahendeid](https://www.drupal.org/docs/7/api/localization-api/translating-strings-in-javascript).
 
 Drupali tõlkimise täpsem kirjeldus on [paigaldusjuhises](../INSTALL.md#tõlgete-lisamine).
 
@@ -48,9 +48,9 @@ Drupali tõlkimise täpsem kirjeldus on [paigaldusjuhises](../INSTALL.md#tõlget
 
 DGUK portaali Drupali osa rakenduste ja foorumiteemade otsing oli seadistatud inglise keele baasil. Kuna mitmekeelse otsingu ega saidi mitmekeelse sisu, sj märksõnade indekseerimise võimalusi pole loodud, siis on kasutajaliidese tõlkeprojekti raames seadistatud [elementaarne keelest sõltumatu otsing DGUK vaikimisi seadistustega](../INSTALL.md#dgu-search).
 
-## Jagatud tõlked
+## CKAN täiendavad tõlked
 
-DGUK portaali loogikas jagavad CKAN ja Drupal kujundusi, nendega seotud laadifaile ja kasutajaliides skripte [shared_dguk_assets](https://github.com/opendata-ee/shared_dguk_assets) harus. Kuna ka tõlgitavat _JavaScript_'i jagatakse nende kahe platvormi vahel, siis on selle tõlkimine realiseeritud samuti mõlemale ühiselt ja kasutab vastavaks otstarbeks kohandatud _Gettext_-lahendust.
+DGUK portaali loogikas jagavad CKAN ja Drupal kujundusi, nendega seotud laadifaile ja kasutajaliides skripte [shared_dguk_assets](https://github.com/opendata-ee/shared_dguk_assets) harus. Kuna Drupali sisuhaldusel on sisseehitatud JavaScripti tõlkimise vahend ja jagatud skriptides olevad tõlked oli võimalik pagendada tagasi Drupali lähtekoodi, siis kasutatakse _i18njs_ JavaScripti tõlkimise moodulit ainult CKANi jaoks.
 
 Täpsemalt kirjeldab jagatud _JavaScript_'i tõlgete haldamist [paigaldusjuhis](../INSTALL.md#skripti--laadi--ja-keeleseadistuste-genereerimine).
 
@@ -91,11 +91,34 @@ Suurem väljakutse võib olla aga portaali töökindluse tagamine selle laiema k
 
 Avatud lähtekoodi ja [sellel põhineva tarkvaraarenduse](http://oss-watch.ac.uk/resources/softwaredevelopment) puhul on oluline teha koostööd arendajate kogukondadega, mis väljendub kõrgendatud nõudmistes lähtekoodi kvaliteedile, modulaarsuse ja taaskasutatavuse loogika järgimisele ja standarditele vastavusele. Käesolev arendusprojekt on tegelikult standardite ja [kogukonna vedajate soovituste vähese prioritiseerimise tulemus](https://github.com/datagovuk/ckanext-dgu/issues/46), sama võib ütelda ka Drupali arenduse ja CKANi koodi kohta, mis sobivad esimeste töötavate lahendustena — ja kliendile võib see esialgu tundudagi piisava —, kuid avaandmete ja avatud lähtekoodi ökosüsteemiga kasu saamiseks tuleb need viimistleda, kogukonda n-ö tagasi panustada ja arendus tugevalt kogukonna eesliiniga haakida.
 
-## Portaali edasine arendus
+## Mitmekeelsus ja portaali edasine arendus
 
+Realiseeritud mitmekeelsuse lahendus on geneeriline ja vastab _Gettext_ vahendite kasutamise praktikatele, mistõttu pole tõlkelahendus ülemääraseks koormaks lähtekoodi või selle moodulite edasisele uuendamisele, liitmisele, asendamisele vmt.
 
+Portaali tarkvara arendamisel või uute moodulite kasutuselevõtmisel on edaspidi üks tööde osa ingliskeelsete fraaside märgistamine tõlkimiseks, nende tõlkimine ja seejärel tõlkemoodulitele _Gettext_ formaadis kättesaadavaks tegemine. Enamasti on lõppkasutajale mõeldud avatud lähtekoodil põhinevad tarkvaramoodulid juba tõlkimiseks ette valmistatud ning vaja ainult _Gettext_-vahendeid kasutades ära teha eestikeelne tõlge.
 
+Avaandmete portaali tõlkeprotsessi tehnilise kirjelduse koos selgitustega leiab [paigaldusjuhisest](../INSTALL.md#skripti--laadi--ja-keeleseadistuste-genereerimine) ja üldisema ülevaate avatud lähtekoodiga tarkvara tõlkimise korraldusest ning sellega kaasnevatest valikutest leiab [Pingviini vikist](https://viki.pingviin.org/Tarkvara_tõlkimine_(juhend)).
 
+Kuna CKAN oli juba avandmete portaali arenduse algul loobunud Genshi mallide kasutamisest [Jinja2 mallide kasuks](http://docs.ckan.org/en/latest/contributing/frontend/templating.html) ja DGUK läks Jinja2 mallidele lõplikult üle [2016. aasta alguses](https://github.com/datagovuk/ckanext-dgu/issues/313), siis mistahes sellesse aega ulatuvate uuenduste kasutuselevõtmine ja/või tarkvara uuendamine võib kaasa tuua vajaduse tõlkesüsteemi mallide osas korrigeerida.
 
+Portaalis on hulk sisu eesti keelde tõlkimata või ebaühtlase kvaliteediga, nt aluseks olevast CKANi tarkvarast on tõlgitud üksainus kasutajatele kuvatav veateade, tõlkimata on ka suurem jagu DGUK administraatorile mõeldud sisust, aga ka kasutajale veebis otseselt presenteerimata, kuid tegelikult ligipääsetavat sisu, nt kasutaja [isikliku konto ülevaatelehekülg](https://opendata.riik.ee/user) jmt.
 
+Kuna mitmekeelsuse arendustööde ülesanne piirdus ingliskeelse tõlke tagamisega ja eestikeelse tõlke puhul silmatorkavamate ebakõlade parandamise ja tõlkimata fraaside lisamisega, siis täiendavate eestikeelsete tõlgete pakkumiseks on tarkvara ja moodulite lähtekoodis vaja tehtud tööde eeskujul täiendavalt puuduvaid fraase märgendada, HTML-mallide puhul toimub see üldiselt poolautomaatselt.
 
+## Portaali arenduse üldisemad küsimused
+
+Avaandmete portaali edasiarenduste lähteühesandes arutatakse portaali tehnilise taristu küsimuste all ka DGUK ja CKAN kombinatsiooniga jätkamise mõttekust.
+
+Tagantjärele võib ütelda, et DGUK valimine avaandmete portaali aluseks ei pruukinud olla kõige mõistlikum samm, eriti kui arvestada, et selle CKANi täiendavast funktsionaalsusest kasutatakse ainult väikest osa, st peamiselt [rakenduste nimekirja](https://opendata.riik.ee/et/apps) ja [foorumite/kommenteerimise võimalust](https://opendata.riik.ee/et/forum), samal ajal kui DGUK portaal on Euroopa ühe eeskujulikumana realiseerinud hulga ühendkuningriigi spetsiifikale vajalikke täiendusi, mis väljenduvad mh portaali [andmete menüü võimalustes](https://data.gov.uk/data) ning tehnilises mõttes Eesti avaandmete portaali [väljalülitatud lisamoodulites](../INSTALL.md#drupali-feature-moodulid).
+
+Ilmselt kõige mõistlikum oleks olnud kasutada portaali alusena mitte DGUK portaali, vaid mõnda meile kultuurilisest ja tehnilisest vaatepunktist lähedasemat lahendust, mille arendajatega oleks saanud CKAN funktsionaalsuse kohandamisel koostööd teha. Üldiselt saavad avaandmete portaalid hakkama CKANi baasfunktsionaalsusega ja täiendavad seda enda vajadustest lähtuvalt, nt ühe eeskujuna võib vaadata Soome poole, mis on avaandmete valdkonnas Eestist edukam olnud, aga kellega me jagame paljusid väljakutseid.
+
+Soome avaandmete portaal kasutab [CKANi ja seda vahendavat Drupali sisuhaldust](https://github.com/yhteentoimivuuspalvelut), aga on realiseerinud selle enda vajadustest lähtuvalt soome, rootsi ja inglise keele kasutajaliidesega, Helsingi avaandmete portaal aga kasutab [CKANi ja Wordpressi sisuhaldust](http://ckan.org/case-studies/helsinki/). Seejuures erinevalt DGUK valikust suurem jagu CKAN kasutajaliidesest üle katta kasutavad mõlemad Soome portaalid vahetult ära CKANi vahendeid ning on baastarkvara soome keelde tõlkinud.
+
+Kõigis Euroopa Liidu keeltes, sh eesti keeles on olemas [Euroopa Liidu avaandmete portaal](http://data.europa.eu/euodp/et/data/), mille lähtekoodi avaldamine koos kõigi tõlgetega arendajal plaanis (info teabenõudest portaali haldajale, kahjuks eesti tõlget kasutataval kujul ei õnnestunud siiski neilt pooleteise kuu jooksul kätte saada).
+
+Lisaks on olemas CKANi funktsionalsust kopeeriv [Drupali sisuhalduse süsteemiga integreeritud avaandmete portaal DKAN](http://docs.getdkan.com/), mis erinevalt CKANi universalistlikust modulaarsest lähenemisest võimaldab andmeid ja täiendavat sisu hallata ning omavahel siduda otse Drupalis.
+
+Sõltuvalt avaandmete valdkonda plaanitavate ressursside mahust ja poliitilistest eesmärkidest ning nendest tulenevatest arenguvajadustest on ilmselt mõttekas olemasoleva lahenduse juurest suunduda kas otse või samm-sammuliselt parima lahenduse poole. Avatud andmete taristut pakkuva avatud lähtekoodi ökosüsteemi parimal viisi ärakasutamiseks oleks haakida end CKAN arenduste eesliiniga, mis tähendab, et suhteine sõltumatus teistest tuletustest nagu DGUK oleks kasuks ja nii saaks vahetult võita mitmesaja arendajaga kogukonna eri pingutustest ning neid ka ise suunata. See eeldab aga tarkvaraarenduse senisest suuremat ja püsivamat prioritiseerimist avaandmete valdkonnas.
+
+Samm-sammulise lahenduse osadena saaks kaaluda järk-järgulist DGUK laiendustest loobumist ja Soome 
