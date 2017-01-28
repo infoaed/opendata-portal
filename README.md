@@ -1,10 +1,10 @@
-# i18n of https://opendata.riik.ee: scripts, translations, hacks
+# Estonian Open Data Portal i18n project: scripts, translations, hacks
 
 This is the development repository for implementing multilingual UI support for [Estonian Open Data Portal](https://github.com/opendata-ee), a portal based on CKAN/Drupal integration of [Data.gov.uk portal](https://github.com/datagovuk/dgu-vagrant-puppet). If you are interested where it all started, you can take a look at [this issue from 2014](https://github.com/datagovuk/ckanext-dgu/issues/46).
 
 ## Developemnt branches and repositories
 
-The code was forked from relevant repositories of Estonian Open Data Portal. First iteration on default `look_feel_est` branch was to remove hardcoded Estonian translation and replace it with English strings decorated with proper gettext notation. In parallel language switcher and other changes to UI logic were implemented, environment to generate gettext files was prepared, taxonomies and other dynamic content were configured for translation on `i18n_logic` branch. In the end it appeared that changes to live Drupal site never been merged into Feature modules during development of the portal, so this evolved into separate process and was dubbed as `odp_ee_features`. In the end all the branches were merged into `look_feel_est` where the code got its last touch.
+The code was forked from relevant repositories of Estonian Open Data Portal. First iteration on default `look_feel_est` branch was to remove hardcoded Estonian translation and replace it with English strings decorated with proper gettext notation. In parallel language switcher and other changes to UI logic were implemented, environment to generate gettext files was prepared, taxonomies and other dynamic content were configured for translation on `i18n_logic` branch. In the end it appeared that changes to live Drupal site have never been merged into Feature modules during development of the portal, so this evolved into separate task and was dubbed as `odp_ee_features`. In the end all the branches were merged into `look_feel_est` where the code got its final touch.
 
 ### Replace hardcoded Estonian with gettexted English
 
