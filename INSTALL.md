@@ -1,16 +1,16 @@
-# Avaandmete portaali https://opendata.riik.ee kakskeelse kasutajaliidese loomine ja tõlgete ning tõlkemoodulite seadistamine
+# Avaandmete portaali kakskeelse kasutajaliidese ja tõlkemoodulite seadistamine
 
-Projekti eesmärgiks oli muuta http://opendata.riik.ee kasutajaliides ligipääsetavaks ka inglise keeles. Sisuliselt tähendab see kakskeelse kasutajaliidese loomist ning seadistamist. Kuna kõik poraali aluseks olnud tarkvaramoodulid toetavad vähemalt teatud määral tõlkemoodulite kasutamist, siis töö suurimaks osaks oli tõlkemoodulite seadistamine ja nende omavahelisse kooskõlla viimine.
+Projekti eesmärgiks oli muuta [Avaandmete portaali](https://opendata.riik.ee) kasutajaliides ligipääsetavaks ka inglise keeles. Sisuliselt tähendab see kakskeelse kasutajaliidese loomist ning seadistamist. Kuna kõik poraali aluseks olnud tarkvaramoodulid toetavad vähemalt teatud määral tõlkemoodulite kasutamist, siis töö suurimaks osaks oli tõlkemoodulite seadistamine ja nende omavahelisse kooskõlla viimine.
 
 Kuna portaali kasutajalides oli loodud osaliselt eestikeelsena, osaliselt tõlgitud eesti keelde ingliskeelses lähtekoodis vajalikes kohtades võõrkeelsete fraaside _ad hoc_ asendamisega vastavate eestikeelsete fraasidega, siis oli tõlkemoodulite seadistamise eelduseks lähtekoodis kirjeldatud eesti fraaside eemaldamine, asendamine ingliskeelsete fraasidega ning eemaldatud eestikeelsete fraaside säilitamine taaskasutuseks tõlkemoodulites.
 
-Järgnev kirjeldab tõlkemoodulite ja taaskasutamiseks ettevalmistatud ning täiendavalt loodud tõlkefailide seadistamise protsessi juba töös olevas avaandmete portaalis https://opendata.riik.ee ning pakub sinna kõrvale elementaarseid selgitusi portaali tõlkeprotsessi tehnilise ja sisulise korralduse mõistmiseks.
+Järgnev kirjeldab tõlkemoodulite ja taaskasutamiseks ettevalmistatud ning täiendavalt loodud tõlkefailide seadistamise protsessi juba kasutuses olevas avaandmete portaalis ning pakub sinna kõrvale elementaarseid selgitusi portaali tõlkeprotsessi tehnilise ja sisulise korralduse mõistmiseks.
 
 Portaali eri komponentide tõlkemoodulite omavahelist ühildamist, lähtekoodi tõlkimiseks ettevalmistamist jm tehtud töid, sh tõlkesüsteemi üldist ülesehitust ja sellega seotud küsimusi lahatakse tõlkesüsteemi kirjelduses, mis on jälgitavuse huvides vormistatud [eraldi dokumendina](docs/README.md).
 
 ## Juhendi kontekst ja terminite kasutus
 
-Juhend on kirjutatud lähtuvalt eeldusest, et selle kasutaja on tuttav [avaandmete portaali paigaldusjuhendiga](https://github.com/opendata-ee/dgu-vagrant-puppet/blob/togo/Avaandmete%20portaali%20paigaldusjuhend.odt) (ja varundamis- ning taasteplaaniga), ka on püütud järgida selle malli terminikasutuses ja juhiste esituses.
+Juhend on kirjutatud lähtuvalt eeldusest, et selle kasutaja on tuttav [avaandmete portaali paigaldusjuhendiga](https://github.com/opendata-ee/dgu-vagrant-puppet/blob/togo/Avaandmete%20portaali%20paigaldusjuhend.odt) (ja varundamis- ning taasteplaaniga), ka on järgitud nende dokumentide eeskuju terminikasutuses ja juhiste esituses.
 
 ## Süsteemi varukoopia tegemine
 
@@ -36,14 +36,14 @@ Oluline on lülituda CKAN keskkonnale, et uuendataks ainult õigeid faile ja tä
 
 	$ su co
 
-Seda CKAN keskkonnale lülitumist tasub endale iga kord meelde tuletada, kui on vaja süsteemis mingeid uuendusi teha või logid masinasse sisse.
+Seda CKAN keskkonnale lülitumist tasub uuenduste tegemisel endale iga kord meelde tuletada, sest vastasel juhul on oht failisüsteemi õiguste süsteem ära rikkuda, mis võib muuta süsteemi düsfunktsionaalseks või tekitada turvaprobleeme.
 
 Ka on mõistlik lähtekoodi ja saidi seadistuste muutmise ajaks peatada veebiserver ja panna sait hooldusrežiimile. Viimast saab teha Drupali saidi admin-veebis aadressil [/admin/config/development/maintenance](https://opendata.riik.ee/et/admin/config/development/maintenance).
 
 Uuenduste rakendamiseks veebiserveris võib puhastada vahemälud ja serveri taaskäivitada:
 
 	$ drush cc all && sudo service apache2 restart
-	
+
 ## Apache'i veebiserveri seadistused
 
 Faili `/etc/apache2/sites-available/ckan.conf` tuleb lisada CKANi veebile vahendava WSGI skripti jaoks täiendavalt teenindatavad kataloogid kummagi keele jaoks, mida kavatsetakse toetada:
@@ -93,8 +93,8 @@ Faili `/etc/apache2/sites-available/ckan.conf` tuleb lisada CKANi veebile vahend
 	  WSGIScriptAlias /et/font /var/ckan/wsgi_app.py
 	  WSGIScriptAlias /et/organization /var/ckan/wsgi_app.py
 	  WSGIScriptAlias /et/linked-data-admin /var/ckan/wsgi_app.py
-	
-Tõenäoliselt pole neid kõiki vaja, sj ei kasutata Eesti avaandmete portaalis suurt osa neist CKANi moodulitest, aga need on moodustatud eelneva keeleneutraalse sektsiooni põhjal. Kui siit midagi eemaldama hakata, siis peaks eemaldama ka keeleneutraalsete kataloogide seast. [Lingikõdu](https://et.wikipedia.org/wiki/Lingik%C3%B5du) vältimiseks jäävad kehtima ka kõik algsed ilma keeletunnuseta URLid, mis viivad kasutaja eestikeelsetele lehtedele.
+
+Tõenäoliselt pole neid kõiki vaja, sj ei kasutata Eesti avaandmete portaalis suurt osa neist CKANi moodulitest, aga need on moodustatud eelneva keeleneutraalse sektsiooni põhjal. Kui siit midagi eemaldama hakata, siis peaks eemaldama ka keeleneutraalsete kataloogide seast, aga seda pole esialgu tegema hakatud, sest [lingikõdu](https://et.wikipedia.org/wiki/Lingik%C3%B5du) vältimise eesmärgil peaks jääma kehtima ka kõik algsed ilma keeletunnuseta URLid, mis viivad kasutaja eestikeelsetele lehtedele.
 
 Kui juba Apache seadistusfail lahti on, siis võiks parandada "Server not found" vigade vältimiseks ära ka [suunamise turvalisele HTTP kanalile](http://httpd.apache.org/docs/current/rewrite/avoid.html#redirect) ja lisada veebisaidi aadressi lõppu puuduva kaldkriipsu:
 
@@ -177,20 +177,20 @@ Uuenduste rakendumiseks töötavas süsteemis tuleb enamasti taaskäivitada veeb
 Genereerimist vajavad seadistused on harudes `ckan`, `ckanext-dgu` ja `shared_dguk_assets`, esimeses neist on CKANi ja selle laiendusi puudutavad tõlked, teises skripti- ja laadifailid ning kolmandas CKANi ja Drupali poolt ühiselt kasutatavad skripti- ning laadifailid ja CKANi eri moodulite JavaScripti kasutavate komponentide tõlked.
 
 > Tõlgete genereerimiseks on kasutusel CKANi tõlkesüsteem, mis põhineb _Gettext_-standardil ning kasutab tõlkefraaside kogumiseks ning haldamiseks Babeli moodulit. Sama standard on kasutusel ka JavaScripti tõlkimisel, kuid tõlked teisendatakse kasutamiseks tavapärase Gettext MO-objektkoodi asemel JSON-vormingusse. Drupali tõlked on samuti Gettext formaadis, kuid neid hallatakse Drupali enda vahenditega ning vajadusel eksporditakse/imporditakse (sellest allpool täpsemalt).
-> 
-> CKANi tõlkefailide haldamine toimub kolme eri ülesande vahel liikudes, sj neid vajadusel korrates või omavahel kombineerides:
-> 
+>
+> Tõlkefailide haldamine toimub üldiselt kolme eri ülesande vahel liikudes, sj neid vajadusel korrates või omavahel kombineerides:
+>
 > * Tõlkefraaside kogumine lähtekoodist;
 > * Leitud tõlkefraaside liitmine olemasolevate tõlgetega;
 > * Objektkoodi või JSON-vormingus tõlgete genereerimine.
-> 
+>
 > Neile lisanduvad toetavad tegevused nagu lähtekoodis olevate tekstilõikude, fraaside ja sõnade viimine tõlgitavale kujule ning vastav markeerimine (et neid saaks "koguda") kogutud fraaside tõlkimine ja ülevaatamine (sj kasutades tõlkemälusid- või korpusi, õigekirjakontrolli jm abivahendeid) ning tõlgete adekvaatsuse kontrollimine reaalses kasutuskeskkonnas.
 
 Tõlkefailide kogumiseks CKAN lähtekoodist tuleb käivitada vastav seadistusskript kas `ckan` harus või `shared_dguk_assets` harus:
 
 	$ python setup.py extract_messages
 
-Kumbki neist loob tõlkemalli, mis koosneb tõlgitavate fraaside loendist ja need on leitavad failides `/src/ckan/ckan/i18n/ckan.pot` ja `/src/shared_dguk_assets/i18n/ckan-js.pot`. Kõigi kasutusel olevate CKANi ja Drupali moodulite lähtekeeleks on inglise keel ning tõlgitavad fraasid on esitatud lähtekeeles.
+Kumbki neist loob POT-tõlkemalli, mis koosneb tõlgitavate fraaside loendist ja need on leitavad failides `/src/ckan/ckan/i18n/ckan.pot` ja `/src/shared_dguk_assets/i18n/ckan-js.pot`. Kõigi kasutusel olevate CKANi ja Drupali moodulite lähtekeeleks on inglise keel ning tõlgitavad fraasid on esitatud lähtekeeles.
 
 Kogutud tõlkefraaside liitmiseks olemasoleva eesti tõlkega tuleb käivitada seadistusskript vastavas režiimis:
 
@@ -201,7 +201,7 @@ Kui eesti tõlget pole veel loodud (nagu oli seis enne mitmekeelsuse täienduste
 Tõlkefraaside liitmise tulemusena uuenevad eesti tõlkefailid `/src/ckan/ckan/i18n/et/LC_MESSAGES/ckan.po` `/src/shared_dguk_assets/i18n/et/LC_MESSAGES/values.po`, st neist eemaldatakse aegunud tõlkefraasid, mida enam lähtekoodist ei leita, ning neisse lisatakse uued tõlkefraasid, mis on lähtekoodi tekkinud kas uue funktsionaalsuse tõttu või selle tõttu, et mõni seni tõlkimiseks märgistamata fraas on viidud tõlgitavale kujule.
 
 > Töö PO-failidega on tarkvaratõlke põhiline osa, need failid on tõlkimise põhilise standardina kasutusel enamikus GNU/Linux opsüsteemidest ning nende töötlemiseks, toimetamiseks ja analüüsiks on saadaval mitmesugust tarkvara eri opsüsteemidele. Windowsi all on tuntuim [Poedit](https://poedit.net/) ja GNU/Linux opsüsteemides on levinuimad [Lokalize](https://www.kde.org/applications/development/lokalize), [Gtranslator](https://wiki.gnome.org/Apps/Gtranslator) ja [Virtaal](http://virtaal.translatehouse.org/), lisaks on veebipõhised tõlkekeskkonnad nagu [Transifex](https://www.transifex.com/), [Launchpad](https://translations.launchpad.net/) jmt. Transifex on kasutusel ka CKANi tõlkekeskonnana, kuid eesti tõlkeprotsessis seda esimeses faasis ei kasutatud.
-> 
+>
 > Kui PO-failides on puuduvad tõlked lisatud, hägusad (ingl k _fuzzy_) vasted üle kontrollitud ja muud tööd tehtud (tavaliselt rändavad nad selleks tarbeks tõlkija kätte, kes annavad nad pärast oma tööd täiendatuna tagasi), siis tuleb need teha ka süsteemis kasutatavaks.
 
 Täiendatud tõlgete tööle rakendamiseks süsteemis tuleb `ckan` harus käivitada käsk:
@@ -214,15 +214,17 @@ Selle tulemusel luuakse masinale loetavad MO-objektkoodis fail `/src/ckan/ckan/i
 
 Selle tulemusel luuakse JSON-standardile vastavalt markeeritud tõlkeid sisaldav tekstifail `/src/shared_dguk_assets/assets/json/i18n/et.json`, mida kasutavad portaali JavaScriptil põhinevad komponendid fraaside esitamiseks kasutajale. Grunt kasutab JSON-failide genereerimisel _po2json_ moodulit, mis tuleb paigaldada käsuga `npm install grunt-po2json`.
 
-Viimase käsuga (st `grunt default`) uuendatakse ka CKANi ja Drupali poolt kasutatavad skripti- ning laadifailid. Sama käsk uuendab skripti- ja laadifaile ka `ckanext-dgu` harus. Kõik nimetatud käsud tuleb käivitada vastavate harude juurkataloogis, st kataloogides `/src/ckan`, `/src/ckanext-dgu` ja `/src/shared_dguk_assets` ning need tuleb käivitada CKANi kasutuskeskkonnas kasutajana `co` (vt ka viidet juhendi alguses).
+Viimase käsuga (st `grunt default`) uuendatakse ka CKANi ja Drupali poolt kasutatavad skripti- ning laadifailid. Sama käsk uuendab skripti- ja laadifaile ka `ckanext-dgu` harus. Kõik nimetatud käsud tuleb käivitada vastavate harude juurkataloogis, st kataloogides `/src/ckan`, `/src/ckanext-dgu` ja `/src/shared_dguk_assets` ning need tuleb käivitada CKANi kasutuskeskkonnas kasutajana `co` (vt ka manitsust juhendi alguses).
 
 ## CKANi Eurovoc-märksõnastiku ja tõlgete importimine
 
-CKANi Eurovoc-märksõnastikku saab uuendada ja tõlkeid lisada ainult siis, kui CKAN server käib ja mitmekeelsust võimaldavad moodulid on aktiveeritud.
+CKANi Eurovoc-märksõnastikku saab uuendada ja tõlkeid lisada, kui CKAN server käib ja mitmekeelsust võimaldavad moodulid on aktiveeritud.
 
 > Eurovoc sõnastik on realiseeritud CKAN keskkonna soovituslike märksõnade sõnastikuna (ingl k _tag vocabulary_, vt täpsemalt [CKANi dokumentatsioonist](http://docs.ckan.org/en/ckan-2.2.3/tag-vocabularies.html)). Märksõnastiku tõlkimise võimalus on süsteemi sisse ehitatud ning [võimaldatud vastavate laiendustega](http://docs.ckan.org/en/ckan-2.2.3/multilingual.html#setup-and-configuration). Rangelt võttes pole Eurovoc sõnastiku tõlkimisel tegu kasutajaliidese tõlkimisega, vaid see on osa andmekihist ning lisaks on võimalik lülitada sisse ka mitmekeelsust andmehulkade ja teabevaldajate talletamisel ning esitamisel.
 
-Uuendatud sõnastikufailid on tõlkelahenduse GitHubi varamus [taksonoomiate/klassifikaatorite kataloogis](https://github.com/infoaed/opendata-portal/tree/master/translations/taxonomy) ning need põhinevad Eurovoc märksõnastiku 2016. aasta [väljalaskel 4.5](http://eurovoc.europa.eu/drupal/?q=et/node/1486&cl=et). Esmalt võiks CKAN märksõnastikku lisada uuendatud eestikeelse sõnastiku ning seejärel sellele vastavad tõlked. Sõnastikufail ja tõlgete fail on ette valmistatud sama malli alusel nagu varasem sõnastik, st sealt on eemaldatud märgid, mis on CKAN märksõnastikus keelatud (st sulud, komad, apostroofid, jutumärgid jmt, lubatud on vaid sidekriips, allkriips ja punkt), kuigi need on samas tõlgetes lubatud. Eemaldatud on ka kirjed märkega _under translation_ ja üks kirje, mis ületas märksõnadele lubatud pikkuse piiri (_Vabadusel, Turvalisusel ja Õigusel Rajaneva Ala Suuremahuliste IT-süsteemide Operatiivjuhtimise Euroopa Amet_), täpsermalt vt [faili muudatuste ajaloost](https://github.com/infoaed/opendata-portal/commit/1cf1f09912797987fd5cb2c0ed8d510d47634609).
+Uuendatud sõnastikufailid on tõlkelahenduse GitHubi varamus [taksonoomiate/klassifikaatorite kataloogis](https://github.com/infoaed/opendata-portal/tree/master/translations/taxonomy) ning need põhinevad Eurovoc märksõnastiku 2016. aasta [väljalaskel 4.5](http://eurovoc.europa.eu/drupal/?q=et/node/1486&cl=et).
+
+Esmalt võiks CKAN märksõnastikku lisada uuendatud eestikeelse sõnastiku ning seejärel sellele vastavad tõlked. Sõnastikufail ja tõlgete fail on ette valmistatud sama malli alusel nagu varasem sõnastik, st sealt on eemaldatud märgid, mis on CKAN märksõnastikus keelatud (st sulud, komad, apostroofid, jutumärgid jmt, lubatud on vaid sidekriips, allkriips ja punkt), kuigi tõlgetes on need samas lubatud. Eemaldatud on ka kirjed märkega _under translation_ ja üks kirje, mis ületas märksõnadele lubatud pikkuse piiri (_Vabadusel, Turvalisusel ja Õigusel Rajaneva Ala Suuremahuliste IT-süsteemide Operatiivjuhtimise Euroopa Amet_), täpsermalt vt [faili muudatuste ajaloost](https://github.com/infoaed/opendata-portal/commit/1cf1f09912797987fd5cb2c0ed8d510d47634609).
 
 Märksõnade faili [eurovoc-4.5-et.json](https://raw.githubusercontent.com/infoaed/opendata-portal/master/translations/taxonomy/eurovoc-4.5-et.json) alusel märksõnastiku uuendamiseks tuleb mõnes Internetti ühendatud arvutis käivitada käsk:
 
@@ -232,7 +234,7 @@ Märksõnastiku tõlgete lisamiseks [eurovoc-4.5-et-en.json](https://raw.githubu
 
 	$ curl -X POST 'https://opendata.riik.ee/api/action/term_translation_update_many' -H 'Authorization: {API_KEY}' --data @eurovoc-4.5-et-en.json
 
-Võtme leiab Drupali admin-veebi kataloogis [/admin/config/system/ckan](https://opendata.riik.ee/admin/config/system/ckan) lehelt ning see tuleb pannan käsus {API_KEY} asemele (ilma looksulgudeta). Kui importimine ei õnnestu, siis tasub uurida [CKAN API dokumentatsiooni](http://docs.ckan.org/en/ckan-2.2.3/api.html#ckan.logic.action.update.term_translation_update_many) ja/või veenduda serveri töökorras nt laadides esmalt prooviks üles mõne lühema faili. Märksõnastiku uuendamise käsk peaks vastama teatega _success_ ning tagastama kõigi lisatud märksõnade väärtused, tõlgete uuendamise käsk peaks tagastama teate _success_ ja lisatud tõlgete arvu.
+Võtme leiab Drupali admin-veebi kataloogis [/admin/config/system/ckan](https://opendata.riik.ee/admin/config/system/ckan) lehelt ning see tuleb panna käsus {API_KEY} asemele (ilma looksulgudeta). Kui importimine ei õnnestu, siis tasub uurida [CKAN API dokumentatsiooni](http://docs.ckan.org/en/ckan-2.2.3/api.html#ckan.logic.action.update.term_translation_update_many) ja/või veenduda serveri töökorras nt laadides esmalt prooviks üles mõne lühema faili. Märksõnastiku uuendamise käsk peaks vastama teatega _success_ ning tagastama kõigi lisatud märksõnade väärtused, tõlgete uuendamise käsk peaks tagastama teate _success_ ja lisatud tõlgete arvu.
 
 ## Drupali moodulite seadistamine
 
@@ -250,22 +252,22 @@ See käsk [püüab taastada](https://drushcommands.com/drush-8x/features/feature
 
 Laivsüsteemi tehtud muudatusi saab uurida [vastavate _drush_-käskudega](https://drushcommands.com/drush-8x/features/features-diff/) (kasutamiseks paigaldada [Diff-moodul](https://www.drupal.org/project/diff)) ja neid tuleks kindluse mõttes esmalt [eksportida eraldi moodulisse](https://drushcommands.com/drush-8x/features/features-export/) või [vastavasse koodiharusse](https://drushcommands.com/drush-8x/features/features-add/) ning seejärel võrdlevalt liita [olemasoleva koodipuu vastavate sektsioonidega](https://github.com/opendata-ee/dgu_d7/tree/look_feel_est/modules/features). Üheks põhjuseks on, et Eesti avaandmete portaal kasutab täiendavaid tõlkevõimalusi, mille nt _drush_'i _add_-käsk kohati automaatselt üle kirjutab ning sellega osa kasutajaliidese tõlkeid võib tühistada. Tõlgete halduse anomaaliate vähendamise ja jälgitavuse huvides võiks määrata admin-veebi keeleks inglise keele ja teha sama [_drush_'i keelega](https://www.drupal.org/node/874760#comment-6785806).
 
-Protsessi võib soovi korral ohjata ka admin-veebis [_Features_-sektsioonis](https://opendata.riik.ee/admin/structure/features), kus saab muudatusi visuaalselt võrrelda ja seal on koodis tehtud muudatuste kehtestamise käsuks _Revert_ ja muudatusi eksporditakse uude _Feature_-moodulisse käsuga _Create_. Avaandmete portraalis on kasutusel ainult osa DGU moodulitest ning kasutusel olevad moodulid on muudetud seadistustega.
+Protsessi võib soovi korral ohjata ka admin-veebis [_Features_-sektsioonis](https://opendata.riik.ee/admin/structure/features), kus saab muudatusi visuaalselt võrrelda ja seal on koodis tehtud muudatuste kehtestamise käsuks _Revert_ ja muudatusi eksporditakse uude _Feature_-moodulisse käsuga _Create_. Avaandmete portaalis on kasutusel ainult osa DGU moodulitest ning kasutusel olevad moodulid on muudetud seadistustega.
 
 ![_Feature_-moodulite nimekiri portaali admin-veebis, kus muudatused on edukalt kantud lähtekoodi.](features.png  "_Feature_-moodulite nimekiri")
 
 Ülaloleval pildil on moodulite laivis oleva ja koodis oleva seisu vastuolud lahendatud, ainult üks moodul on seisundis, kus andmebaasis olev kirjutab üle midagi koodis olevat (seisund `Overridden`, kooskõlaline on `Default`, kui muudatused on probleemsed, siis on seisund tavaliselt `Needs review` vmt). _Feature_-moodulite uuendus/paigaldus on õnnestunud, kui ühegi _Feature_-mooduli staatus pole vastuoluline või on vastuoluks põhjendatud vajadus. Kui vastuolude lahendamine ühelgi iseenesestmõistetaval viisil ei õnnestu, siis tasub uurida, kas probleemile on [mõni dokumenteeritud lahendus](https://www.drupal.org/docs/7/modules/features/troubleshooting-reasons-features-may-be-stuck-as-overridden).
 
-Ilmselt on vaja protsessi käigus üle genereerida kasutajagruppide ligipääsuõigused saidi sisutüüpidele admin-veebis [/admin/reports/status/rebuild](https://opendata.riik.ee/admin/reports/status/rebuild), mitmekeelsuse muudatustega _Feature_-moodulid on genereeritud _Features_ versiooniga 7.x-2.10, seega võib olla mõistlike tulemuste tarvis vaja uuendada ka _Features_-moodulit ennast `drush up features`. Kui muu ei tööta, siis saab lõpuks muuta panna seadistused koodiga klappima, muutes vajalikud moodulite seadistused ära käsitsi. Mõnikord piisab värskendamiseks ka seadistuste muutmisest, salvestamisest ja seejärel `drush fr {MOODUL}` käivitamisest.
+Ilmselt on vaja protsessi käigus üle genereerida kasutajagruppide ligipääsuõigused saidi sisutüüpidele admin-veebis [/admin/reports/status/rebuild](https://opendata.riik.ee/admin/reports/status/rebuild), mitmekeelsuse muudatustega _Feature_-moodulid on genereeritud _Features_ versiooniga 7.x-2.10, seega võib olla mõistlike tulemuste tarvis vaja uuendada ka _Features_-moodulit ennast `drush up features`. Kui muu ei tööta, siis saab lõpuks panna seadistused koodiga klappima, muutes vajalikud moodulite seadistused ära käsitsi. Mõnikord piisab värskendamiseks ka seadistuste muutmisest, salvestamisest ja seejärel `drush fr {MOODUL}` käivitamisest.
 
 Järgnevad _Feature_-moodulite lühikirjeldused mitmekeelsuse vaatepunktist. Osades moodulites mitmekeelsusega suuri muudatusi ei kaasne, neis kinnitatakse siis üle ainult mitmekeelse keskkonnaga kaasnevad vaikimisi seadistused, ka eeldavad _Feature_-moodulid, et on korrektselt paigaldatud neile vajalikud keele- vm lisamoodulid (vt sellest altpoolt).
 
 #### DGU Site Feature
 
-Mooduli [dgu_site_feature](https://github.com/opendata-ee/dgu_d7/tree/look_feel_est/modules/features/dgu_site_feature) rakendamisel peaks paika saama kasutaja eelistatud keel ja sessiooni keele tuvastamise vahendid Drupali admin-veebi aadressil [/admin/config/regional/language/configure](https://opendata.riik.ee/admin/config/regional/language/configure), tõlgete allikaks olevaks keeleks saab inglise keel, vastav dialoog on admin-veebi aadressil [/admin/config/regional/i18n/strings](https://opendata.riik.ee/admin/config/regional/i18n/strings), sealsamas lülitatakse lisaks vabateksti tõlkimisele sisse ka filtreeritud ja täieliku HTML sisu tõlkimine. Sisutüüpide jaoks tuleks adminveebi [/admin/config/regional/i18n/node](https://opendata.riik.ee/admin/config/regional/i18n/node) all määratleda vaikimisi tüübiks "keelest sõltumatu". 
+Mooduli [dgu_site_feature](https://github.com/opendata-ee/dgu_d7/tree/look_feel_est/modules/features/dgu_site_feature) rakendamisel peaks paika saama kasutaja eelistatud keel ja sessiooni keele tuvastamise vahendid Drupali admin-veebi aadressil [/admin/config/regional/language/configure](https://opendata.riik.ee/admin/config/regional/language/configure), tõlgete allikaks olevaks keeleks saab inglise keel, vastav dialoog on admin-veebi aadressil [/admin/config/regional/i18n/strings](https://opendata.riik.ee/admin/config/regional/i18n/strings), sealsamas lülitatakse lisaks vabateksti tõlkimisele sisse ka filtreeritud ja täieliku HTML sisu tõlkimine. Sisutüüpide jaoks tuleks admin-veebi [/admin/config/regional/i18n/node](https://opendata.riik.ee/admin/config/regional/i18n/node) all määratleda vaikimisi tüübiks "keelest sõltumatu". 
 
 > Inglise keel on üldiselt lähtekoodi _lingua franca_, mille sõnu kasutavad nii programmeerimiskeeled oma konstruktsioonide esitamisel kui ka programmeerijad koodis olevate muutujate ja kommentaaride jaoks — ning ka aluskeelena kasutajaliideste loomisel. Kui tõlgete allika keel on inglise keel, siis saavad saidi eri moodulid lisaks koodikirjutamise heade tavade järgimisele omavahel ühilduda ka tõlkesüsteemide kasutamise osas. See tähendab, et saidi vaikimisi keeleks, st kasutajaga suhtluses kasutatavaks keeleks (ingl kl _default language_) on jätkuvalt eesti keel, tehniliseks algkeeleks (ingl k _source language_) aga inglise keel. Viimane tähendab seda, et kõik fraasid lähtekoodis on eeldatavalt inglise keeles ning ülejäänud keelte tugi, sj eesti keele oma on realiseeritud tõlgetena ingliskeelsele originaalile.
-> 
+>
 > Saidi sisu, st rakendused, foorumite postitused ja kommentaarid on määratletud keelest sõltumatuna (ingl k _language neutral_), et need oleks ligipääsetavad mistahes keelekontekstis, vajadusel kasutajaliides ja klassifikaatorid lokaliseeritakse (st tõlgitakse tõlkemoodulite vahendusel inglise keelest kasutaja eelistatud keelde). Rangelt võttes on tegu ühekeelse saidiga, mida lokaliseeritakse vastavalt vajadusele (ingl k [_localisation_ ehk _l10n_](https://en.wikipedia.org/wiki/Language_localisation)).
 
 Moodul paneb paika ka ekraani ülaserva _Interact_-menüü valikud ja seal leiduvad tekstid, lisaks mõned põhilised väljatüübid kasutatava sisu jaoks. Tekstid ise on esitatud [/admin/structure/pages](https://opendata.riik.ee/admin/structure/pages) all ning nende staatus peaks olema ideaalis `In code` ning kasutusel mitte olevad lehed/paneelid tuleks välja lülitada.
@@ -306,7 +308,7 @@ Realiseerib andmehulga jaoks seotud andmehulkade vaate. Seos mitmekeelsusega puu
 
 #### DGU Blog Feature, DGU Consultation, DGU Data Set Request, DGU Glossary, DGU Idea, DGU Library, DGU Linked Data, DGU Location, DGU Notifications, DGU Organogram
 
-Pole avaandmete portaalis kasutusel ja oleks mõistlik välja lülitada. Kiiresti aitab selle ära teha:
+Pole kõigi eelduste kohaselt avaandmete portaalis aktiivses kasutuses ja oleks mõistlik välja lülitada. Kiiresti aitab selle ära teha:
 
 	$ drush dis dgu_blog dgu_consultation dgu_data_set_request dgu_glossary dgu_idea dgu_library dgu_linked_data dgu_location dgu_notifications dgu_organogram
 
@@ -341,7 +343,7 @@ Drupali tõlked ise on _Gettext PO_ failides ja neid saab lisada nii admin-veebi
 Keelefailide importimiseks saab seejärel käivitada:
 
 	$ drush language-import et profiles/dgu/i18n/et
-	
+
 Seda käsku tuleb korrata alati, kui tõlkijatelt laekub uusi väljaspool admin-veebi tehtud tõlkeid.
 
 > Drupali tõlkeprotsess on samasuguse ülesehitusega nagu CKANi oma, aga tõlgitavaid fraase tuleb lähtekoodis märgistada pigem erandjuhtudel, sest tõlgitavaks muudavad sisu vastavad lisamoodulid automaatselt. Fraaside kogumist saab algatada admin-veebis [/admin/config/regional/translate/i18n_string](https://opendata.riik.ee/admin/config/regional/translate/i18n_string) või käsuga `drush language-refresh`, mis liidab automaatselt tõlkimist vajavad stringid juba tõlgitud stringide loeteluga. Tõlkeid saab _Gettext PO_ vormingus eksportida admin-veebis [/admin/config/regional/translate/export](https://opendata.riik.ee/admin/config/regional/translate/export) või käsuga `drush language-export`. Valmis tõlkeid imporditakse nagu ülal juba kirjeldatud.
