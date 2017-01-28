@@ -48,7 +48,7 @@ Drupali tõlgitavad fraasid on laiali selle [lähtekoodis](http://cgit.drupalcod
 
 Tõlkimisel kasutatakse _Gettext_ PO-failide importimist/eksportimist, Drupali vastavat liidest ning protsessi hõlbustavaid lisamooduleid. JavaScripti tõlkimisel kasutatakse Drupali standardseid [JavaScript API vahendeid](https://www.drupal.org/docs/7/api/localization-api/translating-strings-in-javascript).
 
-Drupali poolel on foorumite jaotised, valdkonnad ja sektorid aga vastavalt saidi tehnilisele algkeelele vaikimisi inglise keeles ja neid tõlgitakse _Gettext_-vahenditega dünaamiliselt eesti keelde, samas on ka seal klassifikaatorite näol tegemist saidi sisu ja mitte seadistustega.
+Foorumite jaotised, valdkonnad ja sektorid on vastavalt saidi tehnilisele algkeelele vaikimisi inglise keeles ja neid tõlgitakse _Gettext_-vahenditega dünaamiliselt eesti keelde, kuigi klassifikaatorid on saidi sisu ja mitte seadistusted. Nende vaikimisi keeleks on määratud inglise keel tõlgete haldamise ühtse loogika säilitamiseks.
 
 Drupali tõlkimise täpsem kirjeldus on [paigaldusjuhises](../INSTALL.md#tõlgete-lisamine).
 
@@ -116,6 +116,8 @@ Portaalis on hulk sisu eesti keelde tõlkimata või ebaühtlase kvaliteediga, nt
 
 Kuna mitmekeelsuse arendustööde ülesanne piirdus ingliskeelse tõlke tagamisega ja eestikeelse tõlke puhul silmatorkavamate ebakõlade parandamise ja selleks tarbeks mõnede tõlkimata fraaside lisamisega, siis täiendavate eestikeelsete tõlgete pakkumiseks on tarkvara ja moodulite lähtekoodis vaja tehtud tööde eeskujul täiendavalt puuduvaid fraase märgendada.
 
+Venekeelse tõlke lisamine ei ole tehniliselt keeruline, kuigi CKANi baassüsteemi kasutamise puhul oleks lihtsam ka tõlkimise enda mõttes, sest selle venekeelne tõlge on 2017. aasta jaanuari seisuga küllalt heas seisus, [tõlgitud on 82% fraasidest](https://www.transifex.com/okfn/ckan/).
+
 #### Mitmekeelne sisu
 
 Kasutajaliidese mitmekeelsusest eraldiseisev küsimus on, kuidas hoida ja esitada portaalis mitmekeelset sisu. Esialgu seda otseselt plaanitud ega teostatud pole, kuid kuna Eurovoc-märksõnastik jt kategooriad on portaali sisu (sj on märksõnade loetelu kasutajate poolt jooksvalt täiendatav), siis nende tõlkimine on tegelikult sisu esitamine mitmes keeles ja on hetkel realiseeritud vastavalt kliendi soovile _ad hoc_ tõlkelahendusena.
@@ -148,7 +150,7 @@ Lisaks on olemas CKANi funktsionalsust kopeeriv [Drupali sisuhalduse süsteemiga
 
 DGUK portaali raamistikus jätkates oleks vajalik tihedam koostöö DGUK ja Sloveenia ning Horvaatia avaandmete portaalide arendajatega, kellega võiks püüda läbi rääkida arenduse eesmärke ja klapitada uuenduste ajakavasid. Esialgne suhtlus ühendkuningriigi ja Sloveenia portaalide arendajatega lubab arvata, et selline koostöö võiks olla viljakas, küll aga pole selge, kas nende ja meie huvides leidub piisav ühisosa, et arendusele koos eesmärke seada.
 
-Sõltuvalt avaandmete valdkonda plaanitavate ressursside mahust ja poliitilistest eesmärkidest ning nendest tulenevatest arenguvajadustest on ilmselt mõttekas olemasoleva lahenduse juurest suunduda kas otse või samm-sammuliselt konkreetseid vajadusi paremini rahuldava lahenduse poole. Üldise põhimõttena oleks portaalile tehnilist taristut pakkuva avatud lähtekoodi ökosüsteemi parimal viisi ärakasutamiseks vaja haakida end avaandmete valdkonna arenduste eesliiniga, mis tähendab, et oleks kasuks kas tihedam sidumine ja kaasarääkimine DGUK arenduses või siis just suurem sõltumatus DGUK arendustest ning lähenemine selle baasiks olevale CKAN arendusele, et saaks vahetult võita mitmesaja arendajaga kogukonna eri pingutustest ning neid ka ise suunata. Mistahes valik eeldab aga tarkvaraarenduse senisest suuremat ja püsivamat prioritiseerimist.
+Sõltuvalt avaandmete valdkonda plaanitavate ressursside mahust ja poliitilistest eesmärkidest ning nendest tulenevatest arenguvajadustest on ilmselt mõttekas olemasoleva lahenduse juurest suunduda kas otse või samm-sammuliselt konkreetseid vajadusi paremini rahuldava lahenduse poole. Üldise põhimõttena oleks portaalile tehnilist taristut pakkuva avatud lähtekoodi ökosüsteemi parimal viisi ärakasutamiseks vaja haakida end avaandmete valdkonna arenduste eesliiniga, mis tähendab, et oleks kasuks kas tihedam sidumine ja kaasarääkimine DGUK arenduses või siis just suurem sõltumatus DGUK arendustest ning lähenemine selle baasiks olevale CKAN arendusele, et saaks vahetult võita mitmesaja arendajaga kogukonna eri pingutustest ning neid ka ise suunata, ka saaks kasutada suurt hulka olemasolevaid [CKANi baassüsteemi tõlkeid](https://www.transifex.com/okfn/ckan/). Mistahes valik eeldab aga tarkvaraarenduse senisest suuremat ja püsivamat prioritiseerimist.
 
 DGUK raamistiku ja laienduste kasutamine ning vajadus nende kasutamise järele tuleks täpsemalt dokumenteerida, et saaks otsustada, kas on mõeldav samm-sammuline DGUK raamistikust loobumine ja arenduse tugevam haakimine nt Soome avaandmete portaali jt meile oludele sarnaste CKAN tuletiste arendusega.
 
