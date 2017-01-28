@@ -94,7 +94,7 @@ Faili `/etc/apache2/sites-available/ckan.conf` tuleb lisada CKANi veebile vahend
 	  WSGIScriptAlias /et/organization /var/ckan/wsgi_app.py
 	  WSGIScriptAlias /et/linked-data-admin /var/ckan/wsgi_app.py
 	
-Tõenäoliselt pole neid kõiki vaja, sj ei kasutata Eesti avaandmete portaalis suurt osa neist CKANi moodulitest, aga need on moodustatud eelneva keeleneutraalse sektsiooni põhjal. Kui siit midagi eemaldama hakata, siis peaks eemaldama ka keeleneutraalsete kataloogide seast.
+Tõenäoliselt pole neid kõiki vaja, sj ei kasutata Eesti avaandmete portaalis suurt osa neist CKANi moodulitest, aga need on moodustatud eelneva keeleneutraalse sektsiooni põhjal. Kui siit midagi eemaldama hakata, siis peaks eemaldama ka keeleneutraalsete kataloogide seast. [Lingikõdu](https://et.wikipedia.org/wiki/Lingik%C3%B5du) vältimiseks jäävad kehtima ka kõik algsed ilma keeletunnuseta URLid, mis viivad kasutaja eestikeelsetele lehtedele.
 
 Kui juba Apache seadistusfail lahti on, siis võiks parandada "Server not found" vigade vältimiseks ära ka [suunamise turvalisele HTTP kanalile](http://httpd.apache.org/docs/current/rewrite/avoid.html#redirect) ja lisada veebisaidi aadressi lõppu puuduva kaldkriipsu:
 
