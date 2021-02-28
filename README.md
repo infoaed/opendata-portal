@@ -29,3 +29,4 @@ The code was forked from relevant repositories of Estonian Open Data Portal. Fir
 
 * [Install instructions with explanations of the basics of i18n methods](INSTALL.md)
 * [General description of the system and evaluation of changes made (and to be done)](docs/README.md)
+* [Update on public procurement to build CKAN portal in 2020-2021 and failure to deliver](docs/YES-WE-CKAN.md)
