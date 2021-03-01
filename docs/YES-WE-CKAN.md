@@ -71,13 +71,13 @@ Seega on Ott vastuses rahandusministeeriumile varasemat väidet muutnud. Ta kinn
 
 Isegi kui tagantjärele võib olla võimalik dokumendid niimoodi sättida, et CKANist loobumine pole juriidiliselt lubamatu, siis kindlasti on olnud suurem osa kommunikatsiooni hanke tutvustamisel eksitav. Ma olen üpris kindel, et CKANi asemel millegi muu kasutamine ei tulnud hanke korraldamise ajal pähe ühelegi mõistlikule valdkonna spetsialistile korrakski. Milleks siis need meelemuutused Oti poolt?
 
-Aga isegi kui CKANi asemel kasutada midagi muud, siis peaks see ilmselt vastama samadele nõudmistele, millele CKAN, mida läbivalt on esitatud näitena sellest, mida soovitakse. Vaaatame seda siis veidi täpsemalt ja nagu rahandusministeerium soovitab — mõistliku spetsialisti pilguga.
+Aga isegi kui CKANi asemel kasutada midagi muud ja [juriidiliselt on kõik korrektne](https://et.wikipedia.org/wiki/Jokk), siis peaks see ilmselt vastama samadele nõudmistele, millele CKAN, mida läbivalt on esitatud näitena sellest, mida soovitakse. Vaaatame seda siis veidi täpsemalt ja nagu rahandusministeerium soovitab — mõistliku spetsialisti pilguga.
 
 ## Millest me ilma jääme?
 
-Paneme tähele, et kuigi CMSi valik oli vaba, siis olid kasutatavale tehnoloogiale "rangelt soovituslikud" nõudmised ja näitlikud soovitused, millega kindla peale minevad näited olid Drupal ning Wordpress. Kuigi DMSi valik polnud vaba ja CKAN see DMS, mida infotunni ja selle protokolli järgi oli "nõutud kasutada", siis isegi kui juriidiliselt ei maksa infotunnis üteldu midagi ja võib väita, et CKAN oli ainult näide, siis seda näidet rõhutati tunduvalt tugevamini kui CMSi näiteid ja "rangelt soovituslikke" nõudeid. Ehk tuleb eeldada, et kui tellitakse teabevärav mõne muu DMSi põhjal kui CKAN, siis vastab see mitte ainult "rangelt soovituslikult", vaid lausa "rangelt nõutult" kõigile omadustele, mida on hankedokumentides CKANile omistatud.
+Paneme tähele, et kuigi CMSi n-ö brändi valik oli vaba, siis olid selle juures kasutatavale tehnoloogiale "rangelt soovituslikud" nõudmised ja näitlikud soovitused, millega kindla peale minevad näited olid Drupal ning Wordpress. Kuigi DMSi valik polnud vaba ja CKAN on see DMS, mida infotunni ja selle protokolli järgi oli "nõutud kasutada", siis isegi kui juriidiliselt ei maksa infotunnis üteldu midagi ja võib väita, et CKAN oli ainult näide, siis seda näidet rõhutati tunduvalt tugevamini kui CMSi näiteid ja "rangelt soovituslikke" nõudeid. Ehk tuleb eeldada, et kui tellitakse teabevärav mõne muu DMSi põhjal kui CKAN, siis vastab see mitte ainult "rangelt soovituslikult", vaid lausa "rangelt nõutult" kõigile neile omadustele, mida on hankedokumentides CKANile omistatud.
 
-Korjasin hankedokumentidest välja järgnevad nõudmised DMSile, millele peaks CKANi alternatiiv vastama (jätkuvalt eeldades, et infotunnis üteldud "nõutud kasutada" on võimalik lihtsalt niisama kõrvale jätta):
+Korjasin hankedokumentidest välja järgnevad nõudmised DMSile, millele peaks siis CKANi alternatiiv vastama (jätkuvalt eeldades, et infotunnis üteldud "nõutud kasutada" on võimalik lihtsalt niisama kõrvale jätta):
 
 * Vaba litsentsiga avatud lähtekood ❌
 * Arendajate rahvusvaheline ja aktiivne kogukond ❌
