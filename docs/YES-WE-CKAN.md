@@ -53,7 +53,7 @@ Rahandusministeeriumi vastuses üteldakse väga ilusti, et "riigihanke alusdokum
 > 1. CKAN – nõutud kasutada antud DMS’i (andmete haldamise süsteemi).
 > 2. Drupal, WordPress – võib kasutada vabaltvalitud laialt levinud CMSi (sisuhaldussüsteemi).
 >  
-> Riigil ei ole CKANiga otseseid kokkuleppeid, kuid kuna CKAN on kasutusel ka teiste riikide avaandmete portaalides, siis võib eeldada, et tegu on hea koostööpartneriga, jättes kõrvale nende veebilehe väikese aktiivsuse." [4](https://riigihanked.riik.ee/rhr-web/#/procurement/1706292/communication/message/505231)
+> Riigil ei ole CKANiga otseseid kokkuleppeid, kuid kuna CKAN on kasutusel ka teiste riikide avaandmete portaalides, siis võib eeldada, et tegu on hea koostööpartneriga, jättes kõrvale nende veebilehe väikese aktiivsuse." [[4]](https://riigihanked.riik.ee/rhr-web/#/procurement/1706292/communication/message/505231)
 
 Kui vaadata seda protokolli, siis CKANi on "nõutud kasutada" DMSi ehk andmehalduse süsteemina. Mitte ühtegi reservatsiooni. Drupal või Wordpress on eelistatud CMSi ehk sisuhalduse rollis (aga valik on vaba, kuid "rangelt soovituslik" on levinud, toega ja ühilduvusega tehnoloogia). Protokoll kajastab infotunni audiosalvestut igati täpselt ja CKANist loobumine on leidnud aset pärast hankelepingu sõlmimist nagu Ott mulle telefonis ütles.
 
@@ -65,7 +65,8 @@ Seega on Ott vastuses rahandusministeeriumile valetanud, et infotunnis on üteld
 
 ## Viited
 
-[1] [Arendustööde esimese etapi tehniline kirjeldus](https://riigihanked.riik.ee/rhr-web/#/procurement/1706292/documents/source-document?group=B&documentOldId=13417356)
-[2] [Re: Avaandmete portaali taassünnist](http://p6drad-teel.net/~p6der/ott-vastus.html)
-[3] [Järelevalvemenetluse alustamata jätmine](http://p6drad-teel.net/~p6der/avaandmedte-portaal-2021.pdf)
-[4]  [Protokoll "Teabevärava koosolek 23.03.2020"](https://riigihanked.riik.ee/rhr-web/#/procurement/1706292/communication/message/505231)
+[1] [Arendustööde esimese etapi tehniline kirjeldus](https://riigihanked.riik.ee/rhr-web/#/procurement/1706292/documents/source-document?group=B&documentOldId=13417356)  
+[2] [Re: Avaandmete portaali taassünnist](http://p6drad-teel.net/~p6der/ott-vastus.html)  
+[3] [Järelevalvemenetluse alustamata jätmine](http://p6drad-teel.net/~p6der/avaandmedte-portaal-2021.pdf)  
+[4]  [Protokoll "Teabevärava koosolek 23.03.2020"](https://riigihanked.riik.ee/rhr-web/#/procurement/1706292/communication/message/505231)  
+
