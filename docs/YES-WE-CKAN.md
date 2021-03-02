@@ -1,6 +1,6 @@
 # Teabevärava sulgemine anno 2021
 
-_Ehk lugu sellest, kuidas avaandmete edendamine käib riigi poolt pigem keerdtreppi pidi allapoole kuni selleni välja, et maailmapraktika kasutamise asemel viljeldakse lokaalseid veidrusi ning maetakse nendesse hunnikute viisi aega ja raha. Ja lõpuks pole meil isegi seda, mis oli alguses. Küsimuse all on raha (100 000 eurot siia, 100 000 eurot sinna ja riigihanked, mida ei suudeta hallata), põhimõtted (avaandmete teabevärava avatus standardite, koosvõime ja lähtekoodi osas) ja elementaarne arusaamine, mida üldse tehakse (arusaamine muutub pidevalt lähtuvalt juhuslikest uitudest ja ei järgita ei kinnitatud plaane ega kokkuleppeid)._
+_Ehk lugu sellest, kuidas avaandmete edendamine käib riigi poolt pigem keerdtreppi pidi allapoole kuni selleni välja, et maailmapraktika kasutamise asemel viljeldakse lokaalseid veidrusi ning maetakse nendesse hunnikute viisi aega ja raha. Ja lõpuks pole meil isegi seda, mis oli alguses. Küsimuse all on raha (sada tuhhi siia, sada tuhhi sinna ja riigihanked, mida ei suudeta hallata), põhimõtted (avaandmete teabevärava avatus standardite, koosvõime ja lähtekoodi osas) ja elementaarne arusaamine, mida üldse tehakse (arusaamine muutub pidevalt lähtuvalt juhuslikest uitudest ja ei järgita ei kinnitatud plaane ega kokkuleppeid)._
 
 Alustuseks väga lühike ülevaade [avaandmete](https://et.wikipedia.org/wiki/Avaandmed) teabeväravate ajaloost Eestis.
 
