@@ -12,11 +12,11 @@ _Andmehaldussüsteem_ (DMS — _data management system_ või [_data repository_]
 
 _Sisuhaldussüsteem_ (CMS — [_content management system_](https://en.wikipedia.org/wiki/Content_management_system)) on geneeriline veebiportaali platvorm, mis on mõeldud ettevõtete, riigiasutuste, eraisikute jmt instantside üldiste vajaduste rahuldamiseks nende veebipresentsi loomisel. See võib sisaldada komponente blogidest ja kontaktivormidest kuni e-poodide ja intraneti lahendusteni, sisuliselt kõike, mida veebi tegemisel võib vaja olla.
 
-Avaandmete teabevärava pidamise teevad kohustuslikuks Euroopa direktiivid ja Eesti seadused, andmed on uus nafta ja innovatsioon tugineb sellel, seega pole valdkonna kureerimine ainult tüütu kohustus, vaid seal on suured rahad. Teabevärava võib realiseerida mõne avatud lähtekoodiga platvormi abil nagu CKAN, DKAN, JKAN, Magda või tasulise teenusena nagu Socrata, OpenDataSoft, Junar vmt.
+Avaandmete teabevärava pidamise teevad kohustuslikuks Euroopa direktiivid ja Eesti seadused. Andmed on uus nafta ja innovatsioon tugineb sellel, seega pole valdkonna kureerimine ainult tüütu kohustus, vaid seal on mängus digitaalne innovatsioon ja investeeringud. Teabevärava võib realiseerida mõne avatud lähtekoodiga platvormi abil nagu CKAN, DKAN, JKAN, Magda või tasulise teenusena nagu Socrata, OpenDataSoft, Junar vmt.
 
 Lisaks toorandmetele ja madala taseme standardite järgimisele on vaja ka andmed eri oskuste taseme ja eesmärkidega sihtrühmadele praktiliselt kättesaadavaks teha, tegeleda andmete kasutamise populariseerimise ja andmeharidusega. Selleks võib teabeväravale lisada CMSi funktsioone, visualiseerimist jmt, mida võib olla mõttekas realiseerida mõne tuntud CMSi tarkvaraga nagu Drupal, Wordpress vmt.
 
-CKAN on avatud lähtekoodiga DMSide vanim ja stabiilseim esindaja, Socrata on sama kategooria tasuline teenus. Eesti on seni eelistanud avatud lähtekoodiga DMSi ülalpidamist riigi poolt teenuse sisseostmisele mõnelt ettevõttelt.
+CKAN on avatud lähtekoodiga DMSide vanim ja stabiilseim esindaja, Socrata on sama kategooria tasuline "võtmed kätte" teenus. Eesti on seni eelistanud avatud lähtekoodiga DMSi ülalpidamist riigi poolt teenuse sisseostmisele mõnelt ettevõttelt.
 
 Selle infoga varustatuna saab vist edasi minna...
 
