@@ -54,7 +54,7 @@ Selguse mõttes palutakse veelkord kinnitada, et "CKAN on andmete poole peal, ag
 
 Kinnitatakse veelkord üle, et CMS pole ette antud rangelt, et valikuvabadus peab olema ja see oligi nii plaanitud. Audiosalvestise lõpetuseks tänab Ott osalejaid, et "CMSi pool on nüüd üle käidud", sest nende endi jaoks oli see ka veel ebaselge.
 
-Ehk eelistusi (Dupal, Wordpress) ja piiranguid (mõni levinum, toega ja ühilduv) on hankijal CMSi osas ja DMSi osas on kindlas kõneviisis plaan kasutada CKANi, mida ei vaidlustata kordagi ning ka kogu infotunni kokkuvõttes üteldakse, et täpustatud sai CMSi küsimust.
+Ehk eelistusi (Dupal, Wordpress) ja piiranguid (mõni levinum, toega ja ühilduv) on hankijal CMSi osas ja DMSi osas on kindlas kõneviisis plaan kasutada CKANi, mida ei vaidlustata kordagi ning ka kogu infotunni kokkuvõttes üteldakse, et täpustatud sai vaid CMSi küsimust, st muu jääb endiselt kehtima.
 
 Nagu kohe näeme, ütleb täpselt sama ka infotunni kokkuvõtteks lubatud protokoll.
 
