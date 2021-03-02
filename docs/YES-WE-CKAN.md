@@ -52,7 +52,7 @@ Kuulates üle [audiosalvestist](https://soundcloud.com/ornoobikkuhutottadsa/ott-
 
 Selguse mõttes palutakse veelkord kinnitada, et "CKAN on andmete poole peal, aga CMSi osas on käed vabad", mille peale kinnitab Ott taas, et "CKANi poole pealt on andmed", aga siis täpsustatakse, et CMSi puhul on eelistatud üldlevinud Wordpress või Drupal, et poleks "imeplatvorm", millega tekib pärast peavalu. Seda soovitatakse osaleja poolt hankesse selgelt sisse kirjutada, korraldajad kinnitavad, et protokolli saab see info sisse (ja tõesti sai, vt seda altpoolt).
 
-Kinnitatakse veelkord üle, et CMS pole ette antud rangelt, et valikuvabadus peab olema ja see oligi nii plaanitud. Audiosalvestise lõpetuseks tänab Ott osalejaid, et "CMSi pool on nüüd üle käidud", sest nende endi jaoks oli ka ebaselge see.
+Kinnitatakse veelkord üle, et CMS pole ette antud rangelt, et valikuvabadus peab olema ja see oligi nii plaanitud. Audiosalvestise lõpetuseks tänab Ott osalejaid, et "CMSi pool on nüüd üle käidud", sest nende endi jaoks oli see ka veel ebaselge.
 
 Ehk eelistusi (Dupal, Wordpress) ja piiranguid (mõni levinum, toega ja ühilduv) on hankijal CMSi osas ja DMSi osas on kindlas kõneviisis plaan kasutada CKANi, mida ei vaidlustata kordagi ning ka kogu infotunni kokkuvõttes üteldakse, et täpustatud sai CMSi küsimust.
 
