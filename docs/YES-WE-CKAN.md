@@ -2,6 +2,26 @@
 
 _Ehk lugu sellest, kuidas avaandmete edendamine käib riigi poolt pigem keerdtreppi pidi allapoole kuni selleni välja, et maailmapraktika kasutamise asemel viljeldakse lokaalseid veidrusi ning maetakse nendesse hunnikute viisi aega ja raha. Ja lõpuks pole meil isegi seda, mis oli alguses. Küsimuse all on raha (sada tuhhi siia, sada tuhhi sinna ja riigihanked, mida ei suudeta hallata), põhimõtted (avaandmete teabevärava avatus standardite, koosvõime ja lähtekoodi osas) ja elementaarne arusaamine, mida üldse tehakse (arusaamine muutub pidevalt lähtuvalt juhuslikest uitudest ja ei järgita ei kinnitatud plaane ega kokkuleppeid)._
 
+## Yes, we CKAN!
+
+Mõned sõnaseletused lihtsurelikele... Kui oled asjaga kursis, siis keri julgelt allapoole!
+
+_Avaandmete teabevärav_ ehk _avaandmete portaal_ ([_open data portal_](https://en.wikipedia.org/wiki/Open_data_portal)) on riigi poolt hallatud netikeskkond, kus on vabaks allalaadimiseks ja kasutamiseks üleval igasugu instutsioonide poolt toodetud andmekogud. Need on tüüpiliselt kategoriseeritud, selgitustega, ajalooga jne ning teevad andmeanalüütikutel, ajakirjanikel, entusiastidel ja ettevõtjatel andmete kasutamise võimalikult lihtsaks ja toodavad sellega ohtralt ühiskondlikku hüve (nagu on tõestanud maailma kogemus).
+
+_Andmehaldussüsteem_ (DMS — _data management system_ või [_data repository_](https://how-to.usopendata.org/en/latest/The-Basics-of-Open-Data/Data-Repositories/) või [_data catalogue_](https://ec.europa.eu/isa2/solutions/dcat-application-profile-data-portals-europe_en)) on spetsiaalselt andmete üleslaadimiseks, allalaadimiseks, tutvustamiseks, visualiseerimiseks, näidispäringute koostamiseks jmt avaandmete portaalis ettenähtud tegevusteks loodud üldotstarbeline serveritarkvara koos võimalike APIde või kasutajaliidestega. Andmehaldussüsteemid realiseerivad andmete esitamise ja hajutatud andmevahetuse standardeid (nagu DCAT jmt [linkkandmete](https://et.wikipedia.org/wiki/Linkandmed) standardid, mis võivad põhineda XML ja JSON andmestruktuuridel).
+
+_Sisuhaldussüsteem_ (CMS — [_content management system_](https://en.wikipedia.org/wiki/Content_management_system)) on geneeriline veebiportaali platvorm, mis on mõeldud ettevõtete, riigiasutuste, eraisikute jmt instantside üldiste vajaduste rahuldamiseks nende veebipresentsi loomisel. See võib sisaldada komponente blogidest ja kontaktivormidest kuni e-poodide ja intraneti lahendusteni, sisuliselt kõike, mida veebi tegemisel võib vaja olla.
+
+Avaandmete teabevärava pidamise teevad kohustuslikuks Euroopa direktiivid ja Eesti seadused, andmed on uus nafta ja innovatsioon tugineb sellel, seega pole valdkonna kureerimine ainult tüütu kohustus, vaid seal on suured rahad. Teabevärava võib realiseerida mõne avatud lähtekoodiga platvormi abil nagu CKAN, DKAN, JKAN, Magda või tasulise teenusena nagu Socrata, OpenDataSoft, Junar vmt.
+
+Lisaks toorandmetele ja madala taseme standardite järgimisele on vaja ka andmed eri oskuste taseme ja eesmärkidega sihtrühmadele praktiliselt kättesaadavaks teha, tegeleda andmete kasutamise populariseerimise ja andmeharidusega. Selleks võib teabeväravale lisada CMSi funktsioone, visualiseerimist jmt, mida võib olla mõttekas realiseerida mõne tuntud CMSi tarkvaraga nagu Drupal, Wordpress vmt.
+
+CKAN on avatud lähtekoodiga DMSide vanim ja stabiilseim esindaja, Socrata on sama kategooria tasuline teenus. Eesti on seni eelistanud avatud lähtekoodiga DMSi ülalpidamist riigi poolt teenuse sisseostmisele mõnelt ettevõttelt.
+
+Selle infoga varustatuna saab vist edasi minna...
+
+## Andmeväravate ajalugu Eestis
+
 Alustuseks väga lühike ülevaade [avaandmete](https://et.wikipedia.org/wiki/Avaandmed) teabeväravate ajaloost Eestis.
 
 Eesti esimene, n-ö "katse"-teabevärav loodi 2011. aasta lõpus [piloodina majandusministeeriumi eestvedamisel](https://joinup.ec.europa.eu/sites/default/files/document/2014-04/Estonian%20Open%20Data%20Greenbook_0.pdf) ning põhines [CKAN-tarkvaral](README.md#ckan). Piloodi põhjal [hangiti 2014-2015 mõnevõrra kiirustades](https://riigihanked.riik.ee/rhr-web/#/procurement/609229) 39 100 euro eest üldkasutuseks mõeldud teabevärav. Selle ajakohastamiseks tellis ministeerium 2017-2018 mult omakorda 9200 euro eest teabevärava keelemoodulite tööleseadmise (pidin fiksima [kogu katki läinud modulaarsuse](README.md#hinnang-portaali-tarkvara-seisundile), tulemus on [seesama GitHubi repo siin](https://github.com/infoaed/opendata-portal)).
@@ -80,6 +100,8 @@ Isegi kui tagantjärele võib olla võimalik dokumendid niimoodi sättida, et CK
 Aga isegi kui CKANi asemel kasutada midagi muud ja [juriidiliselt on kõik korrektne](https://et.wikipedia.org/wiki/Jokk), siis peaks see ilmselt vastama samadele nõudmistele, millele CKAN, mida läbivalt on esitatud näitena sellest, mida soovitakse. Vaaatame seda siis veidi täpsemalt ja nagu rahandusministeerium soovitab — mõistliku spetsialisti pilguga.
 
 ## Millest me ilma jääme?
+
+Esiteks niikuiinii seda, et võib arutada, kas avatud lähtekoodiga/vaba tarkvara on äge...
 
 Paneme tähele, et kuigi CMSi n-ö brändi valik oli vaba, siis olid selle juures kasutatavale tehnoloogiale "rangelt soovituslikud" nõudmised ja näitlikud soovitused, millega kindla peale minevad näited olid Drupal ning Wordpress. Kuigi DMSi valik polnud vaba ja CKAN on see DMS, mida infotunni ja selle protokolli järgi oli "nõutud kasutada", siis isegi kui juriidiliselt ei maksa infotunnis üteldu midagi ja võib väita, et CKAN oli ainult näide, siis seda näidet rõhutati tunduvalt tugevamini kui CMSi näiteid ja "rangelt soovituslikke" nõudeid. Ehk tuleb eeldada, et kui tellitakse teabevärav mõne muu DMSi põhjal kui CKAN, siis vastab see mitte ainult "rangelt soovituslikult", vaid lausa "rangelt nõutult" kõigile neile omadustele, mida on hankedokumentides CKANile omistatud.
 
