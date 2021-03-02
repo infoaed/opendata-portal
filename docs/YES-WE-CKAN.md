@@ -1,6 +1,6 @@
 # Teabevärava sulgemine anno 2021
 
-_Ehk lugu sellest, kuidas avaandmete edendamine käib riigi poolt pigem keerdtreppi pidi allapoole kuni selleni välja, et maailmapraktika kasutamise asemel viljeldakse lokaalseid veidrusi ning maetakse nendesse hunnikute viisi aega ja raha. Ja lõpuks pole meil isegi seda, mis oli alguses. Küsimuse all on raha (sada tuhhi siia, sada tuhhi sinna ja riigihanked, mida ei suudeta hallata), põhimõtted (avaandmete teabevärava avatus standardite, koosvõime ja lähtekoodi osas) ja elementaarne arusaamine, mida üldse tehakse (arusaamine muutub pidevalt lähtuvalt juhuslikest uitudest ja ei järgita ei kinnitatud plaane ega kokkuleppeid)._
+_... ehk lugu sellest, kuidas avaandmete edendamine käib riigi poolt pigem keerdtreppi pidi allapoole kuni selleni välja, et maailmapraktika kasutamise asemel viljeldakse lokaalseid veidrusi ning maetakse nendesse hunnikute viisi aega ja raha. Ja lõpuks pole meil isegi seda, mis oli alguses. Küsimuse all on raha (sada tuhhi siia, sada tuhhi sinna ja riigihanked, mida ei suudeta hallata), põhimõtted (avaandmete teabevärava avatus standardite, koosvõime ja lähtekoodi osas) ja elementaarne arusaamine, mida üldse tehakse (arusaamine muutub pidevalt lähtuvalt juhuslikest uitudest ja ei järgita ei kinnitatud plaane ega kokkuleppeid)._
 
 ## Yes, we CKAN!
 
@@ -66,7 +66,7 @@ Kanada jt valitsused sh USA data.gov. Kui pakkuja eelistab kasutada DMSi (andmet
 siis on hankija soovitanud kasutada CKAN platvormi. Hankija ütles infotunnis, et tal ei ole eelistusi ega
 piiranguid missugust platvormi peaks pakkuja soovima kasutada, sest pakkujal on valiku vabadus." [[3]](http://p6drad-teel.net/~p6der/avaandmedte-portaal-2021.pdf)
 
-Väide sellest, et hankijal pole eelistusi ega piiranguid on puhas vale. Vale on see, et andmete haldamise süsteemi kasutamine oli tinglik. Sellest annab tunnistust viidatud infotunni raames aset leidnud suhtlus ja infotunni protokoll.
+Juba alguses peale on jutt imelik, sest eitatakse eitamatut: CKANiga ei saagi rangelt võttes kokkulepet olla, sest tegu on kogukonna poolt arendatud tarkvaraga ja kokkulepped tehakse arendajate omavahelises läbirääkimises. Seejuures aga väide, et hankijal pole eelistusi ega piiranguid on puhas vale. Vale on ka see, et andmete haldamise süsteemi kasutamine oli tinglik. Sellest annab tunnistust viidatud infotunni raames aset leidnud suhtlus ja infotunni protokoll. Vaatame seda lähemalt...
 
 Kuulates üle [audiosalvestist](https://soundcloud.com/ornoobikkuhutottadsa/ott-infotund) (see on 5 min ekstrakt, kuula ise!), on seal korduvalt osutatud CKANile kui soovitud ja välja käidud DMS-ile ehk andmehalduse süsteemile, seejärel uurib küsija, kas "CKAN on mõeldud peamiselt andmete enda jaoks", aga portaali sisuhaldus võib olla ükskõik, mis CMS-i peal... Selle peale Ott esmalt vastab, et "ei, me plaaniksime kasutada ikkagi sedasama CKANi, aga ta on sisuliselt ikkagi andmete jaoks", mille peale küsitakse üle, et kuna CKANi enda lehel on toodud näidetena CKAN koos Drupaliga ja/või Wordpressiga, siis kas CMS ei võiks ikkagi olla ükskõik milline. Sellega on Ott lõpuks "täiesti nõus".
 
@@ -100,6 +100,8 @@ Isegi kui tagantjärele võib olla võimalik dokumendid niimoodi sättida, et CK
 Aga isegi kui CKANi asemel kasutada midagi muud ja [juriidiliselt on kõik korrektne](https://et.wikipedia.org/wiki/Jokk), siis peaks see ilmselt vastama samadele nõudmistele, millele CKAN, mida läbivalt on esitatud näitena sellest, mida soovitakse. Vaaatame seda siis veidi täpsemalt ja nagu rahandusministeerium soovitab — mõistliku spetsialisti pilguga.
 
 ## Millest me ilma jääme?
+
+
 
 Esiteks niikuiinii seda, et võib arutada, kas avatud lähtekoodiga/vaba tarkvara on äge...
 
